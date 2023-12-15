@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+<head>
+
+	<title>CDS</title>
+    <meta charset="utf-8">
+	<link rel="shortcut icon" href="images/favicon-02.png">
+
+
+    <!-- JQUERY -->
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/d3/3.5.5/d3.min.js"></script>
+
+    <!-- MAPAS -->
+    <script src="Build/Cesium/Cesium.js"></script>
+
+    <link rel="stylesheet" href="styles/main.css">
+
+
+    <!-- FUENTES ICONOS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'>
+
+    <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+
+    <!-- CONTROLS -->
+    <script src="js/autocomplete.js"></script>
+
+    <!--Menu desplegable -->
+    <script type="text/javascript">
+	$(document).ready(function()
+		{
+			$("#despliega1").click(function () {
+			$('#Controls').toggle(2500);
+			});
+		 });
+</script>
+
+
+    <!-- EXPERTOS EN KPI -->
+    <script src="js/experts/drawKpiExpert_FR.js"></script>
+    <script src="js/experts/calculateKpiExpert_FR.js"></script>
+    <script src="js/experts/calculateKpiExpert_OOS.js"></script>
+    <script src="js/experts/drawKpiExpert_OOS.js"></script>
+    <script src="js/experts/calculateKpiExpert_Mas.js"></script>
+    <script src="js/experts/calculateKpiExpert_Pendientes.js"></script>
+    <script src="js/experts/calculateKpiExpert_Abasto.js"></script>
+    <script src="js/experts/calculateKpiExpert_Inventario.js"></script>
+    <script src="js/experts/calculateKpiExpert_Plan.js"></script>
+    <script src="js/experts/calculateKpiExpert_Produccion.js"></script>
+
+    <script src="js/tooltipHelpers.js"></script>
+
+    <!-- CUSTOM -->
+    <script src="js/loader.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/utilerias.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/store.js"></script>
+    <script src="js/controls.js"></script>
+    <script src="js/dataManager.js"></script>
+   
+
+
+
+    <link rel='stylesheet' href='./styles/style.css' />
+    <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+<style>
+    th.sorted {
+      background-color: #ffeeba; /* Set the background color for the sorted column */
+    }
+  
+    th:not(.sorted) {
+      background-color: transparent; /* Clear the background color for other columns */
+    }
+
+
+    .header-cell {
+          color:#8EBBFF;
+          border: 0px solid white;
+          padding: 8px;
+          font-size: 12px;
+          text-align: left;
+     }
+
+     .body-cell {
+          color:#FFFFFF;
+          border: 0px solid white;
+          padding: 8px;
+          font-size: 12px;
+     }
+
+     .totals-row {
+          color:#ea09e2;
+          border: 0px solid rgb(114, 137, 167);
+          padding: 8px;
+          font-size: 12px;
+     }
+
+
+     .bar-container {
+          display: flex;
+          align-items: center;
+     }
+
+
+     .key-selector{
+          display: flex;
+          align-items: center;
+     }
+     .key-selector:hover{
+         color:#000000;
+         background-color: lightgray;
+         cursor: pointer; 
+     }         
+
+     .bar-value {
+          margin-left: 1px; /* Add some spacing between the bar and value */
+          margin-right: 8px;
+          text-align: left;
+          min-width: 30px;
+
+     }
+
+      .tooltip-table {
+         border-collapse: collapse;
+         border: 1px solid #41576b;
+         border: 0;
+         /* Other styling properties */
+     }
+
+     .tooltip-table th, .tooltip-table td {
+         padding: 0;
+         /* Other cell styling properties */
+     }
+
+     .tooltipIcon {
+         position: relative;
+         display: inline-block;
+     }
+
+
+
+     body::-webkit-scrollbar {
+     width: 12px;               /* width of the entire scrollbar */
+     }
+
+     body::-webkit-scrollbar-track {
+     background: orange;        /* color of the tracking area */
+     }
+
+     body::-webkit-scrollbar-thumb {
+     background-color: blue;    /* color of the scroll thumb */
+     border-radius: 20px;       /* roundness of the scroll thumb */
+     border: 3px solid orange;  /* creates padding around scroll thumb */
+     }
+
+     .tooltip-text {
+         visibility: hidden;
+         width: 180px;
+         background-color: #1e1e29;
+         color: #fff;
+         text-align: center;
+         border-radius: 5px;
+         position: absolute;
+         z-index: 9999;
+         bottom: -100%;
+         left: -150%;
+         transform: translateX(-50%);
+         opacity: 0;
+         font-size: 14px;
+         box-shadow: 5px 5px 10px #000000;
+         border-style: solid;
+         border-color: #1f3b45;
+         border-width: 1px;
+         right:5px;
+     }
+     .tooltip-text2 {
+         visibility: hidden;
+         width: 150px;
+         background-color: #1e1e29;
+         color: #fff;
+         text-align: center;
+         border-radius: 5px;
+         padding: 5px;
+         position: absolute;
+         z-index: 1;
+         bottom: -100%;
+         left: 150%;
+         transform: translateX(-50%);
+         opacity: 0;
+         transition: opacity 0.3s, visibility 0.3s;
+         font-size: 14px;
+         box-shadow: 5px 5px 10px #000000;
+         border-style: solid;
+         border-color: #1f3b45;
+         border-width: 1px;
+         right:5px;
+     }
+     .tooltipIcon:hover .tooltip-text {
+         visibility: visible;
+         opacity: 1;
+     }
+     .tooltipIcon:hover .tooltip-text2 {
+         visibility: visible;
+         opacity: 1;
+     }
+
+     .top-bar-container {
+         display: flex;
+         justify-content: space-between; /* Align columns at the start and end */
+         align-items: center; /* Vertically center items */
+         width: 100%; /* Take up the full width of the top bar */
+     }
+
+     .top-bar {
+         padding: 5px 5px 5px 5px;
+     }
+
+
+     .title-column {
+     flex: 1; /* Allow the title column to grow and take available space */
+     }
+
+     .icons-column {
+             display: flex; /* Use flexbox to control the alignment */
+             flex-direction: row; /* Stack items vertically */
+             align-items: flex-end; /* Align items to the top */
+             
+     }
+     .collapse-button {
+           
+         border-block-end: #7CB1B1;		
+         border-block-color: #7CB1B1;
+         background-color: #7CB1B1;
+         border-color: #25a2a2;
+         color: #86ffff;
+         border-width: 1px;
+     }
+     .close-button{
+         border-block-end: #7CB1B1;		
+         border-block-color: #7CB1B1;
+         background-color: #7CB1B1;
+         border-color: #25a2a2;
+         color: #86ffff;
+         border-width: 1px;
+     }
+     .close-button{
+         border-block-end: #7CB1B1;		
+         border-block-color: #7CB1B1;
+         background-color: #7CB1B1;
+         border-color: #25a2a2;
+         color: #86ffff;
+         border-width: 1px;
+     }
+    
+   
+
+.listado:hover {
+
+color: yellow;
+
+}
+
+.seleccion:hover {
+
+color: yellow;
+
+}
+
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+  }
+  .custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+  }
+  .custom-combobox-input {
+    margin: 0;
+    padding: 5px 10px;
+  }
+  .ui-menu {
+    font-size: 10px;
+    line-height: 8px;
+  }
+
+
+</style>
+
+<body>
+    <svg>
+        <defs>
+
+              <filter id='dropshadow' height='140%' width='140%'>
+                  <feGaussianBlur in='SourceAlpha' stdDeviation='4'/> <!-- stdDeviation is how much to blur -->
+                  <feOffset dx='3' dy='3' result='offsetblur'/> <!-- how much to offset -->
+                  <feMerge><feMergeNode/> <!-- this contains the offset blurred image -->
+                  <feMergeNode in='SourceGraphic'/> <!-- this contains the element that the filter is applied to --></feMerge>
+              </filter>
+
+              <filter id="glow" x="-130%" y="-130%" height="500%" width="500%">
+                <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+                <feMerge>
+                <feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+
+              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+                <stop offset="80%" style="stop-color:rgb(0,0,0);stop-opacity:0" />
+               </linearGradient>
+
+              <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:0" />
+                <stop offset="80%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+               </linearGradient>
+        </defs>
+        </svg>
+
+        <div style="position:fixed;z-index:-10;float:left;top:0px;pointer-events:none;height:100%;width:100%;background:linear-gradient(#000000, #000000);"></div>
+
+        <div style="position:fixed;z-index:-10;float:left;top:0px;pointer-events:none;height:100%;width:100%;background:linear-gradient(#000000, #000000);"></div>
+
+        <div id="cesiumContainer" style="position:fixed;top:0px;z-index:1;background-color: black"></div>
+
+        <div id="titulo" class="sombra" style="position:fixed;top:5px;left:5px;font-family:Cabin;pointer-events:none;font-size:10px;color:#666666;opacity:1;font-weight:normal;z-index:99999"/></div>
+
+
+        <img id="cargando" src="images/preloader_7.gif" style="position:fixed;width:96px;float:left;left:49%;top:40%;pointer-events: none;z-index:100;visibility:hidden"></img>
+
+        <div id="toolTip" style="position:fixed;top:300px;left:500px;line-height:24px;font-family:Cabin;box-shadow: rgba(0, 0, 0,.6) 5px 10px 19px;color:white;font-size:19px;font-weight:normal;z-index:999999;border-style:solid;border-width:0px;background-color:rgba(0,0,0,.8);padding:0px;pointer-events:auto;border-radius:6px;visibility:hidden"></div>
+        <div id="toolTip1" style="position:fixed;top:300px;left:500px;line-height:24px;font-family:Cabin;box-shadow: rgba(0, 0, 0,.6) 5px 10px 19px;color:white;font-size:19px;font-weight:normal;z-index:999999;border-style:solid;border-width:0px;background-color:rgba(0,0,0,.8);padding:0px;pointer-events:auto;border-radius:6px;visibility:hidden"></div>
+        <div id="toolTip2" style="position:fixed;top:300px;left:500px;line-height:24px;font-family:Cabin;box-shadow: rgba(0, 0, 0,.6) 5px 10px 19px;color:white;font-size:19px;font-weight:normal;z-index:999999;border-style:solid;border-width:0px;background-color:rgba(0,0,0,.8);padding:0px;pointer-events:auto;border-radius:6px;visibility:hidden"></div>
+        <div id="toolTip6" style="position:fixed;top:300px;left:500px;line-height:24px;font-family:Cabin;box-shadow: 5px 5px 10px #000000;color:white;font-size:19px;font-weight:normal;z-index:999999;border-style:solid;border-color:#507D8C;border-width:1px;background-color:rgba(0,0,0,.9);padding:10px;pointer-events:auto;border-radius:6px;visibility:hidden"></div>
+
+        <svg id="svgLines"  height="100%" width="100%" style="position:fixed;top:0;left:0px;pointer-events: none;z-index:8000"/>
+
+        <ul class="fa-ul" style="position:absolute;left:10px;top:10px;color:rgb(255, 255, 255);z-index:99999;font-family:Cabin">
+
+            <li id="reproduce_btn" class="fa-li fa fa-bars" value="toggle()"; "></i><span style="font-size:10px"></li>
+
+        </ul>
+
+        <div class="item2 loginContainer login-page form " style="float:left;margin-top:100px;visibility:hidden;">
+
+            <div class="dateContainer " style="padding-top: 0px;">
+
+                <input id="datepicker" width="100%" placeholder="From"/>
+                <input id="datepicker2" width="100%" placeholder="To"/>
+                </select>
+
+                <br><br>
+                <button class="loginBtn" onclick="">Get Data</button>
+            </div>
+
+        </div>
+
+        <ul class="fa-ul" style="position:absolute;right:0px;top:3px;color:rgb(255, 255, 255);z-index:99999;font-family:Cabin;right:0px;width: 233px;    direction: initial;    display: flow;">
+             <div class="tooltipIcon"><img id="cargando" src="images/chemical.png" style="width:19px" onclick="($('#Controls').css('visibility')=='visible')?$('#Controls').css('visibility','hidden'):$('#Controls').css('visibility','visible');" style="width:13px;float:left;margin:8px"></img><div class="tooltip-text">Filtros</div></div>
+           
+        </ul>
+
+        <ul id="Controls" class="fa-ul" style="width:150px;float:left;position:fixed;top:100px;font-family:Cabin;box-shadow: 5px 5px 20px #000000;right:10px;font-size:11px;z-index:9999999;opacity:1;line-height: 8px;margin:0px;text-transform:uppercase;border-style:solid;border-color:#254650;border-width:1px;color:#000000;background-color:rgba(0,0,0,.9);padding:20px;border-radius:9px;">
+        </ul>
+       
+        <div id="toolTipLoader" style="position:fixed;top:300px;left:500px;line-height:24px;font-family:Cabin;box-shadow: rgba(0, 0, 0,.4) 5px 15px 16px ;color:white;font-size:19px;font-weight:normal;z-index:9999999;border-style:solid;border-color:#507D8C;border-width:1px;background-color:rgba(0,0,0,.9);padding:10px;pointer-events:auto;border-radius:6px;visibility:hidden;"></div>
+
+        <ul class="fa-ul" style="color:rgb(255, 255, 255);z-index:9999;font-family:Cabin;   display: flex;position: fixed;right:275px;top: -13px;">
+            <div class="tooltipIcon"><img id="iconPlan" class="iconKPI" src="images/produccion.png" onclick="dataManager.initDrawing('produccion')" style="width:30px ;float:left;margin:8px" ></img><div class="tooltip-text">Cumplimiento de Produccíon</div></div>
+            <div class="tooltipIcon"><img id="iconPlan" class="iconKPI" src="images/plan.png" onclick="dataManager.initDrawing('plan')" style="width:30px ;float:left;margin:8px" ></img><div class="tooltip-text">Plan de Abasto</div></div>
+            <div class="tooltipIcon"><img id="iconFR" class="iconKPI" src="images/mode_2.png" onclick="dataManager.initDrawing('abasto')" style="width:30px ;float:left;margin:8px" ></img><div class="tooltip-text">Abasto</div></div>
+            <div class="tooltipIcon"><img id="iconOOSF" class="iconKPI" src="images/inventory.png" onclick="dataManager.initDrawing('inventario')" style="width:30px ;float:left;margin:8px"></img><div class="tooltip-text">Inventario</div></div>
+           
+        </ul>
+
+        <div  id="barsContainer2" height="80%" style="width:100%;height:84%;position:fixed;top:60px;left:0px;overflow: scroll;overflow-x: hidden;z-index:99999;pointer-events:auto">
+
+            <svg id="svgLinesTouchLeft"  height="4000px" width="100%" style="position:absolute;top:0;left:0px;z-index:9001;pointer-events: none;"/>
+        
+        </div>
+
+        <ul class="fa-ul" style="position:fixed;z-index:9002;line-height:22px;right:10px;bottom:30px;color:#CCCCCC;font-family:Cabin;padding-left:15px;">       
+            <li><span  onclick="EnciendeApagaTotales()" style="font-size:22px;padding-left:-35px;">CAPAS</span></li>
+            <li><i id="menu1_" class="fa-li fa fa-eye seleccion"  onclick="EnciendeApagaMinimo()"></i><span id="menu1" class="seleccion" onclick="EnciendeApagaMinimo()" style="font-size:12px;padding-left:5px;">Nivel Minimo de Inventario</span></li>
+            <li><i id="menu2_" class="fa-li fa fa-eye seleccion"  onclick="MuestraInventarioEntidades()"></i><span id="menu2" class="seleccion" onclick="MuestraInventarioEntidades()" style="font-size:12px;padding-left:5px;">Inventario / Abasto / Produccion</span></li>
+            <li><i class="fa-li fa fa-eye seleccion" onclick=""></i><span id="" class="seleccion" onclick="" style="font-size:12px;padding-left:5px;">Promedio de salidas diarias</span></li>
+            <li><i class="fa-li fa fa-eye seleccion" onclick=""></i><span id="" class="seleccion" onclick="" style="font-size:12px;padding-left:5px;">Fillrate</span></li>
+            <li><i class="fa-li fa fa-eye seleccion" onclick=""></i><span id="" class="seleccion" onclick="" style="font-size:12px;padding-left:5px;">Ventas</span></li>
+            <li><i class="fa-li fa fa-eye seleccion" onclick=""></i><span id="" class="seleccion" onclick="" style="font-size:12px;padding-left:5px;">OOS</span></li>
+            <li><i class="fa-li fa fa-eye seleccion" onclick=""></i><span id="" class="seleccion" onclick="" style="font-size:12px;padding-left:5px;">Producción</span></li>
+                           
+      
+      </ul>
+
+    </body>
+
+    <script>
+
+        var windowWidth = window.innerWidth,
+        windowHeight = window.innerHeight;
+
+        $(function() {
+
+            $('#datepicker').datepicker({format: 'mm-dd-yyyy'});
+            $('#datepicker2').datepicker({format: 'mm-dd-yyyy'});
+
+            $("#cargando").css("visibility","hidden");
+
+            window.document.addEventListener("mousemove", function(event){
+
+                mouse_x=event.pageX;
+
+                mouse_y=event.pageY;
+
+            });
+
+
+            var fechaInicio;
+            var fechaFin;
+
+            if(getUrlParameter("fechaInicio")){
+
+                fechaInicio=getUrlParameter("fechaInicio");
+                fechaFin=getUrlParameter("fechaFin");
+           
+               }else{
+           
+                fechaInicio="11-01-2023";
+                fechaFin="11-30-2023";
+           
+               }
+
+            $('#datepicker').val(fechaInicio);
+            $('#datepicker2').val(fechaFin);
+
+            //setTimeout(()=>{$(".loginBtn").click()}, 500);
+
+            $(".loginBtn").click(function(){
+
+                if( $('#datepicker').val() && $('#datepicker2').val() ){
+
+                    dateInit=new Date($('#datepicker').val());
+                    dateEnd=new Date($('#datepicker2').val());
+
+                    dataLoader.LoadInitialData(  store.apiDataSources ).then(function(){
+
+                        filterControls.createDataFiltersControls(store.catlogsForFilters);
+                        filterControls.createHardCodedControls();
+                       
+
+                        setTimeout(()=>{
+        
+                            dataManager.ClusterObjects();
+                        
+                        }, 2000);
+
+                    })
+
+                    $('.loginContainer').css('visibility','hidden');
+
+                }else{
+                    alert('Seleccione fechas');
+                }
+
+            });
+
+
+            new Promise(Stage.initStage).then(
+                $('.loginContainer').css('visibility','visible')
+            );
+
+        });
+
+    document.onkeydown = function(event) {
+        console.log(event.keyCode);
+
+        switch (event.keyCode) {
+            case 50:
+
+            break;
+            //MODIFICA TAMAÑO DE CILINDROS
+            case 37:
+               
+            break;
+            case 39:
+              
+            break;
+            //MODIFICA TAMAÑO DE radar
+            case 38:
+               
+            break;
+            case 40:
+              
+            break;
+
+        }
+    }
+
+    document.onkeyup = function(event) {
+
+        switch (event.keyCode) {
+            case 49:
+
+           
+
+            break;
+            case 50:
+
+            break;
+            case 51:
+
+            break;
+
+            case 27:
+
+                    Stage.allowedToDraw=false;
+
+                    d3.select("#svgTooltip6").selectAll(".abasDetail").data([]).exit().remove();
+
+                    $("#toolTip6").css("visibility","hidden");
+
+                    filtroUNSeleccionada="";
+
+                    calculateKpiExpert_Inventario.ProcessDates(calculateKpiExpert_Inventario.data);
+
+                    $("#toolTip").css("visibility","hidden");
+                    $("#toolTip1").css("visibility","hidden");	
+                    $("#toolTip2").css("visibility","hidden");
+
+                    ListEntities();
+            
+            break;
+
+        }
+    }
+
+
+    </script>
