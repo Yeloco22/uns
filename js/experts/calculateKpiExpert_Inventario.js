@@ -66,6 +66,8 @@ calculateKpiExpert_Inventario.calculateKPI=function(entities){
                                 rows[i].Capacidad=Number(rows[i]["Capacidad"]);
                                 rows[i].Fisico=Number(rows[i]["Fisico"]);
                                 rows[i].Transito=Number(rows[i]["Transito"]);
+                                //QUITAR***********************************************************
+                                rows[i].TransitoHoy=Number(rows[i]["Transito"]);
                                 rows[i].Minimo=Number(rows[i]["Minimo"]);
                                 rows[i].Optimo=Number(rows[i]["Optimo"]);
 
@@ -141,10 +143,11 @@ calculateKpiExpert_Inventario.ProcessDates=function(rows){
                 if(rows[i].dtFecha){                
 
                     if(!fechasDisponibles[rows[i].fecha.getTime()])
-                                fechasDisponibles[rows[i].fecha.getTime()]={fecha:rows[i].fecha , unix:rows[i].fecha.getTime(),Fisico:0, Transito:0, values:[] } ;
+                                fechasDisponibles[rows[i].fecha.getTime()]={fecha:rows[i].fecha , unix:rows[i].fecha.getTime(),Fisico:0, Transito:0, TransitoHoy:0,values:[] } ;
 
                     fechasDisponibles[rows[i].fecha.getTime()].Fisico+=Number(rows[i].Fisico);
                     fechasDisponibles[rows[i].fecha.getTime()].Transito+=Number(rows[i].Transito);
+                    fechasDisponibles[rows[i].fecha.getTime()].TransitoHoy+=Number(rows[i].TransitoHoy);
                     fechasDisponibles[rows[i].fecha.getTime()].values.push(rows[i]);
 
                     if(maximoInventarioFisicoPorDia < fechasDisponibles[rows[i].fecha.getTime()].Fisico)
@@ -152,6 +155,9 @@ calculateKpiExpert_Inventario.ProcessDates=function(rows){
 
                      if(maximoInventarioFisicoPorDia < fechasDisponibles[rows[i].fecha.getTime()].Transito)
                         maximoInventarioFisicoPorDia = fechasDisponibles[rows[i].fecha.getTime()].Transito;
+
+                    if(maximoInventarioFisicoPorDia < fechasDisponibles[rows[i].fecha.getTime()].TransitoHoy)
+                        maximoInventarioFisicoPorDia = fechasDisponibles[rows[i].fecha.getTime()].TransitoHoy;
 
 
                     if(lastDate < rows[i].fecha.getTime())
@@ -219,7 +225,7 @@ calculateKpiExpert_Inventario.ProcessData=function(rows,date){
 
         for(var e in entities ){
             
-            entities[e].inventario={Fisico:0,Transito:0,Minimo:0,Optimo:0,Capacidad:0, values:[] };            
+            entities[e].inventario={Fisico:0,Transito:0,TransitoHoy:0,Minimo:0,Optimo:0,Capacidad:0, values:[] };            
             
         }
 
@@ -230,7 +236,7 @@ calculateKpiExpert_Inventario.ProcessData=function(rows,date){
                         if( entities[rows[i].Destino] ){
 
                             if(!entities[rows[i].Destino].inventario){
-                                entities[rows[i].Destino].inventario={Fisico:0,Transito:0,Minimo:0,Optimo:0,Capacidad:0, values:[]};
+                                entities[rows[i].Destino].inventario={Fisico:0,Transito:0,TransitoHoy:0,Minimo:0,Optimo:0,Capacidad:0, values:[]};
                             }                           
                         
                             if(rows[i].Fisico && String(rows[i].Fisico)!="NaN")
@@ -240,7 +246,13 @@ calculateKpiExpert_Inventario.ProcessData=function(rows,date){
                             if(rows[i].Transito && String(rows[i].Transito)!="NaN"){
                                 
                                 entities[rows[i].Destino].inventario.Transito+=Number(rows[i].Transito);
-                            }     
+                            } 
+
+                            
+                            if(rows[i].TransitoHoy && String(rows[i].TransitoHoy)!="NaN"){
+                                
+                                entities[rows[i].Destino].inventario.TransitoHoy+=Number(rows[i].TransitoHoy);
+                            } 
 
                             entities[rows[i].Destino].inventario.values.push(rows[i]);                  
                             

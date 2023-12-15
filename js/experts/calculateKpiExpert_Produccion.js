@@ -78,16 +78,29 @@ calculateKpiExpert_Produccion.calculateKPI=function(entities){
 
                     calculateKpiExpert_Produccion.max=0;
 
+                    for(var j=0; j < rows.length; j++ ){
+
+                        rows[j].ordenProceso=0;
+                        if( ProcesoOrden[rows[j].Proceso] ){
+                            rows[j].ordenProceso=ProcesoOrden[rows[j].Proceso];
+                        }
+        
+                    }
+        
+                    console.log();
+        
+                    rows=rows.sort((a, b) =>   b.ordenProceso - a.ordenProceso );
+                    rows.reverse();
+
                     for(var i=0;  i < rows.length; i++){
 
                         if( entities[rows[i].Facility] ){
-
 
                             if(!entities[rows[i].Facility].produccion)
                                 entities[rows[i].Facility].produccion={MaxCycles:0,Cycles:0,fechas:{}, equipos:{},grupos:{}, values:[] };
 
                             if( !entities[rows[i].Facility].produccion.grupos[rows[i].Proceso])
-                                entities[rows[i].Facility].produccion.grupos[rows[i].Proceso]={id:rows[i].Proceso,  MaxCycles:0,Cycles:0};
+                                entities[rows[i].Facility].produccion.grupos[rows[i].Proceso]={id:rows[i].Proceso,  MaxCycles:0,Cycles:0, orden:ProcesoOrden[rows[i].Proceso] };
 
                             if( !entities[rows[i].Facility].produccion.equipos[rows[i].Process])
                                 entities[rows[i].Facility].produccion.equipos[rows[i].Process]={id:rows[i].Process, grupo:rows[i].Proceso,  MaxCycles:0,Cycles:0};
@@ -149,6 +162,15 @@ var EquiposColores={
     "Trasvase":"#FF0AF1",   
     "Otros":"#00E6D3"
  }
+
+ var ProcesoOrden={    
+    "Calcinación":0,
+    "Molienda":1,
+    "Envase":2,
+    "Reenvase":3,
+    "Trasvase":4,
+ }
+
 
 var EquiposList={
    "Envase":1,
@@ -234,7 +256,22 @@ calculateKpiExpert_Produccion.DibujaDetalleTiempo=function(data,titulo){
 
     for(var i=0; i < fechasArr.length; i++ ){
 
-            detalleFechas[fechasArr[i].unix]={unix:fechasArr[i].unix}
+            detalleFechas[fechasArr[i].unix]={unix:fechasArr[i].unix};
+            
+
+            for(var j=0; j < fechasArr[i].values.length; j++ ){
+
+                fechasArr[i].values[j].ordenProceso=0;
+                if( ProcesoOrden[fechasArr[i].values[j].Proceso] ){
+                    fechasArr[i].values[j].ordenProceso=ProcesoOrden[fechasArr[i].values[j].Proceso];
+                }
+
+            }
+
+    
+
+            fechasArr[i].values=fechasArr[i].values.sort((a, b) =>   b.ordenProceso - a.ordenProceso );
+            fechasArr[i].values.reverse();
 
             for(var j=0; j < fechasArr[i].values.length; j++ ){
 
@@ -269,7 +306,6 @@ calculateKpiExpert_Produccion.DibujaDetalleTiempo=function(data,titulo){
     console.log("listaEquipos",listaEquipos);
 
     for(var i=0; i < fechasArr.length; i++ ){
-
         
 
                               
@@ -315,7 +351,7 @@ calculateKpiExpert_Produccion.DibujaDetalleTiempo=function(data,titulo){
 
                 rect.append("svg:title").text(function(){
 
-                                            return  "Categoria: "+euiposCategoria[e]+"; Utilización: "+formatNumber(detalleFechas[fechasArr[i].unix][e].Cycles)+", Capacidad: "+formatNumber(detalleFechas[fechasArr[i].unix][e].MaxCycles)	
+                                            return  "Proceso: "+euiposCategoria[e]+"; Utilización: "+formatNumber(detalleFechas[fechasArr[i].unix][e].Cycles)+", Capacidad: "+formatNumber(detalleFechas[fechasArr[i].unix][e].MaxCycles)	
                                                 
                                         });
 

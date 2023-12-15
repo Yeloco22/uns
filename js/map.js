@@ -185,6 +185,7 @@ Stage.initStage=function(resolve, reject){
 								text+=`<div class=""style="line-height:11px;margin-left:10px;font-size:${14}px;color:${data.inventario.colorBase}">Físico: ${formatNumber(data.inventario.Fisico)}</div><br>
 									   <div class=""style="line-height:11px;margin-left:10px;font-size:${14}px;color:#ffffff;">Capacidad: ${formatNumber(data.inventario.Capacidad)}</div><br>									   
 									   <div class=""style="line-height:11px;margin-left:10px;font-size:${14}px;">Transito: ${formatNumber(data.inventario.Transito)}</div><br>
+									   <div class=""style="line-height:11px;margin-left:10px;font-size:${14}px;">TransitoHoy: ${formatNumber(data.inventario.TransitoHoy)}</div><br>
 									   <div class=""style="line-height:11px;margin-left:10px;font-size:${14}px;">Óptimo: ${formatNumber(data.inventario.Optimo)}</div><br>
 									   <div class=""style="line-height:11px;margin-left:10px;font-size:${14}px;">Mínimo: ${formatNumber(data.inventario.Minimo)}</div>
 									   `;
@@ -1025,13 +1026,14 @@ Stage.DrawTimeline=function(){
 
 	svgLines.selectAll(".timeline").data([]).exit().remove();
 
-	var alturaBarras=150;
+	var alturaBarras=110;
 
 	for(var i=0;  i < fechasDisponiblesArr.length; i++){
 
 			var posX=GetValorRangos(fechasDisponiblesArr[i].unix ,initDate, lastDate, windowWidth*.3 , windowWidth*.7);
 			var altura=GetValorRangos(fechasDisponibles[fechasDisponiblesArr[i].unix].Fisico ,1, maximoInventarioFisicoPorDia, 1 , alturaBarras);
 			var alturaTransito=GetValorRangos(fechasDisponibles[fechasDisponiblesArr[i].unix].Transito ,1, maximoInventarioFisicoPorDia, 1 , alturaBarras);
+			var alturaTransitoHoy=GetValorRangos(fechasDisponibles[fechasDisponiblesArr[i].unix].TransitoHoy ,1, maximoInventarioFisicoPorDia, 1 , alturaBarras);
 			
 			svgLines.append("line")							                       
 							.attr("x1",posX )
@@ -1233,6 +1235,68 @@ Stage.DrawTimeline=function(){
 										
 							});
 
+
+			// BARRA DE TRANSITO
+			svgLines.append("line")							                       
+						.attr("x1",posX )
+						.attr("y1",  windowHeight-altura-alturaTransito-20   )
+						.attr("y2",  windowHeight-altura-alturaTransito-20-alturaTransitoHoy  )
+						.attr("x2",posX )
+						.attr("class","timeline")   
+						.style("pointer-events","auto")
+													
+						.style("stroke",function(d){
+							this.productos=productos;
+							this.data=fechasDisponiblesArr[i];
+							return "#1100EE";
+						})
+						.style("stroke-width",13)
+						.on("mouseover",function(d){
+
+							d3.select(this).style('stroke', '#EAFF00');
+							
+							calculateKpiExpert_Inventario.ProcessData(calculateKpiExpert_Inventario.data,this.data.unix );
+							Stage.DrawMapObjects(entities);
+							ListEntities();
+
+							$("#toolTip").css("visibility","visible");
+							
+							$("#toolTip").css("left",mouse_x+50);
+
+							text="";
+							for(var j=0;  j < this.productos.length; j++){	
+								text+=`
+								<tr style='color:"#ffffff";font-size:${12}px;margin:30px;'>
+								<th style='text-align: left'><span   > ${this.productos[j].key}</th><th style='text-align: left'> ${formatNumber(this.productos[j].Fisico)}</span  ></th>
+								</tr>;
+								`;
+							}
+
+							$("#toolTip").html(text );
+
+							var posY=mouse_y-50;
+							if( $("#toolTip").height()+mouse_y > windowHeight ){
+								posY=windowHeight-$("#toolTip").height()-50;
+							}
+							$("#toolTip").css("top",posY);
+
+						})
+						.on("mouseout",function(d){
+
+							d3.select(this).style('stroke', '#1100EE');
+
+						})
+						.append("svg:title").text(function(){
+
+							if(fechasDisponibles[fechasDisponiblesArr[i].unix].Transito > 0){
+								return "Físico: "+formatNumber(fechasDisponibles[fechasDisponiblesArr[i].unix].Fisico)+"  En Tránsito: "+formatNumber(fechasDisponibles[fechasDisponiblesArr[i].unix].Transito)+" TM "+"  En TránsitoHoy: "+formatNumber(fechasDisponibles[fechasDisponiblesArr[i].unix].TransitoHoy);
+							}else{
+								return "Físico: "+formatNumber(fechasDisponibles[fechasDisponiblesArr[i].unix].Fisico)+"  ";
+							}					
+									
+						});
+
+
 			svgLines.append("text")				
 							.style("fill","#000000")				
 							.style("opacity",1)			
@@ -1256,7 +1320,7 @@ Stage.DrawTimeline=function(){
 							.style("font-weight","bold")
 							.style("font-size",12 )							
 							.style("text-anchor","start")
-							.attr("transform"," translate("+String(posX+2)+","+String( windowHeight-altura-20-alturaTransito-23 )+")  rotate("+(-90)+") ")
+							.attr("transform"," translate("+String(posX+2)+","+String( windowHeight-altura-20-alturaTransitoHoy- alturaTransito-23 )+")  rotate("+(-90)+") ")
 							.text(function(){
 
 								if(fechasDisponibles[fechasDisponiblesArr[i].unix].Transito > 0){
@@ -1486,8 +1550,7 @@ function ListEntities(){
 
 												if(data.produccion){
 
-													var color="#FFFFFF";
-													
+													var color="#FFFFFF";													
 
 													for(var j in data.produccion.grupos){
 
@@ -1500,7 +1563,8 @@ function ListEntities(){
 														
 														`;
 
-													}													
+													}
+
 												}											
 
 												text+=`
@@ -1838,26 +1902,37 @@ function ListEntities(){
 
 			if(modoInventarioAbasto=="produccion"){
 
-				if(entitiesArr[e].produccion){			
-
-					
+				if(entitiesArr[e].produccion){	
 
 						var posY=offsetTop+(caso*alturaRenglon)-(alturaRenglon/2);
-						var anchoMaximo=350;
-						var anchoMax=GetValorRangos(entitiesArr[e].produccion.MaxCycles  , 1 , calculateKpiExpert_Produccion.max , 1 , anchoMaximo-4 );
-						var anchoCiclo=GetValorRangos(entitiesArr[e].produccion.Cycles  , 1 , calculateKpiExpert_Produccion.max , 1 , anchoMaximo-4 );
+						var anchoMaximo=350;	
+						
+						var acumuladoGrupo=0;
+					
+						for(var j in entitiesArr[e].produccion.grupos){
 
-						svgLinesTouch.append("rect")
+							var anchoMax = GetValorRangos(entitiesArr[e].produccion.grupos[j].MaxCycles  , 1 , calculateKpiExpert_Produccion.max , 1 , anchoMaximo-4 );
+							var anchoCiclo = GetValorRangos(entitiesArr[e].produccion.grupos[j].Cycles  , 1 , calculateKpiExpert_Produccion.max , 1 , anchoMaximo-4 );
+							var color="#FFFFFF";
+
+							if( EquiposColores[j] ){
+								color=EquiposColores[j];
+							}
+
+							svgLinesTouch.append("rect")
 										.attr("class","entities")
 										.attr("width", anchoMax )
-										.attr("height", 4)
-										.attr("x", offsetX+100)
-										.attr("y", posY)		
+										.attr("height", 7)
+										.attr("x", offsetX+acumuladoGrupo+100)
+										.attr("y", posY-2)		
 										.style("pointer-events","auto")  								
 										.attr("fill", function(d){
 
-											this.data=entitiesArr[e].produccion;
-											return  "#191919";
+											this.parent=entitiesArr[e].produccion;
+											this.name=j;
+											this.data=entitiesArr[e].produccion.grupos[j];
+
+											return  "#000000";
 
 										})
 										.on("mouseover",function(d){
@@ -1877,7 +1952,8 @@ function ListEntities(){
 
 											var text=`  <div class="detailContainer" style="">        
 														<div>
-															<div class="tooltipHeader" style='color:"#ffffff";font-size:${13}px;margin:0px;'>		
+															<div class="tooltipHeader" style='color:"#ffffff";font-size:${13}px;margin:0px;'>
+															 ${this.name}<br>			
 															Capacidad: ${formatNumber(this.data.MaxCycles)}<br>	
 															Producción Plan: ${formatNumber(this.data.Cycles)}<br>
 															Cumplimiento: ${ Math.round((this.data.Cycles/this.data.MaxCycles)*100) }%<br>
@@ -1899,22 +1975,28 @@ function ListEntities(){
 										})
 										.on("mouseout",function(d){
 
-											d3.select(this).attr('fill', '#191919');
+											d3.select(this).attr('fill', '#000000');
 											$("#toolTip").css("visibility","hidden");
 			
 										})
 										.on("click",function(d){
-											calculateKpiExpert_Produccion.DibujaDetalleTiempo(this.data);
-										});
+											calculateKpiExpert_Produccion.DibujaDetalleTiempo(this.parent);
+										});;
 
-						svgLinesTouch.append("rect")
+							svgLinesTouch.append("rect")
 										.attr("class","entities")
 										.attr("width", anchoCiclo )
-										.attr("height", 2)
-										.attr("x", offsetX+100)
-										.attr("y", posY+1)	
-										.style("pointer-events","none")  									
-										.attr("fill",  "#7F7F7F");
+										.attr("height", 3)
+										.attr("x", offsetX+acumuladoGrupo+100)
+										.attr("y", posY)		 								
+										.attr("fill", function(d){
+											return  color;
+
+										});
+
+							acumuladoGrupo+=anchoMax+20;
+
+						}				
 
 						var equipoAncho=0;						
 
