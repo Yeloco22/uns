@@ -1378,7 +1378,7 @@ $("#menu1").css("color","yellow");
 	}
 }
 
-var modoInventarioAbasto="produccion";
+var modoInventarioAbasto="abasto";
 
 function MuestraInventarioEntidades(){
 
@@ -1403,8 +1403,9 @@ function ListEntities(){
 		var offsetTop=20;
 
 		svgLinesTouch.selectAll(".entities").data([]).exit().remove();	
-		
-		$("#barsContainer2").css("width", windowWidth*.2 );
+
+
+		$("#barsContainer2").css("width", windowWidth*.2 +"px");
 
 		svgLinesTouch.attr("width", windowWidth*.2 );
 
@@ -1648,6 +1649,8 @@ function ListEntities(){
 
 					if(!entitiesArr[e].abasto)
 						continue;
+
+						console.log("abasto");
 			
 					for(var i in entitiesArr[e].abasto.comoOrigen.valoresRutas){	
 
@@ -1708,7 +1711,7 @@ function ListEntities(){
 										continue;
 									} 
 
-									svgLinesTouch
+									var circulo = svgLinesTouch
 											.append('circle')
 											.attr("class","entities")   
 											.attr('cx', (xIndex*8)+offsetX+100 )
@@ -1757,6 +1760,8 @@ function ListEntities(){
 												Stage.DrawLines();
 											})
 											;
+
+											console.log(circulo);
 
 											xIndex++;
 
@@ -2099,12 +2104,14 @@ function ListEntities(){
 										
 				}
 
+				$("#barsContainer2").css("width", anchoVentanaMaximoEquipos+100 );
+
+			svgLinesTouch.attr("width", anchoVentanaMaximoEquipos+100 );
+
 
 			}
 
-			$("#barsContainer2").css("width", anchoVentanaMaximoEquipos+100 );
-
-			svgLinesTouch.attr("width", anchoVentanaMaximoEquipos+100 );
+			
 
 			caso++;
 
