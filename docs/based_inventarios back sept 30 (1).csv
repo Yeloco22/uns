@@ -1,0 +1,959 @@
+IdDestino,Destino,DescrProducto,dtFecha,AgrupProducto,Presentacion,Fisico,Transito,Minimo,Optimo,Capacidad,RegionDestino,bEsTerminal,bEsPlanta,dtCreacion,dtActualizacion,vc20UsuarioCreacion,vc20UsuarioActualizacion
+EB35,Acapulco,CPC30R 50k,00:00.0,Gris,Sacos,795.95,465.25,964.8825679,1461.632834,2789.362657,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA95,Agua Prieta (Virtual),CPC30R 25k,00:00.0,Gris,Sacos,18.07,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA95,Agua Prieta (Virtual),CPC40 BB,00:00.0,Gris,Sacos,18.62,35.76,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA95,Agua Prieta (Virtual),Multiplast 40k,00:00.0,Multiplast,Sacos,49.6,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB81,Aguascalientes,Multiplast 40k,00:00.0,Multiplast,Sacos,98.88,0,46.80445609,55.22109025,165.8081422,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC29,Alpensa,CPC40 BB,00:00.0,Gris,Sacos,173.01,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB36,Apizaco,Bco CPC30R 25k,00:00.0,Blanco,Sacos,107.38,0,18.11517937,21.94498899,28.47903881,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB36,Apizaco,Impercem 50k,00:00.0,Impercem,Sacos,44.5,0,17.62624605,26.00503408,53.58485148,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB36,Apizaco,Mortero 50k,00:00.0,Mortero,Sacos,135.95,133,163.9643607,232.0397515,257.769868,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC08,Arriaga,Mortero 50k,00:00.0,Mortero,Sacos,5.7,0,4.499765904,5.906061883,8.659269511,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC08,Arriaga,Multiplast 40k,00:00.0,Multiplast,Sacos,20.6,0,5.508139709,7.063284832,10.59976613,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB46,Atlacomulco,Multiplast 40k,00:00.0,Multiplast,Sacos,75.32,0,37.71360277,45.52693986,115.7667247,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB90,Campeche,Bco CPC30R,00:00.0,Blanco,Granel,-46.13,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB90,Campeche,Mortero 50k,00:00.0,Mortero,Sacos,31.45,0,5.532384811,8.257386647,14.2750895,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB90,Campeche,Multiplast 40k,00:00.0,Multiplast,Sacos,24.12,0,5.212537974,7.491094112,13.44979582,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB91,Cancún,Multiplast 40k,00:00.0,Multiplast,Sacos,42.92,0,29.7491094,39.87885501,41.80391507,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB96,CD Flamboyanes,Bco CPC30R BB,00:00.0,Blanco,Sacos,431.08,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB96,CD Flamboyanes,Bco CPO30R BB,00:00.0,Blanco,Sacos,0.1,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB96,CD Flamboyanes,CPC30R 50k,00:00.0,Gris,Sacos,12760.02,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB96,CD Flamboyanes,CPC30R BB,00:00.0,Gris,Sacos,12.49,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB96,CD Flamboyanes,CPC40 BB,00:00.0,Gris,Sacos,20060.35,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB96,CD Flamboyanes,CPC40RS,00:00.0,Gris,Granel,-62.53,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB95,CD Petempich,CPC30R 50k,00:00.0,Gris,Sacos,4.1,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB52,CD Seybaplaya,Bco CPC30R BB,00:00.0,Blanco,Sacos,1213.02,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB52,CD Seybaplaya,CPC30R 50k,00:00.0,Gris,Sacos,2657.01,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB52,CD Seybaplaya,CPC40,00:00.0,Gris,Granel,84,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB52,CD Seybaplaya,CPC40 BB,00:00.0,Gris,Sacos,439.02,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA91,Cd. Obregón (FFCC),CPC40 BB,00:00.0,Gris,Sacos,59.91,0,5.968002707,8.690522161,27.75020716,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA91,Cd. Obregón (FFCC),Impercem 50k,00:00.0,Impercem,Sacos,33.15,0,1.095979903,1.642421542,5.096121912,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA91,Cd. Obregón (FFCC),Mortero 25k,00:00.0,Mortero,Sacos,130.68,0,52.06207996,66.48433509,242.0799009,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA40,Cd. Victoria,Mortero 50k,00:00.0,Mortero,Sacos,7.4,0,16.57353524,20.98490294,45.51922408,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC71,Celaya,CPC30R 50k,00:00.0,Gris,Sacos,332.55,0,306.9485846,456.5523141,796.3195381,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC71,Celaya,CPC40 BB,00:00.0,Gris,Sacos,30.85,0,24.2047533,40.5689888,62.79461426,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB93,Chetumal,CPC30R 42.5k,00:00.0,Gris,Sacos,907.38,0,538,808,1624.49028,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB93,Chetumal,Mortero 50k,00:00.0,Mortero,Sacos,29.25,0,9.859905443,14.80611426,25.5183603,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB93,Chetumal,Multiplast 40k,00:00.0,Multiplast,Sacos,12.92,0,7.429101337,10.2070923,19.22721122,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB35,Acapulco,Bco CPC30R 25k,00:00.0,Blanco,Sacos,49.38,0,22.35135294,28.18361141,64.61514727,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA95,Agua Prieta (Virtual),Impercem 50k,00:00.0,Impercem,Sacos,2.2,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB81,Aguascalientes,Bco CPC30R 50k,00:00.0,Blanco,Sacos,74.1,0,21.66588937,30.67153551,76.75296684,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB81,Aguascalientes,Concreto Seco 25k,00:00.0,Otros,Sacos,0.18,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB81,Aguascalientes,CPC30R 50k,00:00.0,Gris,Sacos,1909.6,140,1500,2300,2841.7228,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB81,Aguascalientes,CPC40,00:00.0,Gris,Granel,873.75,1135.32,900,950,1000,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB81,Aguascalientes,CPC40 BB,00:00.0,Gris,Sacos,139.09,0,94.51353769,169.4784667,334.8209852,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB36,Apizaco,CPC30R 50k,00:00.0,Gris,Sacos,536.1,840,744.8127516,1081.966409,1501.683435,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB36,Apizaco,CPC40 BB,00:00.0,Gris,Sacos,43.44,59.75,66.26043161,82.52485137,104.1686293,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC08,Arriaga,Impercem 50k,00:00.0,Impercem,Sacos,9,0,9.007959296,12.57523833,17.33475673,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB46,Atlacomulco,Impercem 50k,00:00.0,Impercem,Sacos,4.7,0,2.818833044,4.155447841,8.652768366,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB46,Atlacomulco,Mortero 50k,00:00.0,Mortero,Sacos,134.45,0,138.6441926,195.9268256,425.5860725,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB91,Cancún,Bco CPC30R 25k,00:00.0,Blanco,Sacos,59.92,0,57.59657102,73.74913117,80.93560484,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB91,Cancún,CPC30R 50k,00:00.0,Gris,Sacos,339.22,49.5,299.6,441.1,514.6062641,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB91,Cancún,CPC30R BB,00:00.0,Gris,Sacos,30.05,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA76,Cd. Obregón,CPC30R 50k,00:00.0,Gris,Sacos,40.42,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA91,Cd. Obregón (FFCC),Bco CPC30R 25k,00:00.0,Blanco,Sacos,12.53,0,0.6726524795,0.9486560412,3.127720708,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA91,Cd. Obregón (FFCC),Bco CPC30R 50k,00:00.0,Blanco,Sacos,47.05,0,5.481317797,7.208565894,25.48720432,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA91,Cd. Obregón (FFCC),CPC30R 25k,00:00.0,Gris,Sacos,9.22,0,1.029607321,1.291361683,4.787500587,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA40,Cd. Victoria,Bco CPC30R 25k,00:00.0,Blanco,Sacos,7.7,0,2.266889976,3.236471292,6.226014626,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA40,Cd. Victoria,Bco CPC30R 50k,00:00.0,Blanco,Sacos,7.15,0,2.446647065,3.240048668,6.719717574,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA40,Cd. Victoria,Impercem 50k,00:00.0,Impercem,Sacos,70.2,0,41.04878984,52.19623111,112.740525,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB14,Ceda,Mortero 50k,00:00.0,Mortero,Sacos,234.1,0,101.5267997,135.0963544,210.1402481,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB14,Ceda,Multiplast 40k,00:00.0,Multiplast,Sacos,61.84,0,28.48304876,36.41605621,58.95423621,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC71,Celaya,Impercem 50k,00:00.0,Impercem,Sacos,4.45,0,3.542753527,5.124681995,9.190998082,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC71,Celaya,Mortero 50k,00:00.0,Mortero,Sacos,206.1,0,171.3440939,252.5872121,444.5195599,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB37,Chilpancingo,Bco CPC30R 25k,00:00.0,Blanco,Sacos,31.65,0,10.39749806,12.7143448,22.31818526,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB37,Chilpancingo,Bco CPC30R 50k,00:00.0,Blanco,Sacos,34.6,0,5.109987664,6.432681013,10.96856674,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB48,Cidetec,Bco CPC30R 25k,00:00.0,Blanco,Sacos,7.2,0,3.155451767,4.782892094,11.82748146,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB48,Cidetec,Bco CPC30R 50k,00:00.0,Blanco,Sacos,39.35,0,11.19658201,15.44621005,41.96779919,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB48,Cidetec,Multiplast 40k,00:00.0,Multiplast,Sacos,16.96,0,11.80847079,17.10627385,44.26132283,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC12,Coatzacoalcos,CPC40,00:00.0,Gris,Granel,5374.08,8072.2,5066.693326,6080,6400,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EC12,Coatzacoalcos,CPC40 BB,00:00.0,Gris,Sacos,20,0,47.58146848,56.66267764,59.64492383,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EC42,Colima,Bco CPC30R 50k,00:00.0,Blanco,Sacos,5.4,0,1,1.299335984,4.435347635,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC42,Colima,CPC30R 50k,00:00.0,Gris,Sacos,222.05,456,406.6868883,545.1761156,656.4000548,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC00,Comitán,Bco CPC30R 25k,00:00.0,Blanco,Sacos,24.4,35.2,39.98763696,49.73326555,110.8816039,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB35,Acapulco,Bco CPC30R 50k,00:00.0,Blanco,Sacos,37.85,11,26.08226982,33.279215,75.40079162,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB35,Acapulco,CPC30R 25k,00:00.0,Gris,Sacos,2.1,0,2.650003717,3.827327479,7.660850817,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB35,Acapulco,Multiplast 40k,00:00.0,Multiplast,Sacos,19.68,25,24.98964078,32.79504225,72.24212886,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA95,Agua Prieta (Virtual),CPC30R 50k,00:00.0,Gris,Sacos,212,142,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA95,Agua Prieta (Virtual),Mortero 25k,00:00.0,Mortero,Sacos,22,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA95,Agua Prieta (Virtual),Mortero 50k,00:00.0,Mortero,Sacos,82,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB81,Aguascalientes,Mortero 50k,00:00.0,Mortero,Sacos,936.1,450,700,1000,1365.886336,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB81,Aguascalientes,Multiplast 2.0k,00:00.0,Multiplast,Sacos,0.88,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB36,Apizaco,Multiplast 40k,00:00.0,Multiplast,Sacos,132.8,0,24.19079716,40,50.91987713,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC08,Arriaga,Bco CPC30R 25k,00:00.0,Blanco,Sacos,23.15,0,7.055311523,9.481341123,13.57711607,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB46,Atlacomulco,CPC30R 50k,00:00.0,Gris,Sacos,890.55,0,581.2542597,905.2733231,1784.234253,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB90,Campeche,Bco CPC30R 25k,00:00.0,Blanco,Sacos,16.93,0,9.638479668,12.18269583,24.86995474,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB90,Campeche,Bco CPC30R BB,00:00.0,Blanco,Sacos,115.07,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB90,Campeche,CPC30R 50k,00:00.0,Gris,Sacos,168.95,63,223.4,331.2,1005.533393,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB90,Campeche,CPC30R BB,00:00.0,Gris,Sacos,-0.01,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB91,Cancún,Impercem 50k,00:00.0,Impercem,Sacos,9.3,0,13.49972167,17.35293172,18.97002059,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA91,Cd. Obregón (FFCC),Mortero 50k,00:00.0,Mortero,Sacos,330.9,0,119.1664393,161.8323238,554.1038668,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA91,Cd. Obregón (FFCC),Multiplast 40k,00:00.0,Multiplast,Sacos,19.96,0,3.065391815,4.305568473,14.25355551,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA40,Cd. Victoria,CPC30R 50k,00:00.0,Gris,Sacos,367.05,99.25,234.3787326,312.3778623,643.7213241,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA40,Cd. Victoria,CPC40 BB,00:00.0,Gris,Sacos,31.84,0,29.16388897,35.41926091,80.09863787,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB14,Ceda,Bco CPC30R 50k,00:00.0,Blanco,Sacos,27.6,0,9.730709956,13.77273526,20.14063094,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB14,Ceda,CPC30R 25k,00:00.0,Gris,Sacos,11.93,0,4.990048808,6.861813789,10.32840686,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC71,Celaya,Bco CPC30R 25k,00:00.0,Blanco,Sacos,36,0,20.40349815,22.82857559,52.93298306,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC71,Celaya,Multiplast 40k,00:00.0,Multiplast,Sacos,27.2,0,13.19900748,15.33155539,34.24230659,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC32,Chalcatongo (Virtual),CPC40 BB,00:00.0,Gris,Sacos,411,117,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB93,Chetumal,Bco CPC30R 25k,00:00.0,Blanco,Sacos,17.77,0,11.90327759,14.4387719,30.80679911,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB93,Chetumal,Impercem 50k,00:00.0,Impercem,Sacos,4.3,0,10.96046708,13.98441235,28.36671706,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB37,Chilpancingo,Mortero 50k,00:00.0,Mortero,Sacos,131.15,0,68.32113314,97.10121338,146.6510211,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB37,Chilpancingo,Multiplast 40k,00:00.0,Multiplast,Sacos,14.44,0,38.68447045,50.25936096,83.03605093,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB48,Cidetec,Mortero 50k,00:00.0,Mortero,Sacos,204,0,75.19695442,102.0836019,281.8583993,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC12,Coatzacoalcos,CPC30R,00:00.0,Gris,Granel,1570.72,0,0,0,0,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EC12,Coatzacoalcos,Impercem 2.0k,00:00.0,Impercem,Sacos,1,0,0,0,0,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EC12,Coatzacoalcos,Impercem 50k,00:00.0,Impercem,Sacos,549.05,0,167.1759971,176.4635525,274.5548357,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EC42,Colima,Mortero 50k,00:00.0,Mortero,Sacos,275.85,70,257.7400017,335.0501818,393.3919611,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC42,Colima,Multiplast 40k,00:00.0,Multiplast,Sacos,6.56,0,8.876330318,16,13.48697375,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB38,Cuautla,Mortero 50k,00:00.0,Mortero,Sacos,244.4,0,234.110391,343.402894,564.8852188,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB35,Acapulco,Impercem 50k,00:00.0,Impercem,Sacos,46.3,0,26.34114331,34.75513854,76.14916461,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB35,Acapulco,Mortero 50k,00:00.0,Mortero,Sacos,42.6,0,76.7269083,97.46965424,221.8085184,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA95,Agua Prieta (Virtual),Bco CPC30R 25k,00:00.0,Blanco,Sacos,6.6,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB81,Aguascalientes,Bco CPC30R 25k,00:00.0,Blanco,Sacos,141.93,0,28.57888336,36.10664083,101.2427438,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB81,Aguascalientes,Impercem 50k,00:00.0,Impercem,Sacos,45.7,0,32.11396548,43.89728145,113.7660257,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB36,Apizaco,Bco CPC30R 50k,00:00.0,Blanco,Sacos,14.1,0,2.159073957,3.224584879,3.394299873,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC08,Arriaga,CPC30R 50k,00:00.0,Gris,Sacos,200.4,0,177.6216695,266.4925909,341.811983,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC08,Arriaga,CPC40 42.5k,00:00.0,Gris,Sacos,74.63,70.04,0,0,508.0171085,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB46,Atlacomulco,Bco CPC30R 25k,00:00.0,Blanco,Sacos,53.3,0,14.90740363,18.39123327,45.76018109,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB90,Campeche,CPC40 BB,00:00.0,Gris,Sacos,56.63,0,10.24108027,17.3303246,26.42483167,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB90,Campeche,Impercem 50k,00:00.0,Impercem,Sacos,15.2,0,5.986539805,7.78019159,15.44693553,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB91,Cancún,Mortero 50k,00:00.0,Mortero,Sacos,142.1,0,31.08718184,41.49998567,43.68419544,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA91,Cd. Obregón (FFCC),CPC30R 50k,00:00.0,Gris,Sacos,801.2,240,327.606261,457.9625558,1523.313922,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA91,Cd. Obregón (FFCC),CPC40,00:00.0,Gris,Granel,573.28,383.94,271.9631103,401.6521019,450,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA40,Cd. Victoria,Multiplast 40k,00:00.0,Multiplast,Sacos,11.2,0,6.908630198,8.780616142,18.97455682,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB14,Ceda,Bco CPC30R 25k,00:00.0,Blanco,Sacos,8.18,0,10.0488534,13.13578816,20.79912449,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB14,Ceda,CPC30R 50k,00:00.0,Gris,Sacos,242.8,0,398.592852,562.9805553,825.0077915,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB14,Ceda,Impercem 50k,00:00.0,Impercem,Sacos,9.7,0,9.000654679,13.01795337,18.62956197,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB93,Chetumal,CPC30R 50k,00:00.0,Gris,Sacos,283.55,0,298,435,771.5906326,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB93,Chetumal,CPC30R BB,00:00.0,Gris,Sacos,0.06,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB37,Chilpancingo,CPC30R 50k,00:00.0,Gris,Sacos,439.45,252,942.2892806,1565.412277,2022.619924,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB48,Cidetec,CPC30R 25k,00:00.0,Gris,Sacos,8.5,0,3.465477834,4.894005406,12.9895425,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB48,Cidetec,CPC30R 50k,00:00.0,Gris,Sacos,261.05,0,308.4362641,460.6483225,1156.102031,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC12,Coatzacoalcos,CPC30R 50k,00:00.0,Gris,Sacos,1015.1,63,1510.677466,1594.603992,1240.500463,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EC12,Coatzacoalcos,Multiplast 40k,00:00.0,Multiplast,Sacos,219.84,184.8,142.5904719,150.5121647,234.1777783,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EC42,Colima,Bco CPC30R 25k,00:00.0,Blanco,Sacos,2,0,4.514406094,5.186150098,9.044562161,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC00,Comitán,Impercem 50k,00:00.0,Impercem,Sacos,15.4,0,17.95518112,21.41253221,49.78787024,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC00,Comitán,Mortero 50k,00:00.0,Mortero,Sacos,5.75,0,5.401056329,8.128980777,14.97657361,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB38,Cuautla,CPC30R 50k,00:00.0,Gris,Sacos,463.65,36,622.1862335,1016.016837,1501.273844,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB39,Cuernavaca,Bco CPC30R 50k,00:00.0,Blanco,Sacos,34.05,0,8.343975847,8.641173798,9.095972419,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB39,Cuernavaca,CPC30R 25k,00:00.0,Gris,Sacos,9.25,0,0.08953615999,0.09272528276,0.0976055608,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA77,Culiacán,Concreto Seco 25k,00:00.0,Otros,Sacos,1.45,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA77,Culiacán,CPC30R 2.0k,00:00.0,Gris,Sacos,1,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA77,Culiacán,CPC30R 50k,00:00.0,Gris,Sacos,1341.04,386,1100,1800,1749.90419,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA77,Culiacán,CPC40,00:00.0,Gris,Granel,1466.04,1448.08,833.8522948,1045,1100,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA77,Culiacán,Mortero 50k,00:00.0,Mortero,Sacos,520.55,350,530.4737518,717.5561727,723.9360379,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC00,Comitán,CPC30R 50k,00:00.0,Gris,Sacos,498.9,123,978.3404738,1440.547154,2712.837495,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB39,Cuernavaca,Bco CPC30R 25k,00:00.0,Blanco,Sacos,51.8,0,24.65536297,25.53354425,26.877415,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB39,Cuernavaca,CPC30R 50k,00:00.0,Gris,Sacos,606.1,180,694.2259915,718.9531175,756.7927553,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB39,Cuernavaca,CPC40 BB,00:00.0,Gris,Sacos,19.4,0,0,0,8.387259075,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB39,Cuernavaca,Multiplast 40k,00:00.0,Multiplast,Sacos,83.32,0,55.60080687,57.5812112,60.61180126,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA77,Culiacán,CPC40 BB,00:00.0,Gris,Sacos,75.87,0,62.67268188,81.22113392,151.7114053,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB82,Durango,Bco CPC30R 25k,00:00.0,Blanco,Sacos,30.73,0,8.695358933,9.17843443,9.661509926,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB82,Durango,Bco CPC30R 50k,00:00.0,Blanco,Sacos,36.1,0,20.53108145,21.67169709,22.81231273,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB82,Durango,Concreto Seco 25k,00:00.0,Otros,Sacos,1.75,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB82,Durango,Mortero 50k,00:00.0,Mortero,Sacos,615.4,627,600,900,425.79825,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB82,Durango,Multiplast 2.0k,00:00.0,Multiplast,Sacos,0.88,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC33,El Pataste (FFCC),Bco CPC30R 25k,00:00.0,Blanco,Sacos,2.52,0,7.481715089,10.26799094,24.85255204,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA42,El Prieto Ver.,Bco CPC30R 50k,00:00.0,Blanco,Sacos,9.75,15.75,3.531746,3.727954111,3.924162222,Noreste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA42,El Prieto Ver.,Bco CPC30R BB,00:00.0,Blanco,Sacos,2.03,0,0,0,0,Noreste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA42,El Prieto Ver.,CPC40,00:00.0,Gris,Granel,20840.54,1565.34,0,0,28000,Noreste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA42,El Prieto Ver.,CPC40 BB,00:00.0,Gris,Sacos,139.29,0,100,140,168.20412,Noreste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EB87,Fresnillo,Bco CPC30R 25k,00:00.0,Blanco,Sacos,17.52,0,6.477385254,6.541770294,6.886073994,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB87,Fresnillo,Bco CPC30R 50k,00:00.0,Blanco,Sacos,21.35,0,19.43846143,19.63167923,20.6649255,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB02,Guasave,CPC40 BB,00:00.0,Gris,Sacos,107.32,0,76.48625293,102.508574,288.14533,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB02,Guasave,Impercem 50k,00:00.0,Impercem,Sacos,108,0,27.37888442,34.34143869,103.1439949,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA73,Hermosillo,Bco CPC30R 50k,00:00.0,Blanco,Sacos,114.95,0,86.00936083,116.1169423,131.5468261,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA73,Hermosillo,CPC30R 25k,00:00.0,Gris,Sacos,38.48,0,91.07396001,108.3302658,139.2928661,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA73,Hermosillo,Mortero 50k,00:00.0,Mortero,Sacos,63.25,0,80.88815975,93.55347942,123.7142165,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA73,Hermosillo,Multiplast 40k,00:00.0,Multiplast,Sacos,71.04,50.6,78.99682406,99.63018475,120.8215173,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC24,Huatulco (Virtual),Bco CPC30R 25k,00:00.0,Blanco,Sacos,4,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC24,Huatulco (Virtual),CPC30R 50k,00:00.0,Gris,Sacos,441.9,13.5,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC24,Huatulco (Virtual),Multiplast 40k,00:00.0,Multiplast,Sacos,8,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB66,Huautla (Virtual),Bco CPC30R 25k,00:00.0,Blanco,Sacos,1,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA57,Huejutla,Mortero 50k,00:00.0,Mortero,Sacos,6.5,0,10.37833624,13.19314263,26.61364135,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA57,Huejutla,Multiplast 40k,00:00.0,Multiplast,Sacos,16.2,0,13.76599672,18.27311822,35.30077376,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB40,Iguala,Bco CPC30R 25k,00:00.0,Blanco,Sacos,56.05,0,7.020166171,8.906334075,30.25181191,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC72,Irapuato,Bco CPC30R 25k,00:00.0,Blanco,Sacos,129.3,0,18.72334973,24.13179388,68.44447354,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC72,Irapuato,Bco CPC30R 50k,00:00.0,Blanco,Sacos,11,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC72,Irapuato,CPC30R 50k,00:00.0,Gris,Sacos,1143.4,303,1147.203841,1577.920564,2913.673159,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC50,Ixtlán del Río,Bco CPC30R 50k,00:00.0,Blanco,Sacos,54.5,0,23.04524256,33.25534007,8.342852539,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC50,Ixtlán del Río,CPC40 BB,00:00.0,Gris,Sacos,66.04,0,44.69768539,47.18089013,49.66409487,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB37,Chilpancingo,Impercem 50k,00:00.0,Impercem,Sacos,36.6,0,16.49490894,19.17751635,35.40625173,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB48,Cidetec,Impercem 50k,00:00.0,Impercem,Sacos,3.9,0,9.869469346,12.2248388,36.99342419,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC12,Coatzacoalcos,Bco CPC30R 25k,00:00.0,Blanco,Sacos,605.08,369.6,364.7151127,384.9770634,598.975329,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EC12,Coatzacoalcos,Bco CPC30R 50k,00:00.0,Blanco,Sacos,100.55,63,15,20,135.3186723,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EC12,Coatzacoalcos,Mortero 50k,00:00.0,Mortero,Sacos,166.75,0,95.49231527,100.7974439,156.827998,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EC12,Coatzacoalcos,Mortero Seco 25k,00:00.0,Otros,Sacos,3,0,0,0,0,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EC42,Colima,CPC40 BB,00:00.0,Gris,Sacos,74.2,224.01,110.0752578,129.5003033,163.0409398,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC42,Colima,Impercem 50k,00:00.0,Impercem,Sacos,6.7,0,12,16,10.20016072,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC00,Comitán,Multiplast 40k,00:00.0,Multiplast,Sacos,11.32,0,40.21658664,49.71938614,111.5164578,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB38,Cuautla,Bco CPC30R 25k,00:00.0,Blanco,Sacos,25.32,0,14.2714093,17.30799884,34.43549912,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB38,Cuautla,Bco CPC30R 50k,00:00.0,Blanco,Sacos,1,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB38,Cuautla,Impercem 50k,00:00.0,Impercem,Sacos,32.5,0,11.63599192,16.22866763,28.07649764,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB39,Cuernavaca,Impercem 50k,00:00.0,Impercem,Sacos,58.85,0,7.09003853,7.342573409,7.729024641,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA77,Culiacán,Bco CPC30R 25k,00:00.0,Blanco,Sacos,60.88,19.8,4.19858743,4.780740146,10.16349676,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA77,Culiacán,Bco CPC30R 50k,00:00.0,Blanco,Sacos,276.9,74,72.84265235,108.7483874,73.95157384,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA77,Culiacán,Impercem 50k,00:00.0,Impercem,Sacos,85.95,0,19.83433759,25.69338959,48.01286844,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA77,Culiacán,Mortero 2.0k,00:00.0,Mortero,Sacos,2,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA77,Culiacán,Mortero 25k,00:00.0,Mortero,Sacos,46.95,0,13.28673473,14.83263096,32.16312335,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB82,Durango,Impercem 50k,00:00.0,Impercem,Sacos,73.7,0,87.23063043,92.07677657,96.9229227,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC33,El Pataste (FFCC),CPC30R 50k,00:00.0,Gris,Sacos,45.85,0,90.07967978,122.7415326,299.2241622,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC33,El Pataste (FFCC),Mortero 50k,00:00.0,Mortero,Sacos,6.95,0,0.688066821,1.484949094,2.285601132,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC33,El Pataste (FFCC),Multiplast 40k,00:00.0,Multiplast,Sacos,3.12,0,7.115986376,9.600768361,23.63768463,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA42,El Prieto Ver.,CPC30R 25k,00:00.0,Gris,Sacos,11.38,0,2.886668193,3.047038648,3.207409103,Noreste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA42,El Prieto Ver.,Multiplast 40k,00:00.0,Multiplast,Sacos,40.2,48.4,16.13660799,17.03308621,17.92956443,Noreste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EB87,Fresnillo,CPC30R 50k,00:00.0,Gris,Sacos,739.05,0,327.164301,546.1817495,723.149961,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB02,Guasave,Bco CPC30R 25k,00:00.0,Blanco,Sacos,31.75,0,1.183137005,1.651409119,4.457211455,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA79,Guaymas,CPC40,00:00.0,Gris,Granel,2779.52,1187.26,0,0,0,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA73,Hermosillo,CPC40 BB,00:00.0,Gris,Sacos,37.75,0,26.30096944,33.30019337,40.22595935,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA73,Hermosillo,Mortero 25k,00:00.0,Mortero,Sacos,80.7,0,31.24910171,37.20439946,47.79386928,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC24,Huatulco (Virtual),CPC40 BB,00:00.0,Gris,Sacos,35.19,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA57,Huejutla,CPC30R 50k,00:00.0,Gris,Sacos,283.95,72,432.1070237,503.07363,1108.071765,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB40,Iguala,CPC30R 25k,00:00.0,Gris,Sacos,36,0,9.281989326,16.04581292,39.99862517,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC50,Ixtlán del Río,CPC30R 50k,00:00.0,Gris,Sacos,554.75,1068,525.4462606,554.6377195,583.8291784,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC50,Ixtlán del Río,CPC40,00:00.0,Gris,Granel,1266.14,1274.28,1295.390751,1615,1700,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC50,Ixtlán del Río,Mortero 50k,00:00.0,Mortero,Sacos,899.75,568,216.043306,228.0457118,240.0481177,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC07,Jalapa,CPC30R 50k,00:00.0,Gris,Sacos,621.6,0,394.5069664,578.8138966,1386.798072,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA77,Culiacán,Mortero Seco 25k,00:00.0,Otros,Sacos,0.25,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB82,Durango,CPC30R 25k,00:00.0,Gris,Sacos,51.4,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB82,Durango,CPC30R 50k,00:00.0,Gris,Sacos,780.95,1990,1076.223304,1620.447182,1007.093751,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB82,Durango,CPC40,00:00.0,Gris,Granel,638.08,1416.92,861.9701227,1475.970123,1500,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB82,Durango,CPC40 BB,00:00.0,Gris,Sacos,487.75,0,69.3369281,73.18897966,77.04103122,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC33,El Pataste (FFCC),Impercem 50k,00:00.0,Impercem,Sacos,0.45,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA42,El Prieto Ver.,Bco CPO30R,00:00.0,Blanco,Granel,2201.76,313.38,0,0,5000,Noreste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA42,El Prieto Ver.,CPC30R 50k,00:00.0,Gris,Sacos,889.5,186,487.3588298,854.6433871,1161.963731,Noreste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA42,El Prieto Ver.,Mortero 50k,00:00.0,Mortero,Sacos,17.15,0,3.843157198,4.056665931,4.270174664,Noreste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA42,El Prieto Ver.,Tipo II,00:00.0,Gris,Granel,3149.03,0,0,0,0,Noreste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA43,El Prieto Ver. (R.F.),Bco CPC30R BB,00:00.0,Blanco,Sacos,581.93,48.27,0,0,0,Noreste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA43,El Prieto Ver. (R.F.),CPC30R 50k,00:00.0,Gris,Sacos,4909.5,2079,0,0,0,Noreste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA43,El Prieto Ver. (R.F.),CPC40 BB,00:00.0,Gris,Sacos,0,0,0,0,0,Noreste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EB87,Fresnillo,Mortero 50k,00:00.0,Mortero,Sacos,192.2,0,130.4719567,152.2172828,234.8829004,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB87,Fresnillo,Multiplast 40k,00:00.0,Multiplast,Sacos,15.28,0,24.40206044,24.64461628,25.94170135,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB02,Guasave,Mortero 25k,00:00.0,Mortero,Sacos,15.8,0,1.371635372,1.969785798,5.167338073,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB02,Guasave,Mortero 50k,00:00.0,Mortero,Sacos,200.05,0,1,1.299335984,575.9225279,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB02,Guasave,Multiplast 40k,00:00.0,Multiplast,Sacos,108.24,0,67.28103524,93.69200081,253.4666735,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA73,Hermosillo,Bco CPC30R 25k,00:00.0,Blanco,Sacos,94.58,0,22.81614245,28.17258112,34.89609844,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA73,Hermosillo,Impercem 50k,00:00.0,Impercem,Sacos,148.85,0,14.1179402,20.4948456,21.59265232,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC01,Huajuapan de León,CPC30R 50k,00:00.0,Gris,Sacos,480.2,62,252.8659075,349.2805755,388.74563,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC01,Huajuapan de León,Mortero 50k,00:00.0,Mortero,Sacos,67.45,0,5,10,14.04219863,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC01,Huajuapan de León,Multiplast 40k,00:00.0,Multiplast,Sacos,10.96,10,6.019058633,8.294019969,37.25696872,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB66,Huautla (Virtual),CPC30R 50k,00:00.0,Gris,Sacos,387.75,72,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB66,Huautla (Virtual),Mortero 50k,00:00.0,Mortero,Sacos,0.5,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB66,Huautla (Virtual),Multiplast 40k,00:00.0,Multiplast,Sacos,7.16,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA57,Huejutla,Bco CPC30R 25k,00:00.0,Blanco,Sacos,14.3,0,9.603382134,12.3464103,24.62639117,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB40,Iguala,Mortero 50k,00:00.0,Mortero,Sacos,223.25,0,121.5512077,168.0699646,523.7973269,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB40,Iguala,Multiplast 40k,00:00.0,Multiplast,Sacos,46.28,0,41.77159161,51.19832421,180.0051882,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC72,Irapuato,Impercem 50k,00:00.0,Impercem,Sacos,17.05,0,7.660959056,10.71400939,28.0051549,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC72,Irapuato,Mortero 50k,00:00.0,Mortero,Sacos,830.4,202,363.7448959,544.1428703,1329.694113,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC72,Irapuato,Mortero Seco 25k,00:00.0,Otros,Sacos,1.6,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC50,Ixtlán del Río,Bco CPC30R 25k,00:00.0,Blanco,Sacos,92.83,0,3.830133612,5.13012081,1.599046544,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC50,Ixtlán del Río,Impercem 50k,00:00.0,Impercem,Sacos,42.55,0,4.915005493,5.188061353,5.461117214,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC07,Jalapa,Impercem 50k,00:00.0,Impercem,Sacos,60.9,0,18.89305105,23.4908243,66.4141549,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC58,La Barca,CPC30R 50k,00:00.0,Gris,Sacos,1452.25,1424,1575.93,1663.48,1751.03666,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB38,Cuautla,Multiplast 40k,00:00.0,Multiplast,Sacos,44.56,0,32.46255748,43.53872897,78.32894048,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB39,Cuernavaca,Mortero 50k,00:00.0,Mortero,Sacos,292.35,0,232.4580073,240.7377584,253.4081667,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB39,Cuernavaca,Multiplast 2.0k,00:00.0,Multiplast,Sacos,0.16,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA77,Culiacán,Multiplast 40k,00:00.0,Multiplast,Sacos,228.24,92.4,8.876330318,16,110.157304,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB82,Durango,Bco CPC30R 2.0k,00:00.0,Blanco,Sacos,1,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB82,Durango,Multiplast 40k,00:00.0,Multiplast,Sacos,51,246.4,99.60320039,105.1367115,110.6702227,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA42,El Prieto Ver.,Bco CPC30R 25k,00:00.0,Blanco,Sacos,49.08,33,11.2347399,11.85889212,12.48304434,Noreste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA42,El Prieto Ver.,Impercem 50k,00:00.0,Impercem,Sacos,61.8,18,25.21601499,26.61690471,28.01779443,Noreste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EB87,Fresnillo,Impercem 50k,00:00.0,Impercem,Sacos,18.95,0,4.208879738,4.250715892,4.474437782,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB02,Guasave,Bco CPC30R 50k,00:00.0,Blanco,Sacos,55.45,0,1.883560802,2.834453748,7.095905839,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB02,Guasave,CPC30R 50k,00:00.0,Gris,Sacos,334.9,288,255.5160098,370.7300779,962.6010183,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA79,Guaymas,CPO40,00:00.0,Gris,Granel,10135.32,1648.76,0,0,30000,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA73,Hermosillo,CPC30R 50k,00:00.0,Gris,Sacos,191.7,84,549.2936765,651.7547419,840.1159947,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC01,Huajuapan de León,Bco CPC30R 25k,00:00.0,Blanco,Sacos,8.13,0,2.936484111,2.965887885,3.121987247,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC01,Huajuapan de León,Impercem 50k,00:00.0,Impercem,Sacos,15.05,0,1.37734008,1.686915698,6.833215396,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC24,Huatulco (Virtual),Impercem 50k,00:00.0,Impercem,Sacos,2.5,4.5,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC24,Huatulco (Virtual),Mortero 50k,00:00.0,Mortero,Sacos,44.15,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA57,Huejutla,Impercem 50k,00:00.0,Impercem,Sacos,9.65,0,2.100897935,3.1289125,5.387428475,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB40,Iguala,CPC30R 50k,00:00.0,Gris,Sacos,1416,0,440.9300051,644.5633589,1900.087727,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB40,Iguala,Impercem 50k,00:00.0,Impercem,Sacos,53.3,0,6.000854772,7.367456796,25.85932091,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC72,Irapuato,Multiplast 40k,00:00.0,Multiplast,Sacos,109.52,0,43.81893877,57.40959278,160.1830996,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED51,Ixtepec,CPC40,00:00.0,Gris,Granel,53.98,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC50,Ixtlán del Río,Multiplast 40k,00:00.0,Multiplast,Sacos,138.72,0,9.950033433,10.50281307,11.0555927,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC07,Jalapa,Bco CPC30R 25k,00:00.0,Blanco,Sacos,32.48,0,11.98303465,14.16559699,42.12358909,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC07,Jalapa,Concreto Seco 25k,00:00.0,Otros,Sacos,0.25,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC07,Jalapa,CPC30R 25k,00:00.0,Gris,Sacos,1,0,0.02469514688,0.05329574813,0.08681008193,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC58,La Barca,Bco CPC30R 25k,00:00.0,Blanco,Sacos,107.47,0,39.07626601,41.24716968,43.41807335,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC58,La Barca,Bco CPC30R 50k,00:00.0,Blanco,Sacos,29.35,0,2.289425427,2.416615728,2.54380603,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC58,La Barca,Multiplast 40k,00:00.0,Multiplast,Sacos,209.6,0,71.54373338,75.51838524,79.49303709,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC43,Lázaro Cárdenas,Multiplast 40k,00:00.0,Multiplast,Sacos,24.12,0,13.4175904,17.02778726,57.82761129,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC73,León,Bco CPC30R 25k,00:00.0,Blanco,Sacos,74.1,0,21.56321365,26.38166881,135.5341376,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC52,Maravatío,Mortero 50k,00:00.0,Mortero,Sacos,222.2,108,359.6308709,511.2971523,844.4694172,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA28,Matamoros,Multiplast 40k,00:00.0,Multiplast,Sacos,9.36,0,4.563286556,4.816802476,5.070318395,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED58,Materiales Donosti,CPC30R 50k,00:00.0,Gris,Sacos,1137.75,103.5,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA87,Mazatlán,CPC30R 50k,00:00.0,Gris,Sacos,176.65,1165,456.0645471,650.2492525,617.2666927,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA87,Mazatlán,CPC40,00:00.0,Gris,Granel,722.96,1857.7,602.1330674,750,750,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC43,Lázaro Cárdenas,Bco CPC30R 25k,00:00.0,Blanco,Sacos,19.82,0,8.316226729,10.48409086,35.84157158,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC43,Lázaro Cárdenas,CPC40 BB,00:00.0,Gris,Sacos,32.42,0,0,0,83.39206546,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC43,Lázaro Cárdenas,Impercem 50k,00:00.0,Impercem,Sacos,10.25,0,5.385983529,7.288312092,23.21270457,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC73,León,CPC30R 50k,00:00.0,Gris,Sacos,4438.75,0,1500,3000,4048.677837,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC73,León,CPC40,00:00.0,Gris,Granel,3162.61,315.62,2000,4000,4800,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA84,Los Cabos,Impercem 50k,00:00.0,Impercem,Sacos,8.2,0,6.238904521,8.757732878,9.218666187,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA84,Los Cabos,Mortero 50k,00:00.0,Mortero,Sacos,45.95,0,27.91425644,35.46520152,41.24637764,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA75,Los Mochis,Bco CPC30R 50k,00:00.0,Blanco,Sacos,41.65,0,7.918655824,10.18257975,29.58184966,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA75,Los Mochis,Concreto Seco 25k,00:00.0,Otros,Sacos,0.65,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA75,Los Mochis,Mortero 25k,00:00.0,Mortero,Sacos,127.78,0,27.89240978,34.47347866,104.1981229,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA81,Los Mochis (FFCC),Mortero 50k,00:00.0,Mortero,Sacos,0.15,420,114.7486407,163.1733311,994.2971558,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC52,Maravatío,Bco CPC30R 25k,00:00.0,Blanco,Sacos,54.48,0,12.1303382,16.13770665,28.48392745,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC52,Maravatío,CPC30R 50k,00:00.0,Gris,Sacos,345,106,865.6599705,1279.29812,2032.704726,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC52,Maravatío,Impercem 50k,00:00.0,Impercem,Sacos,25.6,0,13.93570493,18.0272234,32.72321031,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA28,Matamoros,Bco CPC30R 25k,00:00.0,Blanco,Sacos,11.4,0,3.155406685,3.330707056,3.506007427,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA28,Matamoros,Impercem 50k,00:00.0,Impercem,Sacos,14.95,0,5.930419799,6.259887566,6.589355333,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA87,Mazatlán,Bco CPC30R 25k,00:00.0,Blanco,Sacos,20.95,0,4.66537378,5.700877727,7.580881163,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA87,Mazatlán,Bco CPC30R 50k,00:00.0,Blanco,Sacos,18.5,0,24.56839795,30.62732243,39.92179704,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA87,Mazatlán,Concreto Seco 25k,00:00.0,Otros,Sacos,2,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA87,Mazatlán,Impercem 50k,00:00.0,Impercem,Sacos,37.75,0,21.48063116,25.95066999,34.90440848,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA87,Mazatlán,Mortero 25k,00:00.0,Mortero,Sacos,99.7,0,18.73500426,23.4207154,30.44297146,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC19,Mérida,Mortero 50k,00:00.0,Mortero,Sacos,0,0,17.63060149,24.19750452,24.22800732,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA78,Mexicali,CPC30R 25k,00:00.0,Gris,Sacos,12.8,0,24.14620012,35.55259863,37.42378803,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA78,Mexicali,CPC30R 42.6k,00:00.0,Gris,Sacos,656.56,0,306.6211762,451.4656366,475.2269859,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA78,Mexicali,Impercem 50k,00:00.0,Impercem,Sacos,291.15,0,54.87290445,80.79425905,85.04658847,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA26,Monclova,Bco CPC30R 50k,00:00.0,Blanco,Sacos,19.25,0,3.072992569,4.379729455,7.672332284,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA26,Monclova,Concreto Seco 25k,00:00.0,Otros,Sacos,2,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA26,Monclova,CPC30R 25k,00:00.0,Gris,Sacos,21.7,0,2.729805964,3.889032835,6.815499212,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA26,Monclova,Multiplast 40k,00:00.0,Multiplast,Sacos,25.92,0,35.16488611,43.54134519,87.79607661,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA24,Monterrey,Impercem 50k,00:00.0,Impercem,Sacos,29.25,0,25.44988772,29.05285556,41.43303073,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA24,Monterrey,Mortero 2.0k,00:00.0,Mortero,Sacos,1,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA24,Monterrey,Mortero 50k,00:00.0,Mortero,Sacos,19.25,0,11.14702983,14.34815605,18.14763328,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC53,Morelia,Bco CPC30R 50k,00:00.0,Blanco,Sacos,376,0,49.68163734,85.80840714,96.24748164,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC53,Morelia,Concreto Seco 25k,00:00.0,Otros,Sacos,5.2,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC53,Morelia,CPC30R 2.0k,00:00.0,Gris,Sacos,1,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC53,Morelia,Impercem 50k,00:00.0,Impercem,Sacos,13.8,0,24.00250811,32.7496589,46.4996945,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC07,Jalapa,Mortero 50k,00:00.0,Mortero,Sacos,49.75,0,25.50027251,33.24234088,89.64031503,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC07,Jalapa,Multiplast 40k,00:00.0,Multiplast,Sacos,27.2,0,9.356726267,13.04013428,32.89140891,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC58,La Barca,Mortero 50k,00:00.0,Mortero,Sacos,1188.8,408,956.9986121,1010.165202,1063.331791,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC73,León,Bco CPC30R 50k,00:00.0,Blanco,Sacos,260.55,146.25,182.6965407,300,351.7702129,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC73,León,Bco CPC30R BB,00:00.0,Blanco,Sacos,125.27,0,23.06739258,49.09945953,144.9885537,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC73,León,Mortero 50k,00:00.0,Mortero,Sacos,1309.85,0,700,1000,1207.530925,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC73,León,Mortero Seco 25k,00:00.0,Otros,Sacos,2,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA84,Los Cabos,CPC30R 50k,00:00.0,Gris,Sacos,555.5,0,575.542765,807.9062242,850.4276045,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA84,Los Cabos,CPC40 BB,00:00.0,Gris,Sacos,117.52,0,72,110,151.5223107,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA75,Los Mochis,CPC30R 50k,00:00.0,Gris,Sacos,301.85,34,659.7960674,1185.098266,996.2983668,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA75,Los Mochis,CPC40 BB,00:00.0,Gris,Sacos,111.46,0,32.63526706,45.47261662,121.916091,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA75,Los Mochis,Mortero 50k,00:00.0,Mortero,Sacos,297.2,0,444.0932408,651.3520253,664.427036,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA75,Los Mochis,Mortero Seco 25k,00:00.0,Otros,Sacos,0.25,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA75,Los Mochis,Multiplast 40k,00:00.0,Multiplast,Sacos,197.28,0,63.57405055,88.5174943,237.4946011,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC52,Maravatío,CPC40 BB,00:00.0,Gris,Sacos,25.12,0,0,0,0.4850269834,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED70,Marquelia OpLog,CPC30R 50k,00:00.0,Gris,Sacos,191.95,0,114.6741941,168.5137268,351.2929267,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED70,Marquelia OpLog,Impercem 50k,00:00.0,Impercem,Sacos,3,0,7.437193566,11.06438105,22.7830988,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED70,Marquelia OpLog,Mortero 50k,00:00.0,Mortero,Sacos,4.45,0,2.97143975,4.807293411,9.102708545,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED70,Marquelia OpLog,Multiplast 40k,00:00.0,Multiplast,Sacos,2.4,0,2.99737245,4.590813547,9.182150777,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA28,Matamoros,CPC30R 50k,00:00.0,Gris,Sacos,327,0,434.4931326,458.6316399,579.3241768,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA87,Mazatlán,CPC30R 25k,00:00.0,Gris,Sacos,73.35,0,9.657723419,11.52277044,15.69307348,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA87,Mazatlán,Mortero 50k,00:00.0,Mortero,Sacos,469.95,357,200.33474,294.2041299,325.5288704,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA87,Mazatlán,Mortero Seco 25k,00:00.0,Otros,Sacos,3.13,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA87,Mazatlán,Multiplast 40k,00:00.0,Multiplast,Sacos,53.96,0,61.73359704,79.93205245,100.3124476,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC19,Mérida,Bco CPC30R,00:00.0,Blanco,Granel,6.84,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA78,Mexicali,Bco CPC30R,00:00.0,Blanco,Granel,664.99,94.7,300,450,600,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA78,Mexicali,CPC30R 50k,00:00.0,Gris,Sacos,650.25,490,623.9992091,1058.344578,1285.64178,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA78,Mexicali,CPC40,00:00.0,Gris,Granel,2887.4,4676.74,2782.94258,4180,4400,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA78,Mexicali,Multiplast 40k,00:00.0,Multiplast,Sacos,381.16,184.8,119.9041167,173.5171013,185.8373667,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA26,Monclova,Bco CPC30R 25k,00:00.0,Blanco,Sacos,9.85,0,6.170412044,7.371955015,15.40565116,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA26,Monclova,Impercem 50k,00:00.0,Impercem,Sacos,17.15,0,9.854540195,13.93432689,24.60380401,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA26,Monclova,Mortero 50k,00:00.0,Mortero,Sacos,42,0,3.328878164,5.415465939,8.311201163,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA24,Monterrey,Multiplast 40k,00:00.0,Multiplast,Sacos,24.44,0,31.97843715,39.27421664,52.06166657,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC53,Morelia,Bco CPC30R 2.0k,00:00.0,Blanco,Sacos,1,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC53,Morelia,Impercem 2.0k,00:00.0,Impercem,Sacos,1,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC53,Morelia,Multiplast 40k,00:00.0,Multiplast,Sacos,157.78,50.6,100.4456882,132.7234595,194.5919065,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC58,La Barca,CPC40 BB,00:00.0,Gris,Sacos,65.98,56.47,32.75082105,34.57031111,36.38980116,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC58,La Barca,Impercem 50k,00:00.0,Impercem,Sacos,75.05,0,21.408148,22.59748956,23.78683111,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC43,Lázaro Cárdenas,Bco CPC30R 50k,00:00.0,Blanco,Sacos,19.65,0,8.140817931,11.14182224,35.08558847,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC43,Lázaro Cárdenas,CPC30R 50k,00:00.0,Gris,Sacos,461.1,180,361.2044468,522.017884,1556.731852,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC43,Lázaro Cárdenas,Mortero 50k,00:00.0,Mortero,Sacos,157.4,0,71.44323397,94.81980162,307.9086066,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC73,León,Impercem 50k,00:00.0,Impercem,Sacos,84,0,27.91341785,33.75985155,175.4479215,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC73,León,Multiplast 40k,00:00.0,Multiplast,Sacos,76.04,50.6,35.19471094,46.00038409,221.2140024,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA84,Los Cabos,Bco CPC30R 50k,00:00.0,Blanco,Sacos,29.05,0,21.20856275,26.9997478,31.33797923,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA84,Los Cabos,Multiplast 40k,00:00.0,Multiplast,Sacos,17.92,0,10.99550251,14.38866169,16.24706178,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA75,Los Mochis,Bco CPC30R 25k,00:00.0,Blanco,Sacos,53.7,0,1.754725797,2.407406049,6.555157327,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA75,Los Mochis,Impercem 50k,00:00.0,Impercem,Sacos,113.7,0,10.58131151,14.04085125,39.52877525,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA81,Los Mochis (FFCC),CPC30R 50k,00:00.0,Gris,Sacos,1.85,280,167.997989,247.4755989,1455.702844,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC52,Maravatío,Multiplast 40k,00:00.0,Multiplast,Sacos,56.24,0,24.75716696,29.35874396,58.13369221,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED70,Marquelia OpLog,Bco CPC30R 25k,00:00.0,Blanco,Sacos,3.42,0,2.493672111,3.635501521,7.639115155,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA28,Matamoros,Bco CPC30R 50k,00:00.0,Blanco,Sacos,3.2,0,0.04188076407,0.04420747319,0.0465341823,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA28,Matamoros,CPC30R 25k,00:00.0,Gris,Sacos,5.67,0,4.917247104,5.190427499,5.463607894,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED58,Materiales Donosti,Mortero 50k,00:00.0,Mortero,Sacos,362.25,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC19,Mérida,Bco CPC30R 25k,00:00.0,Blanco,Sacos,0.5,0,0,0,117.9219125,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC19,Mérida,CPC30R 50k,00:00.0,Gris,Sacos,0.85,0,0,0,715.1564073,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC19,Mérida,CPC30R BB,00:00.0,Gris,Sacos,12.05,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC19,Mérida,CPC40 BB,00:00.0,Gris,Sacos,360.5,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC19,Mérida,CPC40RS,00:00.0,Gris,Granel,168.38,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA78,Mexicali,Bco CPC30R 50k,00:00.0,Blanco,Sacos,344.65,92,12,16,120.0872972,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA78,Mexicali,Bco CPC30R BB,00:00.0,Blanco,Sacos,36,0,12.36580997,18.54871496,48.99175173,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA78,Mexicali,CPC40 BB,00:00.0,Gris,Sacos,42,0,12.82584823,19.23877234,141.6141,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA78,Mexicali,CPO40,00:00.0,Gris,Granel,1167.43,585.6,311.5115253,481.0443315,1200,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA26,Monclova,CPC30R 50k,00:00.0,Gris,Sacos,101.15,207,386.7742482,555.218399,965.6582255,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA26,Monclova,CPC40 BB,00:00.0,Gris,Sacos,14.36,0,13.51273536,17.43812355,33.73721004,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA24,Monterrey,CPC30R 25k,00:00.0,Gris,Sacos,9.4,0,19.70298192,23.30482961,32.07692954,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA24,Monterrey,CPC30R 50k,00:00.0,Gris,Sacos,184.2,718,1254.658431,1922.029837,2042.614172,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA24,Monterrey,CPC40 BB,00:00.0,Gris,Sacos,23.7,0,28.95095897,44.77621617,47.13285912,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC53,Morelia,CPC30R 50k,00:00.0,Gris,Sacos,2484.95,1604,1884.241773,2936.467595,3650.312975,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC53,Morelia,CPC40,00:00.0,Gris,Granel,1044.27,522.96,446.1583962,684,720,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC53,Morelia,Mortero 50k,00:00.0,Mortero,Sacos,785.35,106,960.8438602,1492.962887,1861.428221,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC53,Morelia,Mortero Seco 25k,00:00.0,Otros,Sacos,4,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC53,Morelia,Multiplast 2.0k,00:00.0,Multiplast,Sacos,1,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA87,Mazatlán,CPC40 BB,00:00.0,Gris,Sacos,17.41,0,48.21691551,60.44921391,78.34885771,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA78,Mexicali,Mortero 50k,00:00.0,Mortero,Sacos,461.25,0,257.7400017,335.0501818,220.1303424,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA24,Monterrey,Bco CPC30R 25k,00:00.0,Blanco,Sacos,9.18,0,22.39558615,26.05093135,36.46055413,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA24,Monterrey,Bco CPC30R 50k,00:00.0,Blanco,Sacos,23.5,0,18.47218031,23.34372174,30.07315485,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA24,Monterrey,Bco CPC30R BB,00:00.0,Blanco,Sacos,1.97,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA24,Monterrey,Concreto Seco 25k,00:00.0,Otros,Sacos,8,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA24,Monterrey,Mortero Seco 25k,00:00.0,Otros,Sacos,9.97,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA24,Monterrey,Multiplast 2.0k,00:00.0,Multiplast,Sacos,1,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC53,Morelia,Bco CPC30R 25k,00:00.0,Blanco,Sacos,340.15,61.6,51.12472338,62.87611765,99.04315032,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB15,Naucalpan,Bco CPC30R 25k,00:00.0,Blanco,Sacos,8.6,0,8.603185217,9.252345647,9.739311208,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA92,Navojoa,CPC30R 50k,00:00.0,Gris,Sacos,100.4,70,93.41484004,147.5769204,192.4861081,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA92,Navojoa,CPC40,00:00.0,Gris,Granel,289.17,288.74,4.514406094,5.186150098,270,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA92,Navojoa,Impercem 50k,00:00.0,Impercem,Sacos,3.85,0,0.2646295238,0.3694265504,0.5452828169,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED31,Nogales,CPC30R 25k,00:00.0,Gris,Sacos,0,22,35.6192056,37.59805035,39.57689511,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED31,Nogales,CPC30R 50k,00:00.0,Gris,Sacos,0,65.5,158.5322407,167.3395874,176.1469342,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA89,Nogales (FFCC),CPC40 BB,00:00.0,Gris,Sacos,23.62,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA89,Nogales (FFCC),Impercem 50k,00:00.0,Impercem,Sacos,0.15,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB11,Nueva Italia,Impercem 50k,00:00.0,Impercem,Sacos,35.45,0,29.11991618,40.26775801,45.98822613,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA35,Nuevo Laredo,CPC30R 25k,00:00.0,Gris,Sacos,9.3,0,8.978939346,11.72653834,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA35,Nuevo Laredo,CPC30R 50k,00:00.0,Gris,Sacos,239.9,49.5,245.5704647,307.4245469,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC09,Oaxaca,Bco CPC30R 25k,00:00.0,Blanco,Sacos,57.77,0,30.64422915,34.55344452,35.9712461,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC09,Oaxaca,Mortero 50k,00:00.0,Mortero,Sacos,66.15,0,61.55352978,68.64096008,72.25364219,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC09,Oaxaca,Multiplast 2.0k,00:00.0,Multiplast,Sacos,2,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC02,Orizaba,Bco CPC30R 25k,00:00.0,Blanco,Sacos,5.95,0,3.601742755,4.452595629,9.234529642,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC02,Orizaba,Bco CPC30R 50k,00:00.0,Blanco,Sacos,5,0,0.01716073767,0.03583828978,0.04399851724,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC02,Orizaba,CPC30R 50k,00:00.0,Gris,Sacos,226.35,595,196.3994808,279.4738818,681.7561299,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB28,Pachuca,Multiplast 40k,00:00.0,Multiplast,Sacos,88.64,0,27.24019274,33.5567139,89.96815668,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC13,Palenque,Bco CPC30R 25k,00:00.0,Blanco,Sacos,23.52,0,11.21316528,14.7778308,21.98001362,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC13,Palenque,CPC30R 50k,00:00.0,Gris,Sacos,670.5,0,487.3464291,704.110588,955.2950376,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC13,Palenque,Multiplast 40k,00:00.0,Multiplast,Sacos,18.56,0,11.08784179,15.24328665,21.73435488,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC79,PegaDuro,CPC30R BB,00:00.0,Gris,Sacos,0.21,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA85,Pichilingue,CPC40,00:00.0,Gris,Granel,3944.28,2619,5000,7500,12000,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA85,Pichilingue,Mortero 50k,00:00.0,Mortero,Sacos,247.8,0,59.27542842,72.89986157,281.2365368,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA85,Pichilingue,Multiplast 40k,00:00.0,Multiplast,Sacos,155.96,0,20.49701434,26.019399,97.24955993,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA27,Piedras Negras,CPC30R 50k,00:00.0,Gris,Sacos,137,0,82.8921149,105.9007277,309.9673168,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA27,Piedras Negras,Multiplast 40k,00:00.0,Multiplast,Sacos,14.1,0,18.12427116,26.0812572,67.77401814,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB15,Naucalpan,Bco CPC30R 50k,00:00.0,Blanco,Sacos,35.75,0,16.44096452,17.68153105,18.61213795,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB15,Naucalpan,CPC30R 25k,00:00.0,Gris,Sacos,4.67,0,0.1213826877,0.1305417184,0.1374123351,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB15,Naucalpan,CPC30R 50k,00:00.0,Gris,Sacos,196.65,0,290.1302677,312.0222862,328.4445118,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA92,Navojoa,Mortero 25k,00:00.0,Mortero,Sacos,9.8,0,2.459708719,4.486519512,5.068356999,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA92,Navojoa,Mortero 50k,00:00.0,Mortero,Sacos,30.5,0,28.84847788,34.66999881,59.44378034,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA92,Navojoa,Multiplast 40k,00:00.0,Multiplast,Sacos,12.76,0,4.725881342,6.169164776,9.737922865,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED63,Nochixtlán,Bco CPC30R 25k,00:00.0,Blanco,Sacos,3.65,0,1.559390692,1.646023508,1.732656324,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED63,Nochixtlán,CPC30R 50k,00:00.0,Gris,Sacos,436.85,49.5,150,200,345.6821145,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED31,Nogales,Mortero 50k,00:00.0,Mortero,Sacos,0,8,12.33515242,13.02043867,13.70572491,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA89,Nogales (FFCC),Bco CPC30R 25k,00:00.0,Blanco,Sacos,4.65,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA89,Nogales (FFCC),Mortero 25k,00:00.0,Mortero,Sacos,22.68,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA89,Nogales (FFCC),Mortero 50k,00:00.0,Mortero,Sacos,37.85,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA89,Nogales (FFCC),Multiplast 40k,00:00.0,Multiplast,Sacos,21.16,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB11,Nueva Italia,Mortero 50k,00:00.0,Mortero,Sacos,453.3,102,253.4414457,380.2399815,400.2526121,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA35,Nuevo Laredo,Multiplast 40k,00:00.0,Multiplast,Sacos,12.6,0,7.453693844,11.61569748,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC09,Oaxaca,Bco CPC30R 2.0k,00:00.0,Blanco,Sacos,1,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC09,Oaxaca,CPC40 BB,00:00.0,Gris,Sacos,130.41,0,89.05478536,106.4796026,190.6661831,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC09,Oaxaca,Impercem 2.0k,00:00.0,Impercem,Sacos,1,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC09,Oaxaca,Impercem 50k,00:00.0,Impercem,Sacos,56.4,0,15.35897497,17.12744649,18.02889104,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC09,Oaxaca,Mortero 2.0k,00:00.0,Mortero,Sacos,1,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC02,Orizaba,Multiplast 40k,00:00.0,Multiplast,Sacos,46.2,0,15.83237254,23.29477809,66.11694423,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB28,Pachuca,Bco CPC30R 25k,00:00.0,Blanco,Sacos,54.42,0,11.10494927,13.84073584,36.67711993,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB28,Pachuca,CPC30R 50k,00:00.0,Gris,Sacos,435.35,72,452.0077746,698.4826908,1492.878801,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC13,Palenque,Mortero 50k,00:00.0,Mortero,Sacos,4.2,0,17.69714451,23.81485732,34.68989065,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA85,Pichilingue,Bco CPC30R 50k,00:00.0,Blanco,Sacos,210.35,0,37.11481384,48.97280894,176.0939058,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA85,Pichilingue,Bco CPC30R BB,00:00.0,Blanco,Sacos,85.41,0,13.92712038,25.19466721,66.07822512,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA85,Pichilingue,CPC30R 50k,00:00.0,Gris,Sacos,452,0,618,927,1467.298864,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA85,Pichilingue,Impercem 50k,00:00.0,Impercem,Sacos,79.9,0,12.2737099,18.42730088,58.23350009,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA27,Piedras Negras,CPC30R 25k,00:00.0,Gris,Sacos,4,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA27,Piedras Negras,Impercem 50k,00:00.0,Impercem,Sacos,2.25,0,0,0,0.175951612,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA27,Piedras Negras,Mortero 50k,00:00.0,Mortero,Sacos,6,0,5.286598008,8.482380274,19.76873918,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC18,Pinotepa Nacional,Impercem 50k,00:00.0,Impercem,Sacos,28.5,10,17.38100029,19.86836281,20.91406612,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB94,Playa del Carmen,CPC40,00:00.0,Gris,Granel,12805.6,12564.62,1776,2664,14400,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EB94,Playa del Carmen,CPC40 BB,00:00.0,Gris,Sacos,20.16,285,0,0,0,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EB94,Playa del Carmen,CPC40RS,00:00.0,Gris,Granel,-51.18,0,0,0,0,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA44,Poza Rica,Bco CPC30R 50k,00:00.0,Blanco,Sacos,26.25,0,8.420820797,10.87225274,19.75638932,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB15,Naucalpan,Multiplast 40k,00:00.0,Multiplast,Sacos,7.84,0,14.71471442,15.82502532,16.65792139,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA92,Navojoa,Bco CPC30R,00:00.0,Blanco,Granel,493.56,655.24,442.2960259,703.8646372,390,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA92,Navojoa,Bco CPC30R 25k,00:00.0,Blanco,Sacos,7.9,0,0.01537515274,0.03009723235,0.03168129721,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA92,Navojoa,Bco CPC30R 50k,00:00.0,Blanco,Sacos,7,0,6.157024621,9.387245661,12.68686759,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED31,Nogales,CPC40 BB,00:00.0,Gris,Sacos,0,3.95,21.16041865,22.33599746,23.51157628,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED31,Nogales,Impercem 50k,00:00.0,Impercem,Sacos,0,0.5,0.02669343719,0.02817640592,0.02965937465,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB11,Nueva Italia,CPC30R 50k,00:00.0,Gris,Sacos,1192.55,510,516.5620894,775.0017317,815.7912965,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB11,Nueva Italia,Multiplast 40k,00:00.0,Multiplast,Sacos,52.88,0,18.58480605,24.01321928,29.35043693,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA35,Nuevo Laredo,Bco CPC30R 25k,00:00.0,Blanco,Sacos,13.57,0,4.190000392,6.531128016,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA35,Nuevo Laredo,Impercem 50k,00:00.0,Impercem,Sacos,11.75,0,2.778841427,5.437895591,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC09,Oaxaca,CPC30R 50k,00:00.0,Gris,Sacos,2215.35,332.25,1459.7,2055.8,2103.290082,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC09,Oaxaca,CPC40,00:00.0,Gris,Granel,203.34,0,188.1633821,267.3782621,550,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC02,Orizaba,Impercem 50k,00:00.0,Impercem,Sacos,66.7,0,18.71384438,24.35250668,47.98053676,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC02,Orizaba,Mortero 50k,00:00.0,Mortero,Sacos,19.35,35,37.00130315,48.73577385,94.86786092,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC13,Palenque,Impercem 50k,00:00.0,Impercem,Sacos,13.05,0,19.18846048,25.0601676,37.61316384,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB94,Playa del Carmen,Bco CPC30R 25k,00:00.0,Blanco,Sacos,116,0,31.96316688,39.39302177,59,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EB94,Playa del Carmen,Impercem 50k,00:00.0,Impercem,Sacos,27.5,0,3.59399371,7.75,41,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EB94,Playa del Carmen,Mortero 50k,00:00.0,Mortero,Sacos,117.1,0,49.8149255,58,61,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA44,Poza Rica,Impercem 50k,00:00.0,Impercem,Sacos,42.9,24.75,25.12782143,30.55389529,58.95328199,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED39,Promexma Texcoco,Multiplast 40k,00:00.0,Multiplast,Sacos,18.08,0,9.964078643,12.60513895,13.26856732,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB26,Pta. Atotonilco,Bco CPC30R,00:00.0,Blanco,Granel,1062,0,447.79,447.79,3300,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB26,Pta. Atotonilco,Bco CPC30R 25k,00:00.0,Blanco,Sacos,180.4,0,1.03,1.03,1989,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB26,Pta. Atotonilco,Bco CPC30R 50k,00:00.0,Blanco,Sacos,126,0,18.45,18.45,1989,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EC67,Pta. Guadalajara,CPC30R,00:00.0,Gris,Granel,0,0,441.13,441.13,1000,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EC67,Pta. Guadalajara,CPC30R 50k,00:00.0,Gris,Sacos,0,0,212.19,212.19,3500,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EC67,Pta. Guadalajara,CPC40,00:00.0,Gris,Granel,0,0,1232.96,1232.96,3000,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EC67,Pta. Guadalajara,CPC40 BB,00:00.0,Gris,Sacos,0,0,0,0,3500,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EC67,Pta. Guadalajara,CPP30R,00:00.0,Gris,Granel,0,0,47.97,47.97,1000,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EC67,Pta. Guadalajara,CPP30R BB,00:00.0,Gris,Sacos,0,0,1.05,1.05,3500,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EC67,Pta. Guadalajara,Mortero,00:00.0,Mortero,Granel,0,0,143.96,143.96,146.65,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EC67,Pta. Guadalajara,Mortero 50k,00:00.0,Mortero,Sacos,0,0,65.94,65.94,3500,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB05,Pta. Huichapan,CPC30R,00:00.0,Gris,Granel,0,0,1913.37,1913.37,12200,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB05,Pta. Huichapan,CPC30R 50k,00:00.0,Gris,Sacos,0,0,880.95,880.95,11600,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB05,Pta. Huichapan,CPC40,00:00.0,Gris,Granel,0,0,1073.54,1073.54,7200,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB05,Pta. Huichapan,CPC40 BB,00:00.0,Gris,Sacos,0,0,0,0,11600,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB05,Pta. Huichapan,Impercem,00:00.0,Impercem,Granel,0,0,2.48,2.48,6100,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB15,Naucalpan,Impercem 50k,00:00.0,Impercem,Sacos,7.65,0,0.09379098504,0.1008680611,0.1061769064,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB15,Naucalpan,Mortero 50k,00:00.0,Mortero,Sacos,105.5,0,82.41844996,88.63740202,93.30252844,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED63,Nochixtlán,Impercem 50k,00:00.0,Impercem,Sacos,9.75,0,1.270675505,1.341268589,1.411861672,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED63,Nochixtlán,Mortero 50k,00:00.0,Mortero,Sacos,36,0,0.5976721972,0.6308762082,0.6640802192,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED63,Nochixtlán,Multiplast 40k,00:00.0,Multiplast,Sacos,11,0,0.4583585931,0.4838229594,0.5092873256,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA89,Nogales (FFCC),CPC30R 25k,00:00.0,Gris,Sacos,51.17,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA89,Nogales (FFCC),CPC30R 50k,00:00.0,Gris,Sacos,156.9,280,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB11,Nueva Italia,Bco CPC30R 25k,00:00.0,Blanco,Sacos,14.1,0,5.425196603,6.902307052,8.56785324,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB11,Nueva Italia,Bco CPC30R 50k,00:00.0,Blanco,Sacos,0.45,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA35,Nuevo Laredo,Bco CPC30R 50k,00:00.0,Blanco,Sacos,9.25,0,7.599882379,11.07101439,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA35,Nuevo Laredo,Concreto Seco 25k,00:00.0,Otros,Sacos,2,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA35,Nuevo Laredo,Mortero 50k,00:00.0,Mortero,Sacos,8.75,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA35,Nuevo Laredo,Mortero Seco 25k,00:00.0,Otros,Sacos,2,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC09,Oaxaca,Multiplast 40k,00:00.0,Multiplast,Sacos,38.16,9,67.9737835,75.80045817,79.78995597,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB92,Oaxaca 3 (Propoma),Bco CPC30R 25k,00:00.0,Blanco,Sacos,9.85,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB92,Oaxaca 3 (Propoma),CPC30R 50k,00:00.0,Gris,Sacos,215.7,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB92,Oaxaca 3 (Propoma),CPC40 BB,00:00.0,Gris,Sacos,228.33,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB92,Oaxaca 3 (Propoma),Impercem 50k,00:00.0,Impercem,Sacos,7,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB92,Oaxaca 3 (Propoma),Mortero 50k,00:00.0,Mortero,Sacos,18.25,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB92,Oaxaca 3 (Propoma),Multiplast 40k,00:00.0,Multiplast,Sacos,9.54,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB28,Pachuca,Impercem 50k,00:00.0,Impercem,Sacos,22.5,0,9.872928336,11.58673877,32.60803519,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB28,Pachuca,Mortero 50k,00:00.0,Mortero,Sacos,300.65,36,105.3260246,153.1272643,347.8678868,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA85,Pichilingue,CPC40 BB,00:00.0,Gris,Sacos,-9.6,0,63.93366695,191.8010009,303.3378848,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA85,Pichilingue,CPP30R BB,00:00.0,Gris,Sacos,0,0,0,0,0,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA27,Piedras Negras,Bco CPC30R 25k,00:00.0,Blanco,Sacos,4.65,0,3.219945586,4.53992414,12.04068559,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA27,Piedras Negras,Bco CPC30R 50k,00:00.0,Blanco,Sacos,0.4,0,0,0,0.2732886915,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC18,Pinotepa Nacional,CPC30R 50k,00:00.0,Gris,Sacos,162.6,17.5,279.8853346,319.9392027,336.7781081,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC18,Pinotepa Nacional,CPC40 BB,00:00.0,Gris,Sacos,58.56,0,20.16146341,23.04673282,24.25971876,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB94,Playa del Carmen,CPC30R 50k,00:00.0,Gris,Sacos,327.9,248,109.9677962,155.1563287,320,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EB94,Playa del Carmen,CPC30R BB,00:00.0,Gris,Sacos,17.61,41.23,0,0,0,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA44,Poza Rica,Multiplast 40k,00:00.0,Multiplast,Sacos,38.52,0,16.56508986,19.79372055,38.86395071,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED39,Promexma Texcoco,Mortero 50k,00:00.0,Mortero,Sacos,27.3,0,38.40490672,46.14942436,51.14151628,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA37,Pta. Hidalgo,Multiplast 40k,00:00.0,Especial,Sacos,0,0,0,0,800,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB89,Pta. Mérida,Bco CPC30R,00:00.0,Blanco,Granel,0,0,23.86,23.86,48.36,Sureste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA20,Pta. Monterrey,CPC30R 50k,00:00.0,Gris,Sacos,0,0,462.19,462.19,2300,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA44,Poza Rica,CPC30R 50k,00:00.0,Gris,Sacos,266.1,493,907.1932319,1474.212449,2128.398539,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA44,Poza Rica,CPC40 BB,00:00.0,Gris,Sacos,35.84,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED39,Promexma Texcoco,Bco CPC30R 25k,00:00.0,Blanco,Sacos,14.28,0,9.252110883,11.94281222,12.32048245,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED39,Promexma Texcoco,CPC30R 50k,00:00.0,Gris,Sacos,183.3,0,178.5549941,225.8824516,237.7710017,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED39,Promexma Texcoco,Impercem 50k,00:00.0,Impercem,Sacos,11.35,0,4.069848123,5.148594561,5.419573222,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA62,Pta. Ensenada,CPC30R,00:00.0,Gris,Granel,3058.5,0,437.88,437.88,6000,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA62,Pta. Ensenada,CPC30R 42.6k,00:00.0,Gris,Sacos,44,0,218.13,218.13,1500,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA62,Pta. Ensenada,CPC30R 50k,00:00.0,Gris,Sacos,0,0,0.81,0.81,1500,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA62,Pta. Ensenada,CPC40,00:00.0,Gris,Granel,2026.5,0,807.47,807.47,6000,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA62,Pta. Ensenada,CPC40 BB,00:00.0,Gris,Sacos,16,0,0,0,1500,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA37,Pta. Hidalgo,CPC40,00:00.0,Gris,Granel,0,0,247.02,247.02,6000,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB89,Pta. Mérida,CPC30R,00:00.0,Gris,Granel,0,0,545.34,545.34,542.9,Sureste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB89,Pta. Mérida,CPC30R 42.5k,00:00.0,Gris,Sacos,0,0,0,0,0,Sureste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB89,Pta. Mérida,CPC30R 50k,00:00.0,Gris,Sacos,0,0,272.67,272.67,271.45,Sureste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB89,Pta. Mérida,CPC30R BB,00:00.0,Gris,Sacos,0,0,0,0,0,Sureste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB89,Pta. Mérida,CPC40,00:00.0,Gris,Granel,0,0,2167.96,2167.96,1663.86,Sureste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB89,Pta. Mérida,CPC40 BB,00:00.0,Gris,Sacos,0,0,0,0,0,Sureste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB89,Pta. Mérida,CPP30R,00:00.0,Gris,Granel,0,0,0.2,0.2,36.63,Sureste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB34,Pta. Tepeaca,CPC40 BB,00:00.0,Gris,Sacos,136.4,0,0,0,6500,Sureste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB34,Pta. Tepeaca,Mortero,00:00.0,Mortero,Granel,7657,0,107.82,107.82,10000,Sureste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB34,Pta. Tepeaca,Mortero 50k,00:00.0,Mortero,Sacos,44,0,53.91,53.91,6500,Sureste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA55,Pta. Valles,Bco CPC30R,00:00.0,Blanco,Granel,1590,0,319.94,319.94,7500,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA55,Pta. Valles,Bco CPC30R 25k,00:00.0,Blanco,Sacos,684.2,0,0,0,2000,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA55,Pta. Valles,Bco CPC30R 42.6k,00:00.0,Blanco,Sacos,0,0,0,0,0,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA55,Pta. Valles,Bco CPC30R 50k,00:00.0,Blanco,Sacos,664.75,0,44.82,44.82,2000,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA55,Pta. Valles,Bco CPC30R BB,00:00.0,Blanco,Sacos,82,0,0,0,2000,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA55,Pta. Valles,Bco CPO30R,00:00.0,Blanco,Granel,1939,0,510.08,510.08,7000,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA55,Pta. Valles,Bco CPO30R 42.6k,00:00.0,Blanco,Sacos,0,0,34.58,34.58,2000,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA55,Pta. Valles,Bco CPO30R BB,00:00.0,Blanco,Sacos,0,0,37.19,37.19,2000,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA55,Pta. Valles,CPC40,00:00.0,Gris,Granel,0,0,0,0,0,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA55,Pta. Valles,Mortero,00:00.0,Mortero,Granel,437,0,2.2,2.2,2.04,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA55,Pta. Valles,Mortero 50k,00:00.0,Mortero,Sacos,55,0,1.1,1.1,2000,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA55,Pta. Valles,Tipo II,00:00.0,Gris,Granel,1813,0,76.8,76.8,0,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EC41,Pta. Zapotiltic,CPC30R,00:00.0,Gris,Granel,2500,0,674.2,674.2,626.76,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EC41,Pta. Zapotiltic,CPC30R 25k,00:00.0,Gris,Sacos,12,0,53.77,53.77,3200,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EC41,Pta. Zapotiltic,CPC30R 50k,00:00.0,Gris,Sacos,350,0,283.33,283.33,3200,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EC18,Pinotepa Nacional,Bco CPC30R 25k,00:00.0,Blanco,Sacos,13.15,0,35.6736283,40.77881469,42.9250681,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC18,Pinotepa Nacional,Mortero 50k,00:00.0,Mortero,Sacos,37.25,0,54.20726035,61.96476025,65.22606342,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC18,Pinotepa Nacional,Multiplast 40k,00:00.0,Multiplast,Sacos,8.44,0,8.225054528,9.402126738,9.896975513,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB94,Playa del Carmen,Bco CPC30R,00:00.0,Blanco,Granel,83.72,0,0,0,0,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EB94,Playa del Carmen,Multiplast 40k,00:00.0,Multiplast,Sacos,30.8,0,12.64713038,17.1105816,20,Sureste,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA44,Poza Rica,Bco CPC30R 25k,00:00.0,Blanco,Sacos,24.48,0,14.36249201,17.54173801,33.696357,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA44,Poza Rica,Mortero 50k,00:00.0,Mortero,Sacos,47.65,0,8.665944243,11.37890061,20.33148222,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA44,Poza Rica,Mortero Seco 25k,00:00.0,Otros,Sacos,1.75,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED39,Promexma Texcoco,Bco CPC30R 50k,00:00.0,Blanco,Sacos,11.1,0,8.40206032,10.62909493,11.18852098,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED39,Promexma Texcoco,CPC30R 25k,00:00.0,Gris,Sacos,9.72,0,2.921463452,3.812545347,3.890338069,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB26,Pta. Atotonilco,CPC30R,00:00.0,Gris,Granel,2673,0,222.03,222.03,2000,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB26,Pta. Atotonilco,CPC30R 50k,00:00.0,Gris,Sacos,288,0,111.02,111.02,1989,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB26,Pta. Atotonilco,CPC40,00:00.0,Gris,Granel,7228,0,1810.54,1810.54,9850,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB26,Pta. Atotonilco,Mortero,00:00.0,Mortero,Granel,523,0,21.41,21.41,1650,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB26,Pta. Atotonilco,Mortero 50k,00:00.0,Mortero,Sacos,76.5,0,10.7,10.7,1989,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB26,Pta. Atotonilco,Multiplast 40k,00:00.0,Especial,Sacos,422.4,0,1.02,1.02,1989,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB13,Pta. Barrientos,CPC30R,00:00.0,Gris,Granel,182.41,0,22.5,22.5,5900,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB13,Pta. Barrientos,CPC30R 50k,00:00.0,Gris,Sacos,1005.75,0,11.25,11.25,4000,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB13,Pta. Barrientos,CPC40,00:00.0,Gris,Granel,221.6,0,934.22,934.22,17600,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB13,Pta. Barrientos,Mortero,00:00.0,Mortero,Granel,1132.74,0,10,10,6600,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB13,Pta. Barrientos,Mortero 50k,00:00.0,Mortero,Sacos,144,0,5,5,4000,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB13,Pta. Barrientos,Tipo II,00:00.0,Gris,Granel,0,0,0,0,2.22,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA60,Pta. Hermosillo (Cpn),CPC40,00:00.0,Gris,Granel,0,0,0,0,0,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA60,Pta. Hermosillo (Cpn),CPO40,00:00.0,Gris,Granel,0,0,0,0,0,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA37,Pta. Hidalgo,Bco CPC30R,00:00.0,Blanco,Granel,0,0,0.39,0.39,0.09,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA39,Pta. Tamuín,Concreto Seco 25k,00:00.0,Otros,Sacos,2,0,0,0,0,Noreste,0,1,20:18.6,20:18.6,System.R_Inventario,System
+EA39,Pta. Tamuín,CPC30R,00:00.0,Gris,Granel,3767,0,414.45,414.45,13900,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA39,Pta. Tamuín,CPC30R 25k,00:00.0,Gris,Sacos,13.05,0,0,0,0,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA39,Pta. Tamuín,CPC30R 50k,00:00.0,Gris,Sacos,945.25,0,207.22,207.22,192.55,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA39,Pta. Tamuín,CPC40,00:00.0,Gris,Granel,2049,0,343.98,343.98,360.63,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA39,Pta. Tamuín,CPC40 BB,00:00.0,Gris,Sacos,122,0,0,0,0,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA39,Pta. Tamuín,CPO40,00:00.0,Gris,Granel,26.83,0,0,0,0,Noreste,0,1,20:18.6,20:18.6,System.R_Inventario,System
+EA39,Pta. Tamuín,Impercem 50k,00:00.0,Impercem,Sacos,64.8,0,2.43,2.43,2.29,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA39,Pta. Tamuín,Tipo 1L,00:00.0,Gris,Granel,1528,0,0,0,0,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA39,Pta. Tamuín,Tipo II,00:00.0,Gris,Granel,0,0,0,0,0,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB42,Puebla,CPC40 BB,00:00.0,Gris,Sacos,69.91,61.34,244.8009307,337.9212275,455.0790657,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB05,Pta. Huichapan,Impercem 50k,00:00.0,Impercem,Sacos,0,0,1.24,1.24,11600,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB05,Pta. Huichapan,Mortero,00:00.0,Mortero,Granel,0,0,655.76,655.76,6100,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB05,Pta. Huichapan,Mortero 50k,00:00.0,Mortero,Sacos,0,0,325.46,325.46,11600,Centro,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA20,Pta. Monterrey,Bco CPC30R,00:00.0,Blanco,Granel,0,0,65.33,65.33,11350,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA20,Pta. Monterrey,Bco CPC30R 25k,00:00.0,Blanco,Sacos,0,0,2.62,2.62,2300,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA20,Pta. Monterrey,Bco CPC30R 42.6k,00:00.0,Blanco,Sacos,0,0,0,0,0,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA20,Pta. Monterrey,Bco CPC30R 50k,00:00.0,Blanco,Sacos,0,0,28.16,28.16,2300,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA20,Pta. Monterrey,Bco CPC30R BB,00:00.0,Blanco,Sacos,0,0,1.89,1.89,2300,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA20,Pta. Monterrey,Bco CPO30R,00:00.0,Blanco,Granel,0,0,0,0,603,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA20,Pta. Monterrey,Bco CPO30R BB,00:00.0,Blanco,Sacos,0,0,0,0,2300,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA20,Pta. Monterrey,CPC30R,00:00.0,Gris,Granel,0,0,937.33,937.33,842.41,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA20,Pta. Monterrey,CPC30R 25k,00:00.0,Gris,Sacos,0,0,6.48,6.48,2300,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB34,Pta. Tepeaca,CPC30R,00:00.0,Gris,Granel,3565,0,1336.34,1336.34,10000,Sureste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB34,Pta. Tepeaca,CPC30R 50k,00:00.0,Gris,Sacos,390,0,637.88,637.88,6500,Sureste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB34,Pta. Tepeaca,CPC40,00:00.0,Gris,Granel,3888,0,1140.64,1140.64,10000,Sureste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB34,Pta. Tepeaca,CPC40 42.5k,00:00.0,Gris,Sacos,27.27,0,0,0,6500,Sureste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA72,Pta. Yaqui,CPC30R,00:00.0,Gris,Granel,0,0,305.23,305.23,8000,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA72,Pta. Yaqui,CPC30R 25k,00:00.0,Gris,Sacos,84,0,50.6,50.6,4000,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA72,Pta. Yaqui,CPC30R 42.6k,00:00.0,Gris,Sacos,0,0,0,0,4000,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA72,Pta. Yaqui,CPC30R 50k,00:00.0,Gris,Sacos,848,0,102.01,102.01,4000,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA72,Pta. Yaqui,CPO40,00:00.0,Gris,Granel,0,0,0,0,3000,Pacífico,0,1,20:18.6,20:19.2,System.R_Inventario,SP_ActInvPtas
+EA72,Pta. Yaqui,Mortero,00:00.0,Mortero,Granel,0,0,43.13,43.13,8000,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA72,Pta. Yaqui,Mortero 25k,00:00.0,Mortero,Sacos,306,0,1.84,1.84,4000,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB42,Puebla,Bco CPC30R 25k,00:00.0,Blanco,Sacos,111.33,0,8.061760684,9.82818132,18.72510417,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB42,Puebla,Bco CPC30R 50k,00:00.0,Blanco,Sacos,13.05,0,1.88165638,2.730251133,4.370535559,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA83,Puerto Peñasco,CPC30R 25k,00:00.0,Gris,Sacos,29.4,0,21.45357813,29.27907425,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA83,Puerto Peñasco,Mortero 50k,00:00.0,Mortero,Sacos,9.95,0,12.73750032,18.88599892,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA83,Puerto Peñasco,Multiplast 40k,00:00.0,Multiplast,Sacos,3.22,0,4.143342688,6.320604626,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB98,Puerto Progreso,Bco CPC30R BB,00:00.0,Blanco,Sacos,71.68,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB97,Puerto Valladolid,CPC30R 50k,00:00.0,Gris,Sacos,159,0,162.7455559,234.5080139,438.1069378,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC83,Puerto Vallarta (Virtual),Bco CPC30R 50k,00:00.0,Blanco,Sacos,14.15,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC83,Puerto Vallarta (Virtual),Multiplast 40k,00:00.0,Multiplast,Sacos,11.4,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB06,Querétaro,CPC40 BB,00:00.0,Gris,Sacos,13.56,0,0,0,133.8552883,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB06,Querétaro,Impercem 50k,00:00.0,Impercem,Sacos,4,0,3.528219294,4.93795705,6.319166002,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA23,Reynosa,Impercem 50k,00:00.0,Impercem,Sacos,28.7,0,15.859415,21.12746375,32.32774745,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA20,Pta. Monterrey,CPC40,00:00.0,Gris,Granel,0,0,3431.01,3431.01,13000,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA20,Pta. Monterrey,CPC40 BB,00:00.0,Gris,Sacos,0,0,0,0,2300,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA20,Pta. Monterrey,Mortero Seco 25k,00:00.0,Otros,Sacos,10,0,0,0,0,Noreste,0,1,20:18.6,20:18.6,System.R_Inventario,System
+EB78,Pta. Torreón,CPC30R,00:00.0,Gris,Granel,0,0,463.16,463.16,452.27,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB78,Pta. Torreón,CPC30R 25k,00:00.0,Gris,Sacos,0,0,58.86,58.86,3.87,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB78,Pta. Torreón,CPC30R 50k,00:00.0,Gris,Sacos,0,0,172.73,172.73,222.26,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB78,Pta. Torreón,CPC40,00:00.0,Gris,Granel,0,0,351.52,351.52,5000,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB78,Pta. Torreón,CPC40 BB,00:00.0,Gris,Sacos,0,0,0,0,0,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB78,Pta. Torreón,Impercem,00:00.0,Impercem,Granel,0,0,1.24,1.24,1300,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB78,Pta. Torreón,Impercem 50k,00:00.0,Impercem,Sacos,0,0,0.62,0.62,0.82,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB78,Pta. Torreón,Mortero,00:00.0,Mortero,Granel,0,0,55.43,55.43,1300,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB78,Pta. Torreón,Mortero 50k,00:00.0,Mortero,Sacos,0,0,27.72,27.72,27.14,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB78,Pta. Torreón,Tipo II,00:00.0,Gris,Granel,0,0,50.47,50.47,1200,Noreste,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA72,Pta. Yaqui,CPC40,00:00.0,Gris,Granel,0,0,837.92,837.92,8000,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA72,Pta. Yaqui,CPC40 BB,00:00.0,Gris,Sacos,67,0,0,0,4000,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EA72,Pta. Yaqui,Mortero 50k,00:00.0,Mortero,Sacos,931,0,19.72,19.72,4000,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB42,Puebla,CPC30R 25k,00:00.0,Gris,Sacos,29.65,0,37.11580815,55.53796379,86.20912989,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB42,Puebla,CPC30R 50k,00:00.0,Gris,Sacos,461.85,140,791.1892518,1180.457118,1797.031375,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB42,Puebla,Multiplast 40k,00:00.0,Multiplast,Sacos,50.88,0,22.86952009,28.48684421,64.04208684,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC35,Puerto Chiapas,CPC40,00:00.0,Gris,Granel,0,76.44,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA45,Puerto de Altamira,Tipo II,00:00.0,Gris,Granel,-178.36,1226,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB98,Puerto Progreso,CPC30R 50k,00:00.0,Gris,Sacos,9487.28,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB98,Puerto Progreso,CPC40,00:00.0,Gris,Granel,-19.44,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB98,Puerto Progreso,CPC40 BB,00:00.0,Gris,Sacos,44.63,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EI14,Puerto Seybaplaya,CPC40,00:00.0,Gris,Granel,282.38,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EI14,Puerto Seybaplaya,CPC40 BB,00:00.0,Gris,Sacos,-0.76,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB97,Puerto Valladolid,Bco CPC30R 25k,00:00.0,Blanco,Sacos,12.3,0,15.21702708,21.73313312,40.96385366,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB97,Puerto Valladolid,Mortero 50k,00:00.0,Mortero,Sacos,2.3,0,3.138061086,5.15025216,8.447581414,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB97,Puerto Valladolid,Multiplast 40k,00:00.0,Multiplast,Sacos,4,0,4.636606218,7.074470057,12.48162717,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC83,Puerto Vallarta (Virtual),Impercem 50k,00:00.0,Impercem,Sacos,13.75,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB06,Querétaro,Bco CPC30R 25k,00:00.0,Blanco,Sacos,48.23,0,38.1871722,46.61409844,68.39458101,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB06,Querétaro,Bco CPC30R 50k,00:00.0,Blanco,Sacos,8.5,0,2.177233307,3.837689567,3.899502141,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB06,Querétaro,Multiplast 40k,00:00.0,Multiplast,Sacos,17.52,0,17.05673716,21.44097956,30.54922175,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA23,Reynosa,Bco CPC30R 25k,00:00.0,Blanco,Sacos,19.43,0,8.863236881,11.80399717,18.06677506,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA23,Reynosa,Multiplast 40k,00:00.0,Multiplast,Sacos,32.48,0,45.23452315,53.1042661,92.20581215,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC10,Roberto Ayala,Bco CPC30R 25k,00:00.0,Blanco,Sacos,4.7,0,4.917302936,6.730661532,14.78346145,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC41,Pta. Zapotiltic,CPC40,00:00.0,Gris,Granel,2000,0,191.47,191.47,5400,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EC41,Pta. Zapotiltic,CPC40 BB,00:00.0,Gris,Sacos,60,0,0,0,3200,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EC41,Pta. Zapotiltic,Mortero,00:00.0,Mortero,Granel,1600,0,284.84,284.84,284.28,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EC41,Pta. Zapotiltic,Mortero 25k,00:00.0,Mortero,Sacos,26,0,47.62,47.62,3200,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EC41,Pta. Zapotiltic,Mortero 50k,00:00.0,Mortero,Sacos,450,0,94.8,94.8,3200,Pacífico,0,1,20:19.2,20:19.2,SP_ActInvPtas,SP_ActInvPtas
+EB42,Puebla,Mortero 50k,00:00.0,Mortero,Sacos,262.55,70,142.834334,199.3452397,265.5256051,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA83,Puerto Peñasco,Bco CPC30R 50k,00:00.0,Blanco,Sacos,10.6,0,4.212601353,6.923134397,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA83,Puerto Peñasco,CPC30R 50k,00:00.0,Gris,Sacos,46.95,352,311.7220025,439.7242729,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA83,Puerto Peñasco,CPC40 BB,00:00.0,Gris,Sacos,11.88,0,26.24176021,38.39877025,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC83,Puerto Vallarta (Virtual),Bco CPC30R 25k,00:00.0,Blanco,Sacos,14,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA23,Reynosa,CPC30R 50k,00:00.0,Gris,Sacos,981.25,0,1168.847967,2025.947915,2382.573499,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA23,Reynosa,CPC40,00:00.0,Gris,Granel,1440.49,519.82,975.0510327,1330,1400,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA49,Río Verde,Bco CPC30R 25k,00:00.0,Blanco,Sacos,5.83,0,2.208583517,3.337782681,4.870781117,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA49,Río Verde,Impercem 50k,00:00.0,Impercem,Sacos,31.25,0,8.743800541,11.74059408,19.28346301,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC10,Roberto Ayala,CPC30R 50k,00:00.0,Gris,Sacos,210.3,0,127.8502351,186.5012062,384.3710763,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC10,Roberto Ayala,CPC30R BB,00:00.0,Gris,Sacos,6.07,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC10,Roberto Ayala,CPC40,00:00.0,Gris,Granel,24.21,0,0,0,650,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC10,Roberto Ayala,CPC40 BB,00:00.0,Gris,Sacos,40.95,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC75,Salamanca,Impercem 50k,00:00.0,Impercem,Sacos,17.65,0,16.12457765,17.02038752,17.91619739,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA22,Saltillo,CPC30R 50k,00:00.0,Gris,Sacos,84.85,100,405.2148093,596.7246623,1109.099391,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA22,Saltillo,CPC40 BB,00:00.0,Gris,Sacos,55.79,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA22,Saltillo,Multiplast 40k,00:00.0,Multiplast,Sacos,18.32,0,10.13733966,14.7279409,27.74656055,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC17,San Cristóbal,Bco CPC30R 25k,00:00.0,Blanco,Sacos,13.6,0,20.12065408,24.47345909,53.72853795,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC17,San Cristóbal,Mortero 50k,00:00.0,Mortero,Sacos,20.1,0,17.55955021,23.71855588,46.88957705,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA41,San Luis Potosí,Bco CPC30R 50k,00:00.0,Blanco,Sacos,130.05,0,31.38969057,37.02947795,169.0949937,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA41,San Luis Potosí,Concreto Seco 25k,00:00.0,Otros,Sacos,2,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA41,San Luis Potosí,CPC30R,00:00.0,Gris,Granel,2997.66,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA41,San Luis Potosí,Multiplast 40k,00:00.0,Multiplast,Sacos,42.8,0,24.90426152,30.58904355,134.1582496,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC76,San Miguel de Allende,Impercem 50k,00:00.0,Impercem,Sacos,16.45,0,11.15098878,14.50443662,29.13121603,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB43,Santa Catarina,Bco CPC30R 50k,00:00.0,Blanco,Sacos,222.25,0,7.509245859,24.77733648,21.01187078,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB43,Santa Catarina,Concreto Seco 25k,00:00.0,Otros,Sacos,0.08,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB43,Santa Catarina,CPC40 BB,00:00.0,Gris,Sacos,4.5,0,0,0,24.55843837,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC03,Tapachula,Bco CPC30R 25k,00:00.0,Blanco,Sacos,19.9,0,10.10809221,14.07562394,18.54308594,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC03,Tapachula,Impercem 50k,00:00.0,Impercem,Sacos,14.65,0,3.5,5,56.8467452,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC03,Tapachula,Mortero 50k,00:00.0,Mortero,Sacos,16.65,0,8.038907737,12.34550547,14.74720985,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB41,Tehuacán,Mortero 50k,00:00.0,Mortero,Sacos,1.7,0,61.37444501,75.14083284,172.159377,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB42,Puebla,Impercem 50k,00:00.0,Impercem,Sacos,38.3,0,4.545216919,6.291357648,41.97238062,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA83,Puerto Peñasco,Bco CPC30R 25k,00:00.0,Blanco,Sacos,10.45,0,0.04880753627,0.06661421767,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA83,Puerto Peñasco,Impercem 50k,00:00.0,Impercem,Sacos,7.85,0,0.1167966109,0.1617096224,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA83,Puerto Peñasco,Mortero 25k,00:00.0,Mortero,Sacos,14.93,0,6.088804954,9.247798958,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC83,Puerto Vallarta (Virtual),CPC30R 50k,00:00.0,Gris,Sacos,198.55,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC83,Puerto Vallarta (Virtual),Mortero 50k,00:00.0,Mortero,Sacos,289.9,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB06,Querétaro,CPC30R 50k,00:00.0,Gris,Sacos,518.8,106,899.8525856,1331.609377,1611.667924,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB06,Querétaro,Mortero 50k,00:00.0,Mortero,Sacos,309.6,156,356.858958,515.1432286,639.1470619,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA23,Reynosa,Bco CPC30R 50k,00:00.0,Blanco,Sacos,4.3,0,9.589684701,13.52435298,19.54756245,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA23,Reynosa,CPC30R 25k,00:00.0,Gris,Sacos,8.18,0,13.43098985,20.0952558,27.37765849,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA49,Río Verde,Multiplast 40k,00:00.0,Multiplast,Sacos,24.6,0,12.91468678,18.24606621,28.48188081,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC10,Roberto Ayala,Bco CPC30R,00:00.0,Blanco,Granel,28.19,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC75,Salamanca,CPC30R 50k,00:00.0,Gris,Sacos,968.35,0,425.1785454,448.7995757,472.420606,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC75,Salamanca,CPC40,00:00.0,Gris,Granel,55.29,0,90,95,301,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA22,Saltillo,Bco CPC30R 25k,00:00.0,Blanco,Sacos,7.1,4.4,5.961281689,8.094155667,16.31641722,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA22,Saltillo,Mortero 50k,00:00.0,Mortero,Sacos,14.65,0,24.6950765,30.73587691,67.59203682,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC17,San Cristóbal,Impercem 50k,00:00.0,Impercem,Sacos,26.35,0,25.00003296,31.3504623,66.75802954,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA41,San Luis Potosí,Bco CPC30R 25k,00:00.0,Blanco,Sacos,53.3,96.8,30.44614204,35.2872347,164.0121359,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA86,San Luis Río Colorado,Bco CPC30R 50k,00:00.0,Blanco,Sacos,17.25,0,3.659635777,4.398558033,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA86,San Luis Río Colorado,CPC30R 25k,00:00.0,Gris,Sacos,17.5,0,9.921633,11.92492401,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA86,San Luis Río Colorado,Multiplast 40k,00:00.0,Multiplast,Sacos,15.48,0,7.609030667,9.145380854,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC76,San Miguel de Allende,Bco CPC30R 25k,00:00.0,Blanco,Sacos,68.05,0,17.08954939,21.39361092,44.64531041,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC76,San Miguel de Allende,Mortero 50k,00:00.0,Mortero,Sacos,228.25,0,149.2055,201.6578011,389.7894384,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB43,Santa Catarina,CPC30R,00:00.0,Gris,Granel,3720.03,2538.15,1012.81,1519.215,5000,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB43,Santa Catarina,Impercem 50k,00:00.0,Impercem,Sacos,349.8,0,200.0180456,284.6588128,559.6771508,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC03,Tapachula,Multiplast 40k,00:00.0,Multiplast,Sacos,10.7,0,9.175404294,13.31590398,16.83208926,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC14,Tehuantepec,Bco CPC30R 25k,00:00.0,Blanco,Sacos,22.43,0,37.07330653,47.16857672,60.30924411,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC14,Tehuantepec,CPC30R 50k,00:00.0,Gris,Sacos,200.99,3401,490,736,2193.12,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC14,Tehuantepec,CPC30R BB,00:00.0,Gris,Sacos,10.86,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC14,Tehuantepec,Multiplast 40k,00:00.0,Multiplast,Sacos,6.88,15,8,10,85.10495176,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC55,Tepatitlán (Virtual),Multiplast 40k,00:00.0,Multiplast,Sacos,2.52,8.8,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC44,Tepic,Mortero 50k,00:00.0,Mortero,Sacos,670.95,38,250.2231956,375.9375703,788.2515792,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC44,Tepic,Multiplast 40k,00:00.0,Multiplast,Sacos,41.64,0,35.17938115,45.18890239,110.8218712,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA64,Tijuana I,CPC30R 50k,00:00.0,Gris,Sacos,187.6,0,53.90808575,72.16989478,137.303089,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA64,Tijuana I,CPC30R BB,00:00.0,Gris,Sacos,27.61,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC75,Salamanca,Bco CPC30R 25k,00:00.0,Blanco,Sacos,106.13,0,37.59869231,39.68750855,41.77632479,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC75,Salamanca,Concreto Seco 25k,00:00.0,Otros,Sacos,0.75,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC75,Salamanca,Mortero 50k,00:00.0,Mortero,Sacos,474.45,0,195.6715188,206.5421588,217.4127987,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC75,Salamanca,Mortero Seco 25k,00:00.0,Otros,Sacos,0.25,0,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC75,Salamanca,Multiplast 40k,00:00.0,Multiplast,Sacos,29.12,0,43.99525716,46.43943811,48.88361906,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA22,Saltillo,Impercem 50k,00:00.0,Impercem,Sacos,19.2,0,5.663336608,8.574399677,15.50092208,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC17,San Cristóbal,CPC30R 50k,00:00.0,Gris,Sacos,569.15,0,358.6664824,538.6664824,1205.270855,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC17,San Cristóbal,CPC40 BB,00:00.0,Gris,Sacos,7.82,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED98,San José de Iturbide,Impercem 50k,00:00.0,Impercem,Sacos,12,0,6.110900174,7.591821935,8.373529891,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED98,San José de Iturbide,Mortero 50k,00:00.0,Mortero,Sacos,117.15,0,107.8693471,146.5051558,147.8091896,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED98,San José de Iturbide,Multiplast 40k,00:00.0,Multiplast,Sacos,2.84,0,14.22200168,19.42911518,19.48785822,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA41,San Luis Potosí,CPC30R 50k,00:00.0,Gris,Sacos,986.55,180,1500,3000,3710.892081,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA41,San Luis Potosí,CPC40,00:00.0,Gris,Granel,5517.9,0,2000,4000,6000,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA41,San Luis Potosí,CPC40 BB,00:00.0,Gris,Sacos,18.15,0,35.63311398,56.54869028,191.9541439,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA41,San Luis Potosí,Mortero 50k,00:00.0,Mortero,Sacos,789,0,104.0560949,131.4400452,560.5459749,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA86,San Luis Río Colorado,Impercem 50k,00:00.0,Impercem,Sacos,6.75,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA86,San Luis Río Colorado,Mortero 25k,00:00.0,Mortero,Sacos,16,0,1.316901836,1.986883057,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC76,San Miguel de Allende,CPC30R 50k,00:00.0,Gris,Sacos,536.1,51.75,203.5892368,284.9602619,531.8633314,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC76,San Miguel de Allende,CPC40 BB,00:00.0,Gris,Sacos,26.38,0,1.613048014,3.461249463,46.94557585,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB43,Santa Catarina,Bco CPC30R 25k,00:00.0,Blanco,Sacos,645.67,0,131.9262934,183.3872784,369.1473527,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB43,Santa Catarina,CPC40,00:00.0,Gris,Granel,348.82,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB43,Santa Catarina,Mortero 50k,00:00.0,Mortero,Sacos,237.65,1050,641.7469816,1034.215674,1795.693589,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC03,Tapachula,CPC30R 50k,00:00.0,Gris,Sacos,1015.05,116,577.5,813.8,1162.806905,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC03,Tapachula,CPC40 42.5k,00:00.0,Gris,Sacos,388.28,0,553,762.6,530.2239647,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB41,Tehuacán,Bco CPC30R 25k,00:00.0,Blanco,Sacos,8.93,0,2.774385988,4.364876138,13.48496791,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB41,Tehuacán,CPC30R 50k,00:00.0,Gris,Sacos,365.25,180,390.0786514,540.7081781,1095.080596,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC14,Tehuantepec,CPC40,00:00.0,Gris,Granel,1078.57,336.66,357,476,4800,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC14,Tehuantepec,CPC40 42.5k,00:00.0,Gris,Sacos,165.75,248.63,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC14,Tehuantepec,CPC40 BB,00:00.0,Gris,Sacos,2.3,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC55,Tepatitlán (Virtual),CPC30R 50k,00:00.0,Gris,Sacos,487.7,40.5,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC55,Tepatitlán (Virtual),Mortero 25k,00:00.0,Mortero,Sacos,0.03,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC55,Tepatitlán (Virtual),Mortero 50k,00:00.0,Mortero,Sacos,254.75,51.5,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC44,Tepic,Impercem 50k,00:00.0,Impercem,Sacos,46.25,0,18.85620872,21.71459636,59.4007133,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA64,Tijuana I,CPC40,00:00.0,Gris,Granel,475.79,0,76.55591262,137.3981777,600,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA64,Tijuana I,CPC40 BB,00:00.0,Gris,Sacos,70.46,0,18.64129641,28.6856094,47.47910343,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB56,Tlapa de Comonfort,Impercem 50k,00:00.0,Impercem,Sacos,10.3,0,6.23593242,7.914221228,17.12643451,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA23,Reynosa,Mortero 50k,00:00.0,Mortero,Sacos,0,0,0.06207609063,0.1202087953,0.126535574,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA49,Río Verde,Bco CPC30R 50k,00:00.0,Blanco,Sacos,6.2,0,2.122727808,3.198529249,4.681436063,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA49,Río Verde,CPC30R 50k,00:00.0,Gris,Sacos,22.6,84.75,302.3515365,384.0189386,666.8021125,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA49,Río Verde,CPC40 BB,00:00.0,Gris,Sacos,15.96,15.98,44.44784701,55.42107507,98.02469875,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA49,Río Verde,Mortero 50k,00:00.0,Mortero,Sacos,13.35,0,12.63072161,17.80283995,27.85562776,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC10,Roberto Ayala,Mortero 50k,00:00.0,Mortero,Sacos,0,0,0.2812192657,0.4923070614,0.8454622843,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC10,Roberto Ayala,Multiplast 40k,00:00.0,Multiplast,Sacos,0.6,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA22,Saltillo,Bco CPC30R 50k,00:00.0,Blanco,Sacos,18.65,0,2.947800849,4.678246011,8.068323397,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA22,Saltillo,Bco CPC30R BB,00:00.0,Blanco,Sacos,4.01,28.32,0,0,0,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA22,Saltillo,CPC30R 25k,00:00.0,Gris,Sacos,10.28,0,2.073881446,3.309627613,5.67634893,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC17,San Cristóbal,Multiplast 40k,00:00.0,Multiplast,Sacos,24.6,0,10.24335069,12.64436244,27.35300027,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED98,San José de Iturbide,Bco CPC30R 25k,00:00.0,Blanco,Sacos,20.5,0,3.311352287,4.310546931,4.537417822,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+ED98,San José de Iturbide,CPC30R 50k,00:00.0,Gris,Sacos,187.15,49.5,196.8909204,256.3024043,269.7920045,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA41,San Luis Potosí,CPC30R 25k,00:00.0,Gris,Sacos,0.25,0,4.735512731,5.689369639,25.51001557,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA41,San Luis Potosí,Impercem 50k,00:00.0,Impercem,Sacos,68.7,0,8.136761548,11.43623571,43.8324054,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA86,San Luis Río Colorado,CPC30R 50k,00:00.0,Gris,Sacos,236,70,199.5146381,239.798922,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA86,San Luis Río Colorado,Mortero 50k,00:00.0,Mortero,Sacos,71.65,0,11.77781499,15.79225612,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC76,San Miguel de Allende,Multiplast 40k,00:00.0,Multiplast,Sacos,21.8,0,22.05802719,26.80639057,57.62512798,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB43,Santa Catarina,CPC30R 25k,00:00.0,Gris,Sacos,54.85,0,124.4950328,147.2340024,348.3536951,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB43,Santa Catarina,CPC30R 50k,00:00.0,Gris,Sacos,1977.25,0,972.5161899,1458.774285,2721.22992,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB43,Santa Catarina,Multiplast 40k,00:00.0,Multiplast,Sacos,394.92,369.6,414.6793111,630.0951939,1160.327983,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC57,Santiago Undameo,CPC30R 50k,00:00.0,Gris,Sacos,613.3,108,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC57,Santiago Undameo,Mortero 50k,00:00.0,Mortero,Sacos,16.85,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB41,Tehuacán,Impercem 50k,00:00.0,Impercem,Sacos,23.5,0,10.84951246,15.60523352,31.07387808,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC55,Tepatitlán (Virtual),Bco CPC30R 25k,00:00.0,Blanco,Sacos,11,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC55,Tepatitlán (Virtual),CPC30R 25k,00:00.0,Gris,Sacos,9.15,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC44,Tepic,CPC40 BB,00:00.0,Gris,Sacos,102.64,0,1,1.299335984,225.4326969,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA64,Tijuana I,Bco CPC30R 50k,00:00.0,Blanco,Sacos,27.65,0,13.09377212,15.76229525,33.34964196,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA64,Tijuana I,CPC30R 42.6k,00:00.0,Gris,Sacos,1161.45,89.46,625.5275529,945.1579273,1593.209331,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA64,Tijuana I,Impercem 50k,00:00.0,Impercem,Sacos,21.1,0,12.40578975,18.38260293,31.59736114,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA64,Tijuana I,Mortero 50k,00:00.0,Mortero,Sacos,70.95,0,23.90183494,29.13883513,60.87761647,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB56,Tlapa de Comonfort,CPC30R 50k,00:00.0,Gris,Sacos,603,180,565.3622296,849.1619555,1552.717148,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB47,Toluca,Concreto Seco 25k,00:00.0,Otros,Sacos,0.38,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB47,Toluca,CPC30R 25k,00:00.0,Gris,Sacos,0.5,0,0.7509947048,1.066744533,1.846821537,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB47,Toluca,CPC30R 50k,00:00.0,Gris,Sacos,1874.85,212,2575.169163,4094.972252,6332.771513,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB47,Toluca,Multiplast 40k,00:00.0,Multiplast,Sacos,214.24,0,58.61186926,74.23144293,144.1363858,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB41,Tehuacán,Multiplast 40k,00:00.0,Multiplast,Sacos,7.04,0,14.58919208,18.45562343,28.38815297,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC14,Tehuantepec,Impercem 50k,00:00.0,Impercem,Sacos,31,0,12.40941903,18.76445156,20.18710365,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC14,Tehuantepec,Mortero 50k,00:00.0,Mortero,Sacos,59.5,0,59.67578868,70.968628,97.07797991,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC55,Tepatitlán (Virtual),Impercem 50k,00:00.0,Impercem,Sacos,9.45,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC44,Tepic,Bco CPC30R 25k,00:00.0,Blanco,Sacos,39.05,0,7.999775153,9.344097156,25.20084272,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC44,Tepic,Bco CPC30R 50k,00:00.0,Blanco,Sacos,45.5,0,7.063760368,9.473713871,22.25221467,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC44,Tepic,Bco CPC30R BB,00:00.0,Blanco,Sacos,15.66,0,12,16,43.45287311,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC44,Tepic,CPC30R 50k,00:00.0,Gris,Sacos,577.75,0,110.0752578,129.5003033,1725.187209,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC85,Tlajomulco,CPC30R 10k,00:00.0,Gris,Sacos,0.5,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC85,Tlajomulco,CPC30R 50k,00:00.0,Gris,Sacos,40,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB56,Tlapa de Comonfort,Bco CPC30R 25k,00:00.0,Blanco,Sacos,0.05,0,26.03062215,30.80545169,71.4907917,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC23,Tlaxiaco (Virtual),Mortero 50k,00:00.0,Mortero,Sacos,18.95,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC23,Tlaxiaco (Virtual),Multiplast 40k,00:00.0,Multiplast,Sacos,5,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB47,Toluca,Bco CPC30R 25k,00:00.0,Blanco,Sacos,154.47,0,47.31806447,56.40144264,116.3630316,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB47,Toluca,Mortero Seco 25k,00:00.0,Otros,Sacos,0.03,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB47,Toluca,Multiplast 2.0k,00:00.0,Multiplast,Sacos,0.01,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA80,Topolobampo,Bco CPC30R 25k,00:00.0,Blanco,Sacos,53.58,0,0,0,25.6730105,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA80,Topolobampo,CPC40,00:00.0,Gris,Granel,1999.63,749.36,1570.095564,1927.667981,2000,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EB83,Torreón,Bco CPC30R 25k,00:00.0,Blanco,Sacos,10.6,0,1.018107494,1.395425618,1.468869072,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB83,Torreón,Bco CPC30R 50k,00:00.0,Blanco,Sacos,7.3,0,3.547947995,4.892648089,5.11878275,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC86,Tuxpan (Promexma),Impercem 50k,00:00.0,Impercem,Sacos,3,0,2,4,7.049645666,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC86,Tuxpan (Promexma),Mortero 50k,00:00.0,Mortero,Sacos,0,8,25,30,36.63227275,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC04,Tuxtepec,Mortero 50k,00:00.0,Mortero,Sacos,115.75,35,34.11327889,42.33774886,65.73546843,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC04,Tuxtepec,Multiplast 40k,00:00.0,Multiplast,Sacos,3.2,0,5.621161152,6.754227305,22.5195342,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC05,Tuxtla Gutiérrez,Multiplast 2.0k,00:00.0,Multiplast,Sacos,0.26,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC74,Uriangato,Impercem 50k,00:00.0,Impercem,Sacos,10.7,0,1.425983682,2.316763689,5.659249796,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB50,Vallejo,Impercem 2.0k,00:00.0,Impercem,Sacos,2.04,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA56,Valles,Impercem 50k,00:00.0,Impercem,Sacos,80.7,0,21.64945585,27.35819264,64.7826145,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC06,Veracruz,Impercem 50k,00:00.0,Impercem,Sacos,65.55,0,18.15847269,23.4819761,33.0135297,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC11,Villahermosa,Bco CPC30R 50k,00:00.0,Blanco,Sacos,0,0,0.04070347043,0.06913203253,0.1060460571,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC11,Villahermosa,Multiplast 40k,00:00.0,Multiplast,Sacos,27.96,0,17.26809565,21.14875255,44.98912347,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB80,Zacatecas,CPC30R 50k,00:00.0,Gris,Sacos,756.25,157,1287.905191,1853.348612,1950.893276,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB80,Zacatecas,CPC40,00:00.0,Gris,Granel,572.97,0,262.3959162,385.9359162,602,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB80,Zacatecas,CPC40 BB,00:00.0,Gris,Sacos,19.48,141.85,114.6195976,133.7228638,305.8356763,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,Bco CPC30R 50k,00:00.0,Blanco,Sacos,166.3,99,200,300,100.3513835,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,Bco CPC30R BB,00:00.0,Blanco,Sacos,66.46,0,4.514406094,5.186150098,179.3395742,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA64,Tijuana I,Multiplast 40k,00:00.0,Multiplast,Sacos,11.84,0,37.76380882,48.42265054,96.18385684,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB56,Tlapa de Comonfort,Mortero 50k,00:00.0,Mortero,Sacos,68,0,25.76033248,33.95437293,70.74846512,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB56,Tlapa de Comonfort,Multiplast 40k,00:00.0,Multiplast,Sacos,0.12,0,32.01165263,38.37215104,87.91716066,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC45,Tonalá,Bco CPC30R 25k,00:00.0,Blanco,Sacos,23.08,0,16.00052906,19.71685954,30.84119009,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC45,Tonalá,Mortero 25k,00:00.0,Mortero,Sacos,25.7,0,23.15285052,28.88352393,44.62736582,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC45,Tonalá,Mortero 50k,00:00.0,Mortero,Sacos,168.35,72,180.4985314,259.9444234,347.9128405,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC45,Tonalá,Multiplast 40k,00:00.0,Multiplast,Sacos,23.58,0,22.78424539,28.50789927,43.91687551,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA80,Topolobampo,Mortero 50k,00:00.0,Mortero,Sacos,11.3,0,0,0,44.25135971,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA80,Topolobampo,Multiplast 40k,00:00.0,Multiplast,Sacos,68.8,327.8,0,0,55.3079524,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EC04,Tuxtepec,Impercem 50k,00:00.0,Impercem,Sacos,48.1,0,4.525012235,6.60578935,8.719589807,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC74,Uriangato,CPC30R 50k,00:00.0,Gris,Sacos,112.85,72,128.5535975,159.1138096,510.1860066,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB50,Vallejo,Bco CPC30R 25k,00:00.0,Blanco,Sacos,33.4,0,41.12831067,53.58145204,95.73229884,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB50,Vallejo,CPC30R 50k,00:00.0,Gris,Sacos,559.4,1262,1226.996094,2035.24482,2856.017054,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB50,Vallejo,CPC40,00:00.0,Gris,Granel,3216.95,524.14,2047.671551,3378.251968,7200,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB50,Vallejo,Multiplast 40k,00:00.0,Multiplast,Sacos,45.16,0,47.96881887,68.13400817,111.6546055,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA56,Valles,Bco CPC30R 25k,00:00.0,Blanco,Sacos,17.4,0,7.576529412,9.000044813,22.67158064,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA56,Valles,Bco CPC30R 50k,00:00.0,Blanco,Sacos,3.05,0,0.1385986397,0.226078895,0.4147347771,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC06,Veracruz,Bco CPC30R 50k,00:00.0,Blanco,Sacos,25.5,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC06,Veracruz,Mortero 50k,00:00.0,Mortero,Sacos,248.65,0,152.3877467,236.4338316,277.0528936,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC06,Veracruz,Mortero Seco 25k,00:00.0,Otros,Sacos,0.5,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC06,Veracruz,Multiplast 40k,00:00.0,Multiplast,Sacos,94.68,0,21,25,48.36247056,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC11,Villahermosa,CPC40 BB,00:00.0,Gris,Sacos,5.36,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC11,Villahermosa,Impercem 50k,00:00.0,Impercem,Sacos,15.75,0,13.57782648,16.7146731,35.37474683,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB65,Xicotepec (Virtual),CPC40,00:00.0,Gris,Granel,82.93,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB03,Yecora,CPC40,00:00.0,Gris,Granel,0,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB80,Zacatecas,Bco CPC30R 25k,00:00.0,Blanco,Sacos,33.85,0,11.42528602,13.76715741,17.30679699,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB80,Zacatecas,Multiplast 40k,00:00.0,Multiplast,Sacos,116.96,0,45.35117847,57.47839753,68.69706699,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,CPC30R 50k,00:00.0,Gris,Sacos,847.75,0,700,1200,1251.679151,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,CPC40,00:00.0,Gris,Granel,2009.2,1003.22,1019.7,1650,1700,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,CPC40 BB,00:00.0,Gris,Sacos,9.83,0,72.27713554,90.09342371,94.83518285,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,Mortero 25k,00:00.0,Mortero,Sacos,78.33,0,44.53070342,55.50750595,58.42895363,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,Concreto Seco 25k,00:00.0,Otros,Sacos,2.85,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,CPC30R 2.0k,00:00.0,Gris,Sacos,1,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,Multiplast 40k,00:00.0,Multiplast,Sacos,570.32,79.2,257.9808382,321.573023,338.4979189,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC23,Tlaxiaco (Virtual),Bco CPC30R 25k,00:00.0,Blanco,Sacos,11,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC23,Tlaxiaco (Virtual),CPC30R 50k,00:00.0,Gris,Sacos,200.8,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC23,Tlaxiaco (Virtual),Impercem 50k,00:00.0,Impercem,Sacos,4,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB47,Toluca,Mortero 50k,00:00.0,Mortero,Sacos,1100.2,53,667.9886681,989.3642279,1642.695815,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC45,Tonalá,Bco CPC30R 50k,00:00.0,Blanco,Sacos,27.7,0,15.18167903,18.54059043,29.26284793,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC45,Tonalá,CPC30R 25k,00:00.0,Gris,Sacos,10.95,0,33.70383446,43.21598327,64.96449967,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC45,Tonalá,CPC30R 50k,00:00.0,Gris,Sacos,272.2,123.5,324.7442802,480.2634975,625.9480568,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA80,Topolobampo,Bco CPC30R 50k,00:00.0,Blanco,Sacos,424.15,188,0,0,56.50025257,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EA80,Topolobampo,Bco CPC30R BB,00:00.0,Blanco,Sacos,0.02,0,0,0,16.15806415,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EB83,Torreón,CPC30R 25k,00:00.0,Gris,Sacos,17.8,0,2.688090682,3.428496068,3.87822827,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB83,Torreón,CPC30R 50k,00:00.0,Gris,Sacos,206.65,0,132.1268652,178.3550611,190.625319,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB83,Torreón,CPC40 BB,00:00.0,Gris,Sacos,40.02,0,28.46260575,39.01105676,41.06427027,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB83,Torreón,Multiplast 40k,00:00.0,Multiplast,Sacos,12.84,0,9.143854095,11.90119098,13.19224596,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC86,Tuxpan (Promexma),CPC30R 50k,00:00.0,Gris,Sacos,0,66,25,30,110.3300576,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC05,Tuxtla Gutiérrez,Bco CPC30R 50k,00:00.0,Blanco,Sacos,5.15,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC05,Tuxtla Gutiérrez,CPC30R 50k,00:00.0,Gris,Sacos,709.35,104,559.061261,851.0401829,1000,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC05,Tuxtla Gutiérrez,CPC40 BB,00:00.0,Gris,Sacos,6.5,0,12.77171683,22.26517773,1000,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC05,Tuxtla Gutiérrez,Multiplast 40k,00:00.0,Multiplast,Sacos,32,0,28.09201496,33.25,35,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC74,Uriangato,Bco CPC30R 25k,00:00.0,Blanco,Sacos,16.35,0,3.487246849,5.602984728,13.83971027,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC74,Uriangato,Multiplast 40k,00:00.0,Multiplast,Sacos,26.4,0,8.208639988,12.05420544,32.57733223,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB50,Vallejo,Bco CPC30R 2.0k,00:00.0,Blanco,Sacos,3.03,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB50,Vallejo,Mortero 50k,00:00.0,Mortero,Sacos,323.2,770,301.093636,472.6908879,700.8405031,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB50,Vallejo,Multiplast 2.0k,00:00.0,Multiplast,Sacos,4.43,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA56,Valles,Mortero 50k,00:00.0,Mortero,Sacos,9.25,0,25.0061848,33.76682807,74.82710148,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC06,Veracruz,CPC30R 50k,00:00.0,Gris,Sacos,1270.3,242,508.4,830,1378.918982,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC06,Veracruz,CPC40,00:00.0,Gris,Granel,1069.08,100.22,500,700,900,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC06,Veracruz,CPC40 BB,00:00.0,Gris,Sacos,1927.43,348.94,0,0,26.86083293,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC11,Villahermosa,CPC30R 50k,00:00.0,Gris,Sacos,568.05,194,593.391023,914.0687817,1545.980665,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC11,Villahermosa,Mortero 50k,00:00.0,Mortero,Sacos,18.85,0,11.90278434,16.55232862,31.01070581,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB80,Zacatecas,Impercem 50k,00:00.0,Impercem,Sacos,70.2,0,73.83836771,111.0789538,111.8488971,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,Bco CPC30R,00:00.0,Blanco,Granel,52.72,1337.7,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,Bco CPC30R 2.0k,00:00.0,Blanco,Sacos,2,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,Bco CPC30R 25k,00:00.0,Blanco,Sacos,192.63,0,200,300,118.9333928,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,Mortero 50k,00:00.0,Mortero,Sacos,501.2,338,354.7172752,493.4186993,599.0089521,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,Mortero Seco 25k,00:00.0,Otros,Sacos,0.03,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,Multiplast 2.0k,00:00.0,Multiplast,Sacos,4.54,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC45,Tonalá,Impercem 50k,00:00.0,Impercem,Sacos,27.85,0,6.498705342,9.704459761,12.52632372,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA80,Topolobampo,Impercem 50k,00:00.0,Impercem,Sacos,10.5,0,0,0,0.08333829283,Pacífico,1,0,20:18.6,20:18.6,System.R_Inventario,System
+EB83,Torreón,Impercem 50k,00:00.0,Impercem,Sacos,12.15,0,4.933373471,6.761717959,7.117597851,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB83,Torreón,Mortero 50k,00:00.0,Mortero,Sacos,42,0,26.01616896,34.11099301,37.53468683,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC04,Tuxtepec,Bco CPC30R 25k,00:00.0,Blanco,Sacos,12.35,0,3.126553142,4.627705595,6.02479275,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC04,Tuxtepec,CPC30R 50k,00:00.0,Gris,Sacos,474.35,920.5,469.8232353,653.483202,997.0006148,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC04,Tuxtepec,CPC40,00:00.0,Gris,Granel,51.73,0,0,0,100,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC05,Tuxtla Gutiérrez,Bco CPC30R 25k,00:00.0,Blanco,Sacos,46.38,0,22.5,23.75,25,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC05,Tuxtla Gutiérrez,Impercem 50k,00:00.0,Impercem,Sacos,17.6,0,14.36342691,17.85650741,20,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC05,Tuxtla Gutiérrez,Mortero 50k,00:00.0,Mortero,Sacos,15.85,0,7.836607513,9.765527278,20,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC74,Uriangato,Mortero 50k,00:00.0,Mortero,Sacos,116.35,0,62.423454,85.55502478,247.7377011,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB50,Vallejo,Bco CPC30R 50k,00:00.0,Blanco,Sacos,80.7,0,30.20776005,38.00020378,70.31308277,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB50,Vallejo,CPC30R 2.0k,00:00.0,Gris,Sacos,1.02,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB50,Vallejo,CPC30R 25k,00:00.0,Gris,Sacos,39.3,0,20.19670365,25.29784583,47.01085062,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB50,Vallejo,Impercem 50k,00:00.0,Impercem,Sacos,130.95,0,36.40417662,51.09146433,84.73616977,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB50,Vallejo,Mortero 2.0k,00:00.0,Mortero,Sacos,2.05,0,0,0,0,Centro,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA56,Valles,CPC30R 50k,00:00.0,Gris,Sacos,513.25,0,379.337566,522.4328515,1135.108405,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA56,Valles,CPC40 BB,00:00.0,Gris,Sacos,79.71,0,36.75814593,44.87613068,109.9930092,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EA56,Valles,Multiplast 40k,00:00.0,Multiplast,Sacos,16.8,0,30.81282125,37.94867312,92.20255394,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC06,Veracruz,Bco CPC30R,00:00.0,Blanco,Granel,0.04,0,0,0,0,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC06,Veracruz,Bco CPC30R 25k,00:00.0,Blanco,Sacos,42.83,0,19.68632829,26.09709393,35.79129119,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC11,Villahermosa,Bco CPC30R 25k,00:00.0,Blanco,Sacos,11.78,0,10.18630716,13.05311089,26.53871277,Sureste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB80,Zacatecas,Bco CPC30R 50k,00:00.0,Blanco,Sacos,18.55,0,2.94334671,4.094138807,4.458523305,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EB80,Zacatecas,Mortero 50k,00:00.0,Mortero,Sacos,592,0,279.8820346,402.761775,423.9597631,Noreste,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,CPC30R 25k,00:00.0,Gris,Sacos,28.38,0,51.35220817,64.0105092,67.37948337,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,Impercem 50k,00:00.0,Impercem,Sacos,228.55,0,145.9837617,181.968707,191.5460073,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
+EC48,Zapopan,Mortero 2.0k,00:00.0,Mortero,Sacos,1,0,0,0,0,Pacífico,0,0,20:18.6,20:18.6,System.R_Inventario,System
