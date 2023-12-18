@@ -1597,6 +1597,8 @@ function ListEntities(){
 
 												text+=`<div class=""style="line-height:11px;margin-left:10px;font-size:${14}px;">Capacidad: ${formatNumber(data.inventario.Capacidad)}</div><br>
 													<div class=""style="line-height:11px;margin-left:10px;font-size:${14}px;">Físico: ${formatNumber(data.inventario.Fisico)}</div><br>
+													<div class=""style="line-height:11px;margin-left:10px;font-size:${14}px;">Transito: ${formatNumber(data.inventario.Transito)}</div><br>
+													<div class=""style="line-height:11px;margin-left:10px;font-size:${14}px;">TransitoHoy: ${formatNumber(data.inventario.TransitoHoy)}</div><br>
 													<div class=""style="line-height:11px;margin-left:10px;font-size:${14}px;">Óptimo: ${formatNumber(data.inventario.Optimo)}</div><br>
 													<div class=""style="line-height:11px;margin-left:10px;font-size:${14}px;">Mínimo: ${formatNumber(data.inventario.Minimo)}</div><br><br>
 
@@ -1761,7 +1763,6 @@ function ListEntities(){
 											})
 											;
 
-											console.log(circulo);
 
 											xIndex++;
 

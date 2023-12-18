@@ -124,6 +124,22 @@ calculateKpiExpert_Inventario.ProcessDates=function(rows){
                     continue;
                 }
 
+                var validoProducto=true;
+
+                if(filtroProducto!="" && filtroProducto!=undefined){
+                    validoProducto=false;
+                    for(var j=0;  j < rows.length; j++){  
+                        if( rows[i].AgrupProducto.toLowerCase() == filtroProducto.toLowerCase() ){
+                            
+                            validoProducto=true; 
+                        }
+                    }
+                      
+                } 
+                if(!validoProducto){
+                    continue;
+                }
+
                 var validoPresentacion=true;
 
                 if(filtroPresentacion!="" && filtroPresentacion!=undefined){
@@ -215,10 +231,24 @@ calculateKpiExpert_Inventario.ProcessData=function(rows,date){
             var de=[];
             rows=dataTemp;
     
-        }          
+        } 
+        
+        dataTemp=[];
+
+        if(filtroProducto!="" && filtroProducto!=undefined){
+    
+            for(var j=0;  j < rows.length; j++){  
+                if( rows[j].AgrupProducto.toLowerCase() == filtroProducto.toLowerCase() ){
+                    
+                    dataTemp.push(rows[j]);
+                }
+            }
+            rows=dataTemp;    
+        } 
 
 
         dataInventario=rows;
+       
 
         calculateKpiExpert_Inventario.max=0;
         calculateKpiExpert_Inventario.maxCedis=0;
@@ -346,25 +376,42 @@ calculateKpiExpert_Inventario.DrawObjects=function(){
                     var radio=7000;
 
                     if(modoAlturaCedis=="relativo"){
-
+                        if(calculateKpiExpert_Inventario.max > 0){
                         var alturas = d3.scale.linear()
                                 .domain([1,calculateKpiExpert_Inventario.maxCedis])
                                 .range([1, 300000 ]);
+                        }else{
+                            var alturas = d3.scale.linear()
+                                .domain([1,calculateKpiExpert_Inventario.maxCedis])
+                                .range([1, 2 ]);
+                        }
 
                     }if(modoAlturaCedis=="absoluto"){
 
-                        var alturas = d3.scale.linear()
+                        if(calculateKpiExpert_Inventario.max > 0){
+                            var alturas = d3.scale.linear()
                                 .domain([1,calculateKpiExpert_Inventario.max])
-                                .range([1, 50000 ]);
+                                .range([1, 500000 ]);
+                        }else{
+                            var alturas = d3.scale.linear()
+                                .domain([1,calculateKpiExpert_Inventario.max])
+                                .range([1, 2 ]);
+                        }
 
                     }
 
                 }else{
                     
                     var radio=13000;
-                    var alturas = d3.scale.linear()
+                    if(calculateKpiExpert_Inventario.max > 0){
+                        var alturas = d3.scale.linear()
                             .domain([1,calculateKpiExpert_Inventario.max])
                             .range([1, 300000 ]);
+                    }else{
+                        var alturas = d3.scale.linear()
+                            .domain([1,calculateKpiExpert_Inventario.max])
+                            .range([1, 2 ]);
+                    }                    
                     
                 }
 
@@ -399,6 +446,8 @@ calculateKpiExpert_Inventario.DrawObjects=function(){
                         var alturaParaLinea=0;
 
                         var altura0=alturas( entities[i].inventario.Capacidad );
+
+
                         
                         if(entities[i].tipo=="cedis"){
 

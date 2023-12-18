@@ -103,8 +103,7 @@ calculateKpiExpert_Produccion.calculateKPI=function(entities){
                                 entities[rows[i].Facility].produccion.grupos[rows[i].Proceso]={id:rows[i].Proceso,  MaxCycles:0,Cycles:0, orden:ProcesoOrden[rows[i].Proceso] };
 
                             if( !entities[rows[i].Facility].produccion.equipos[rows[i].Process])
-                                entities[rows[i].Facility].produccion.equipos[rows[i].Process]={id:rows[i].Process, grupo:rows[i].Proceso,  MaxCycles:0,Cycles:0};
-
+                                entities[rows[i].Facility].produccion.equipos[rows[i].Process]={id:rows[i].Process,numEquipo:rows[i].NumEquipo, grupo:rows[i].Proceso,  MaxCycles:0,Cycles:0};
                             if(rows[i].fecha){
                                 if( !entities[rows[i].Facility].produccion.fechas[rows[i].fecha.getTime()])
                                     entities[rows[i].Facility].produccion.fechas[rows[i].fecha.getTime()]={unix:rows[i].fecha.getTime(), fecha:rows[i].dFechaStd , MaxCycles:0, Cycles:0, values:[] };
@@ -266,17 +265,18 @@ calculateKpiExpert_Produccion.DibujaDetalleTiempo=function(data,titulo){
                     fechasArr[i].values[j].ordenProceso=ProcesoOrden[fechasArr[i].values[j].Proceso];
                 }
 
-            }
-
-    
+            }    
 
             fechasArr[i].values=fechasArr[i].values.sort((a, b) =>   b.ordenProceso - a.ordenProceso );
             fechasArr[i].values.reverse();
 
             for(var j=0; j < fechasArr[i].values.length; j++ ){
 
+                
+                console.log(fechasArr[i].values[j]);
                 if(!detalleFechas[fechasArr[i].unix][ fechasArr[i].values[j].Process ]){
-                    detalleFechas[fechasArr[i].unix][ fechasArr[i].values[j].Process ]={equipo:fechasArr[i].values[j].Process ,MaxCycles:0,Cycles:0};
+                  
+                    detalleFechas[fechasArr[i].unix][ fechasArr[i].values[j].Process ]={equipo:fechasArr[i].values[j].Process,NumEquipo:fechasArr[i].values[j].NumEquipo ,MaxCycles:0,Cycles:0};
                     
                 }
 
@@ -303,14 +303,13 @@ calculateKpiExpert_Produccion.DibujaDetalleTiempo=function(data,titulo){
 
     svgTooltipHeight=Object.keys(listaEquipos).length*(alturaBarras)+80;
 
-    console.log("listaEquipos",listaEquipos);
 
-    for(var i=0; i < fechasArr.length; i++ ){
-        
+    for(var i=0; i < fechasArr.length; i++ ){      
 
                               
-        for(var e in detalleFechas[fechasArr[i].unix] ){             
+        for(var e in detalleFechas[fechasArr[i].unix] ){  
             
+
 
             if(  listaEquipos[e] ){
 
@@ -375,6 +374,7 @@ calculateKpiExpert_Produccion.DibujaDetalleTiempo=function(data,titulo){
                     });
                 }
                 */    
+
                 if((ancho*i)+tamanioFuente > 60){
 
                     if(!etiquetasDibujadas[e]){
@@ -394,11 +394,11 @@ calculateKpiExpert_Produccion.DibujaDetalleTiempo=function(data,titulo){
                                                     .attr("class","detail")
                                                     .style("fill","#FFFFFF")		
                                                     .style("font-family","Cabin")
-                                                    .style("font-weight","normal")
-                                                    .style("font-size",tamanioFuente*.8)	
+                                                    .style("font-weight","bold")
+                                                    .style("font-size",tamanioFuente*.9)	
                                                     .style("text-anchor","start")
                                                     .attr("transform"," translate("+String( 10  )+","+String( ((listaEquipos[e]-1)*alturaBarras)+tamanioFuente+30   )+")  rotate("+(0)+") ")
-                                                    .text(e+":"); 
+                                                    .text(e+" "+detalleFechas[fechasArr[i].unix][e].NumEquipo+":"); 
                                                     
                     }
 

@@ -6,6 +6,7 @@ var filtroInventario;
 var filtroPresentacion;
 var filtroFR;
 var filtroUNSeleccionada;
+var filtroProducto;
 
 filterControls.createDataFiltersControls=function(catalogs){
 
@@ -16,7 +17,7 @@ filterControls.createDataFiltersControls=function(catalogs){
         controlsInit=true;
         vix_tt_formatMenu("#Controls",".",160);
         //$("#Controls").css("max-height","600px");
-        $("#Controls").css("height","500px");
+        $("#Controls").css("height","550px");
         $("#Controls").css("width","350px");
 
         $("#Controls").append(`
@@ -42,6 +43,7 @@ filterControls.createDataFiltersControls=function(catalogs){
     
         
     }
+   
 
     // TIPOS DE SERVICIO
     $("#ControlsFieldsCustom").append(
@@ -145,6 +147,43 @@ filterControls.createDataFiltersControls=function(catalogs){
 
     });  
 
+    // PRODUCTO
+    $("#ControlsFieldsCustom").append(
+        `
+        <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:20px;">
+            Producto: <br> <br>                 
+            <select id="producto_cb" style="font-size:12px;background-color:black;border-color: gray;border-width:1px;color:white;width:100%;opacity:.8;margin:2px;">
+            <option value=""></option>
+            <option value="Gris">Gris</option>
+            <option value="Mortero">Mortero</option>
+            <option value="Blanco">Blanco</option>
+            <option value="Multiplast">Multiplast</option>
+            <option value="Impercem">Impercem</option>
+            <option value="Otros">Otros</option>
+            </select>
+
+        </div>                            
+        `
+    );
+
+    d3.select("#producto_cb").on("change",function(){           
+      
+        filtroProducto=$("#producto_cb").val();
+
+        calculateKpiExpert_Inventario.ProcessData(calculateKpiExpert_Inventario.data);
+        calculateKpiExpert_Inventario.ProcessDates(calculateKpiExpert_Inventario.data);
+        Stage.DrawMapObjects(entities);
+        
+
+        
+        calculateKpiExpert_Abasto.calculateKPI(entities).then(()=>{
+            
+            ListEntities();
+
+         });
+
+    });
+
     // FILLRATE
     $("#ControlsFieldsCustom").append(
         `
@@ -172,6 +211,10 @@ filterControls.createDataFiltersControls=function(catalogs){
             ListEntities();
 
     });  
+
+    
+     
+
     
 }
 

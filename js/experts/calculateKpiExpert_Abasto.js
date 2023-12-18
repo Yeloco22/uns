@@ -26,12 +26,17 @@ calculateKpiExpert_Abasto.calculateKPI=function(){
         if(serviceName && apiURL){
 
             var dateInit_=dateInit.getFullYear()+"-"+String(Number(dateInit.getMonth())+1)+"-"+dateInit.getDate();
-            var dateEnd_=dateEnd.getFullYear()+"-"+String(Number(dateEnd.getMonth())+1)+"-"+dateEnd.getDate();
-            
+            var dateEnd_=dateEnd.getFullYear()+"-"+String(Number(dateEnd.getMonth())+1)+"-"+dateEnd.getDate();            
 
             //**** */
 
-            var URL=apiURL+"/"+serviceName+"?fechaInicio="+dateInit_+"&fechaFin="+dateEnd_+"&agrupador=UnidadNegocio&masivos=Todos";
+            var params="";
+
+            if(filtroProducto!="" && filtroProducto!=undefined){
+                params+="&AgrupProducto="+filtroProducto;
+            }
+
+            var URL=apiURL+"/"+serviceName+"?fechaInicio="+dateInit_+"&fechaFin="+dateEnd_+"&agrupador=UnidadNegocio&masivos=Todos"+params;
             
             console.log(URL);
 
@@ -290,9 +295,7 @@ function ProcessData(Data){
 
                     calculateKpiExpert_Abasto.rutas[e].color="#00FE00";
                     
-                }
-
-               
+                }               
 
                 calculateKpiExpert_Abasto.rutas[e].cumplimiento=cumplimiento;
 
