@@ -82,6 +82,7 @@ calculateKpiExpert_Produccion.calculateKPI=function(entities){
                     }
 
                     calculateKpiExpert_Produccion.max=0;
+                    calculateKpiExpert_Produccion.maxCedis=0;
 
                     for(var j=0; j < rows.length; j++ ){
 
@@ -100,7 +101,7 @@ calculateKpiExpert_Produccion.calculateKPI=function(entities){
                     for (var e in entities){
                         entities[e].produccion=undefined;
                     }
-                    calculateKpiExpert_Produccion.max=0;
+                   
 
                     for(var i=0;  i < rows.length; i++){
 
