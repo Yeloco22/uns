@@ -182,6 +182,11 @@ filterControls.createDataFiltersControls=function(catalogs){
 
          });
 
+         calculateKpiExpert_Produccion.calculateKPI(entities).then(()=>{
+            ListEntities();
+         });
+
+
     });
 
     // FILLRATE

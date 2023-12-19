@@ -1023,10 +1023,49 @@ Stage.FocusMapElement=function(id){
 
 Stage.DrawTimeline=function(){
 
-
 	svgLines.selectAll(".timeline").data([]).exit().remove();
 
+	$("#inventarioLabels").css("visibility","visible");
+	$("#inventarioLabels").css("left", ((windowWidth*.3)-360)+"px");
+
 	var alturaBarras=110;
+
+	if(filtroUNSeleccionada!="" && filtroUNSeleccionada!=undefined){
+
+		svgLines.append("text")				
+				.style("fill","#FFFFFF")				
+				.style("opacity",1)			
+				.attr("class","timeline")   				
+				.style("font-family","Cabin")
+				.style("font-weight","bold")
+				.style("font-size",17 )							
+				.style("text-anchor","end")
+				.attr("transform"," translate("+String( (windowWidth*.3)-20 )+","+String( windowHeight-50 )+")  rotate("+(0)+") ")
+				.text(function(){
+
+					return "Inventario diario de "+filtroUNSeleccionada;
+
+				});
+
+	}else{
+
+		svgLines.append("text")				
+				.style("fill","#FFFFFF")				
+				.style("opacity",1)			
+				.attr("class","timeline")   				
+				.style("font-family","Cabin")
+				.style("font-weight","bold")
+				.style("font-size",17 )							
+				.style("text-anchor","end")
+				.attr("transform"," translate("+String( (windowWidth*.3)-20 )+","+String( windowHeight-50 )+")  rotate("+(0)+") ")
+				.text(function(){
+
+					return "Inventario diario de Todas las U.N.";
+
+				});
+
+	}
+
 
 	for(var i=0;  i < fechasDisponiblesArr.length; i++){
 
@@ -1647,7 +1686,12 @@ function ListEntities(){
 			//RUTAS
 			var xIndex=0;
 
+			
+			$("#abastoLabels").css("visibility","hidden");
+
 			if(modoInventarioAbasto=="abasto"){
+
+				$("#abastoLabels").css("visibility","visible");
 
 					if(!entitiesArr[e].abasto)
 						continue;
@@ -1803,7 +1847,12 @@ function ListEntities(){
 							if(filtroUNSeleccionada!="" && filtroUNSeleccionada!=undefined){
 
 								if(filtroUNSeleccionada==entitiesArr[e].ID){
-									if(volFisico < entitiesArr[e].inventario.Minimo){
+
+									if(volFisico == 0){
+									
+										colorBase="#FF00F6";								
+	
+									}else if(volFisico < entitiesArr[e].inventario.Minimo){
 										colorBase="#ff0000";								
 	
 									}else if(volFisico > entitiesArr[e].inventario.Minimo && volFisico <  entitiesArr[e].inventario.Minimo+((entitiesArr[e].inventario.Optimo-entitiesArr[e].inventario.Minimo)*.1)  ){
@@ -1824,7 +1873,11 @@ function ListEntities(){
 
 							}else{
 
-								if(volFisico < entitiesArr[e].inventario.Minimo){
+								if(volFisico == 0){
+
+									colorBase="#FF00F6";								
+
+								}else if(volFisico < entitiesArr[e].inventario.Minimo){
 									colorBase="#ff0000";								
 
 								}else if(volFisico > entitiesArr[e].inventario.Minimo && volFisico <  entitiesArr[e].inventario.Minimo+((entitiesArr[e].inventario.Optimo-entitiesArr[e].inventario.Minimo)*.1)  ){
@@ -1906,7 +1959,12 @@ function ListEntities(){
 
 			}
 
+			
+			$("#produccionLabels").css("visibility","hidden");
+
 			if(modoInventarioAbasto=="produccion"){
+				
+				$("#produccionLabels").css("visibility","visible");
 
 				if(entitiesArr[e].produccion){	
 

@@ -6,7 +6,6 @@ calculateKpiExpert_Produccion.calculateKPI=function(entities){
 
     return new Promise((resolve, reject) => {
 
-
         var serviceName;
         var apiURL;
         var agrupador="";
@@ -24,8 +23,14 @@ calculateKpiExpert_Produccion.calculateKPI=function(entities){
 
             var dateInit_=dateInit.getFullYear()+"-"+String(Number(dateInit.getMonth())+1)+"-"+dateInit.getDate();
             var dateEnd_=dateEnd.getFullYear()+"-"+String(Number(dateEnd.getMonth())+1)+"-"+dateEnd.getDate();
+
+            var params="";
+
+            if(filtroProducto!="" && filtroProducto!=undefined){
+                params+="&AgrupProducto="+filtroProducto;
+            }
            
-            var URL=apiURL+"/"+serviceName+"?fechaInicio="+dateInit_+"&fechaFin="+dateEnd_+"&agrupador=UnidadNegocio&masivos=Todos";
+            var URL=apiURL+"/"+serviceName+"?fechaInicio="+dateInit_+"&fechaFin="+dateEnd_+"&agrupador=UnidadNegocio&masivos=Todos"+params;
             console.log(URL);
 
             if(URL.indexOf("undefined" < 0)){
@@ -92,6 +97,11 @@ calculateKpiExpert_Produccion.calculateKPI=function(entities){
                     rows=rows.sort((a, b) =>   b.ordenProceso - a.ordenProceso );
                     rows.reverse();
 
+                    for (var e in entities){
+                        entities[e].produccion=undefined;
+                    }
+                    calculateKpiExpert_Produccion.max=0;
+
                     for(var i=0;  i < rows.length; i++){
 
                         if( entities[rows[i].Facility] ){
@@ -134,9 +144,7 @@ calculateKpiExpert_Produccion.calculateKPI=function(entities){
 
                         }
 
-                    }
-
-                    
+                    }                    
 
                     calculateKpiExpert_Produccion.data=rows;
 
