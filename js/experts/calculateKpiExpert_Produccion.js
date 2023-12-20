@@ -29,6 +29,15 @@ calculateKpiExpert_Produccion.calculateKPI=function(entities){
             if(filtroProducto!="" && filtroProducto!=undefined){
                 params+="&AgrupProducto="+filtroProducto;
             }
+            if(filtroRegionDestino!="" && filtroRegionDestino!=undefined){
+                params+="&RegionZTDem="+filtroRegionDestino;
+            }
+            if(filtroRegionOrigen!="" && filtroRegionOrigen!=undefined){
+                params+="&vc50_Region_UN="+filtroRegionOrigen;
+            }
+            if(filtroEstado!="" && filtroEstado!=undefined){
+                params+="&EstadoZTDem="+filtroEstado;
+            }
            
             var URL=apiURL+"/"+serviceName+"?fechaInicio="+dateInit_+"&fechaFin="+dateEnd_+"&agrupador=UnidadNegocio&masivos=Todos"+params;
             console.log(URL);

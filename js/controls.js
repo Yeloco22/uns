@@ -7,34 +7,34 @@ var filtroPresentacion;
 var filtroFR;
 var filtroUNSeleccionada;
 var filtroProducto;
+var filtroRegionDestino;
+var filtroRegionOrigen;
+var filtroEstado;
 
 filterControls.createDataFiltersControls=function(catalogs){
 
-    console.log("createDataFiltersControls ******");
-    
+
     if(!controlsInit){
 
         controlsInit=true;
         vix_tt_formatMenu("#Controls",".",160);
         //$("#Controls").css("max-height","600px");
-        $("#Controls").css("height","550px");
-        $("#Controls").css("width","350px");
+        $("#Controls").css("height","720px");
+        $("#Controls").css("width","250px");
 
         $("#Controls").append(`
 
             <div id="ControlsBlocks" style="display: flex;">
 
-                    <div id="ControlsFields"></div>  
-                    
-                    <div style="width:90%;position:absolute;bottom:15px;display: flex;">
-                             
-                                <button class="filters" onclick=";" style="margin: 3px;color:black">Filtrar</button> 
-                                <button id="mostrarModo" class="filters" onclick="CambiaModo()" style="margin: 3px;color:black">Muestra Solo Selección</button>
+                    <div id="ControlsFields"></div>                    
+                   
+                        <div style="width:90%;position:absolute;bottom:15px;display: flex;">                             
+                        <button id="mostrarModo" class="filters" onclick="CambiaModo()" style="margin: 3px;color:black">Muestra Solo Selección</button><br>
                                 <button id="mostrarModo" class="filters" onclick="CambiaModoEspesor()" style="margin: 3px;color:black">Espesor Relativo/Global</button>
                                 <button id="mostrarModo" class="filters" onclick="CambiaModoAlturaCedis()" style="margin: 3px;color:black">Altura CEDIS</button>   
                         </div>
 
-                    <div id="ControlsFieldsCustom" style="margin-left: 15px;">                    
+                    <div id="ControlsFieldsCustom" style="margin-left: 15px;line-height:12px;">                    
 
                     </div>
             </div>
@@ -43,12 +43,134 @@ filterControls.createDataFiltersControls=function(catalogs){
     
         
     }
+
+    // REGION DESTINO     
+    var texto=`
+    <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:10px;">
+        Region Destino: <br> <br>                 
+        <select id="region_cb" style="font-size:12px;background-color:black;border-color: gray;border-width:1px;color:white;width:100%;opacity:.8;margin:2px;">
+        <option value=""></option>
+        `
+
+        for(var j=0;  j < store.cat_region.length; j++){     
+                                            
+            texto+=`<option value="${store.cat_region[j].ID}">${store.cat_region[j].ID}</option>`;
+        }
+
+        texto+= `           
+        </select>
+        </div>                            
+        `;
+
+    $("#ControlsFieldsCustom").append(texto);
+
+    d3.select("#region_cb").on("change",function(){    
+        
+        filtroRegionDestino=$("#region_cb").val();
+      
+        calculateKpiExpert_Inventario.calculateKPI(entities).then(()=>{
+            ListEntities();
+            Stage.DrawMapObjects(entities);
+        });
+
+        calculateKpiExpert_Abasto.calculateKPI(entities).then(()=>{
+            
+            ListEntities();
+
+         });
+
+         calculateKpiExpert_Produccion.calculateKPI(entities).then(()=>{
+            ListEntities();
+         });
+
+    });
+
+    // REGION ORIGEN     
+    var texto=`
+    <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:10px;">
+        Region Origen: <br> <br>                 
+        <select id="region_origen_cb" style="font-size:12px;background-color:black;border-color: gray;border-width:1px;color:white;width:100%;opacity:.8;margin:2px;">
+        <option value=""></option>
+        `;
+        for(var j=0;  j < store.cat_region.length; j++){     
+                                            
+            texto+=`<option value="${store.cat_region[j].ID}">${store.cat_region[j].ID}</option>`;
+        }
+
+        texto+= `           
+        </select>
+        </div>                            
+        `;
+
+    $("#ControlsFieldsCustom").append(texto);
+
+    d3.select("#region_origen_cb").on("change",function(){           
+      
+        filtroRegionOrigen=$("#region_origen_cb").val();
+
+        calculateKpiExpert_Inventario.calculateKPI(entities).then(()=>{
+            ListEntities();
+            Stage.DrawMapObjects(entities);
+        });
+
+        calculateKpiExpert_Abasto.calculateKPI(entities).then(()=>{
+            
+            ListEntities();
+
+         });
+
+         calculateKpiExpert_Produccion.calculateKPI(entities).then(()=>{
+            ListEntities();
+         });
+
+    });
+
+     // ESTADO
+     
+     var texto=`
+     <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:10px;">
+         Estado: <br> <br>                 
+         <select id="estado_cb" style="font-size:12px;background-color:black;border-color: gray;border-width:1px;color:white;width:100%;opacity:.8;margin:2px;">
+         <option value=""></option>
+         `;
+ 
+         for(var j=0;  j < store.cat_estado.length; j++){     
+                                             
+             texto+=`<option value="${store.cat_estado[j].ID}">${store.cat_estado[j].ID}</option>`;
+         }
+ 
+         texto+= `           
+         </select>
+         </div>                            
+         `;
+ 
+     $("#ControlsFieldsCustom").append(texto);
+ 
+     d3.select("#estado_cb").on("change",function(){           
+       
+        filtroEstado=$("#estado_cb").val();
+        calculateKpiExpert_Inventario.calculateKPI(entities).then(()=>{
+            ListEntities();
+            Stage.DrawMapObjects(entities);
+        });
+
+        calculateKpiExpert_Abasto.calculateKPI(entities).then(()=>{
+            
+            ListEntities();
+
+         });
+
+         calculateKpiExpert_Produccion.calculateKPI(entities).then(()=>{
+            ListEntities();
+         });
+ 
+     });
    
 
     // TIPOS DE SERVICIO
     $("#ControlsFieldsCustom").append(
         `
-        <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:20px;">
+        <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:10px;">
             Tipo de transporte: <br> <br>                 
             <select id="tipo_cb" style="font-size:12px;background-color:black;border-color: gray;border-width:1px;color:white;width:100%;opacity:.8;margin:2px;">
             <option value=""></option>
@@ -71,7 +193,7 @@ filterControls.createDataFiltersControls=function(catalogs){
     // CUMPLIMIENTO
     $("#ControlsFieldsCustom").append(
         `
-        <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:20px;">
+        <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:10px;">
             Niveles de Cumplimiento en rutas: <br> <br>               
             <select id="cumplimiento_cb" style="font-size:12px;background-color:black;border-color: gray;border-width:1px;color:white;width:100%;opacity:.8;margin:2px;">
             <option value=""></option>
@@ -96,7 +218,7 @@ filterControls.createDataFiltersControls=function(catalogs){
     // CUMPLIMIENTO INVENTARIO
     $("#ControlsFieldsCustom").append(
         `
-        <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:20px;">
+        <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:10px;">
             Niveles de Inventario: <br> <br>                 
             <select id="inventario_cb" style="font-size:12px;background-color:black;border-color: gray;border-width:1px;color:white;width:100%;opacity:.8;margin:2px;">
             <option value=""></option>
@@ -122,7 +244,7 @@ filterControls.createDataFiltersControls=function(catalogs){
     // PRESENTACIÓN
     $("#ControlsFieldsCustom").append(
         `
-        <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:20px;">
+        <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:10px;">
             Presentación: <br> <br>                 
             <select id="presentacion_cb" style="font-size:12px;background-color:black;border-color: gray;border-width:1px;color:white;width:100%;opacity:.8;margin:2px;">
             <option value=""></option>
@@ -150,7 +272,7 @@ filterControls.createDataFiltersControls=function(catalogs){
     // PRODUCTO
     $("#ControlsFieldsCustom").append(
         `
-        <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:20px;">
+        <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:10px;">
             Producto: <br> <br>                 
             <select id="producto_cb" style="font-size:12px;background-color:black;border-color: gray;border-width:1px;color:white;width:100%;opacity:.8;margin:2px;">
             <option value=""></option>
@@ -172,8 +294,7 @@ filterControls.createDataFiltersControls=function(catalogs){
 
         calculateKpiExpert_Inventario.ProcessData(calculateKpiExpert_Inventario.data);
         calculateKpiExpert_Inventario.ProcessDates(calculateKpiExpert_Inventario.data);
-        Stage.DrawMapObjects(entities);
-        
+        Stage.DrawMapObjects(entities);       
 
         
         calculateKpiExpert_Abasto.calculateKPI(entities).then(()=>{
@@ -192,7 +313,7 @@ filterControls.createDataFiltersControls=function(catalogs){
     // FILLRATE
     $("#ControlsFieldsCustom").append(
         `
-        <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:20px;">
+        <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:10px;">
             Nivel de Fillrate: <br> <br>                 
             <select id="fr_cb" style="font-size:12px;background-color:black;border-color: gray;border-width:1px;color:white;width:100%;opacity:.8;margin:2px;">
             <option value=""></option>

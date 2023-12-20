@@ -8,7 +8,10 @@ var store={
     ],
     apiDataSources:[
         {apiURL:_bkserver,serviceName:"getSP/Cadena/Generico?spname=Vis_Cat_GetPlantas",storeProc:"Vis_Cat_GetPlantas" ,varName:"cat_plantas",onInitLoad:true,useDateFilters:true},
-        {apiURL:_bkserver,serviceName:"getSP/Cadena/Generico?spname=Vis_Cat_GetCedis",storeProc:"Vis_Cat_GetCedis" ,varName:"cat_cedis",onInitLoad:true,useDateFilters:true} ,  
+        {apiURL:_bkserver ,serviceName:"getTable",tableName:"Vis_CatRegion" ,varName:"cat_region",onInitLoad:true,useDateFilters:false},
+        {apiURL:_bkserver ,serviceName:"getTable",tableName:"Vis_CatEstado" ,varName:"cat_estado",onInitLoad:true,useDateFilters:false},
+        {apiURL:_bkserver,serviceName:"getSP/Cadena/Generico?spname=Vis_Cat_GetCedis",storeProc:"Vis_Cat_GetCedis" ,varName:"cat_cedis",onInitLoad:true,useDateFilters:true} , 
+        {apiURL:_bkserver,serviceName:"getSP/Cadena/Generico?spname=Vis_Cat_GetCedis",storeProc:"Vis_Cat_GetCedis" ,varName:"cat_cedis",onInitLoad:true,useDateFilters:true} ,   
         {apiURL:_bkserver ,serviceName:"getSP/VIS_Calcular_KPI_Abasto_FillRate",varName:"abasto",onInitLoad:false,useDateFilters:true},
         {apiURL:_bkserver ,serviceName:"getSP/VIS_Calcular_FillRate_conParams",tableName:"d",varName:"fillRate",dateField:"dtOnSiteFinal",onInitLoad:false,useDateFilters:true,useGroup:true},
         {apiURL:_bkserver ,serviceName:"getSP/VIS_Inventarios",tableName:"d",varName:"inventario",dateField:"dtOnSiteFinal",onInitLoad:false,useDateFilters:true,useGroup:true},

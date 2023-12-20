@@ -10,7 +10,6 @@ var maximoInventarioFisicoPorDia=0;
 var fechasDisponibles={};
 
 
-
 calculateKpiExpert_Inventario.calculateKPI=function(entities){ 
 
     return new Promise((resolve, reject) => {
@@ -32,8 +31,19 @@ calculateKpiExpert_Inventario.calculateKPI=function(entities){
 
             var dateInit_=dateInit.getFullYear()+"-"+String(Number(dateInit.getMonth())+1)+"-"+dateInit.getDate();
             var dateEnd_=dateEnd.getFullYear()+"-"+String(Number(dateEnd.getMonth())+1)+"-"+dateEnd.getDate();
+
+            var params="";
+            if(filtroRegionDestino!="" && filtroRegionDestino!=undefined){
+                params+="&RegionZTDem="+filtroRegionDestino;
+            }
+            if(filtroRegionOrigen!="" && filtroRegionOrigen!=undefined){
+                params+="&vc50_Region_UN="+filtroRegionOrigen;
+            }
+            if(filtroEstado!="" && filtroEstado!=undefined){
+                params+="&EstadoZTDem="+filtroEstado;
+            }
            
-            var URL=apiURL+"/"+serviceName+"?fechaInicio="+dateInit_+"&fechaFin="+dateEnd_+"&agrupador=UnidadNegocio&masivos=Todos";
+            var URL=apiURL+"/"+serviceName+"?fechaInicio="+dateInit_+"&fechaFin="+dateEnd_+params;
             console.log(URL);
 
             if(URL.indexOf("undefined" < 0)){
@@ -264,6 +274,10 @@ calculateKpiExpert_Inventario.ProcessData=function(rows,date){
             if(rows[i].dtFecha){                                     
 
                         if( entities[rows[i].Destino] ){
+
+                            if(rows[i].Destino.indexOf("terrey")){
+                                console.log(rows[i]);
+                            }
 
                             if(!entities[rows[i].Destino].inventario){
                                 entities[rows[i].Destino].inventario={Fisico:0,Transito:0,TransitoHoy:0,Minimo:0,Optimo:0,Capacidad:0, values:[]};
