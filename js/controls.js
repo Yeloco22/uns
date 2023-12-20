@@ -10,6 +10,8 @@ var filtroProducto;
 var filtroRegionDestino;
 var filtroRegionOrigen;
 var filtroEstado;
+var filtroGerencia;
+var filtroUN;
 
 filterControls.createDataFiltersControls=function(catalogs){
 
@@ -19,7 +21,7 @@ filterControls.createDataFiltersControls=function(catalogs){
         controlsInit=true;
         vix_tt_formatMenu("#Controls",".",160);
         //$("#Controls").css("max-height","600px");
-        $("#Controls").css("height","720px");
+        $("#Controls").css("height","820px");
         $("#Controls").css("width","250px");
 
         $("#Controls").append(`
@@ -29,12 +31,12 @@ filterControls.createDataFiltersControls=function(catalogs){
                     <div id="ControlsFields"></div>                    
                    
                         <div style="width:90%;position:absolute;bottom:15px;display: flex;">                             
-                        <button id="mostrarModo" class="filters" onclick="CambiaModo()" style="margin: 3px;color:black">Muestra Solo Selección</button><br>
-                                <button id="mostrarModo" class="filters" onclick="CambiaModoEspesor()" style="margin: 3px;color:black">Espesor Relativo/Global</button>
-                                <button id="mostrarModo" class="filters" onclick="CambiaModoAlturaCedis()" style="margin: 3px;color:black">Altura CEDIS</button>   
+                        <button id="mostrarModo" class="filters" onclick="CambiaModo()" style="margin: 1px;color:black">Muestra Solo Selección</button><br>
+                                <button id="mostrarModo" class="filters" onclick="CambiaModoEspesor()" style="margin: 1px;color:black">Espesor Relativo/Global</button>
+                                <button id="mostrarModo" class="filters" onclick="CambiaModoAlturaCedis()" style="margin:1px;color:black">Altura CEDIS</button>   
                         </div>
 
-                    <div id="ControlsFieldsCustom" style="margin-left: 15px;line-height:12px;">                    
+                    <div id="ControlsFieldsCustom" style="margin-left: 15px;line-height:10px;">                    
 
                     </div>
             </div>
@@ -125,8 +127,7 @@ filterControls.createDataFiltersControls=function(catalogs){
 
     });
 
-     // ESTADO
-     
+     // ESTADO     
      var texto=`
      <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:10px;">
          Estado: <br> <br>                 
@@ -165,6 +166,86 @@ filterControls.createDataFiltersControls=function(catalogs){
          });
  
      });
+
+      // GERENCIA     
+      var texto=`
+      <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:10px;">
+          Gerencia: <br> <br>                 
+          <select id="gerencia_cb" style="font-size:12px;background-color:black;border-color: gray;border-width:1px;color:white;width:100%;opacity:.8;margin:2px;">
+          <option value=""></option>
+          `;
+  
+          for(var j=0;  j < store.cat_gerencia.length; j++){     
+                                              
+              texto+=`<option value="${store.cat_gerencia[j].ID}">${store.cat_gerencia[j].ID}</option>`;
+          }
+  
+          texto+= `           
+          </select>
+          </div>                            
+          `;
+  
+      $("#ControlsFieldsCustom").append(texto);
+  
+      d3.select("#gerencia_cb").on("change",function(){           
+        
+        filtroGerencia=$("#gerencia_cb").val();
+         calculateKpiExpert_Inventario.calculateKPI(entities).then(()=>{
+             ListEntities();
+             Stage.DrawMapObjects(entities);
+         });
+ 
+         calculateKpiExpert_Abasto.calculateKPI(entities).then(()=>{
+             
+             ListEntities();
+ 
+          });
+ 
+          calculateKpiExpert_Produccion.calculateKPI(entities).then(()=>{
+             ListEntities();
+          });
+  
+      });
+
+      // UNIDAD DE NEGOCIO     
+      var texto=`
+      <div id="" class=""  style="font-family:Cabin;font-size:11px;color:#cccccc;z-index:9999999;opacity:1;font-weight: normal;margin-top:10px;">
+          Unidad de Negocio: <br> <br>                 
+          <select id="un_cb" style="font-size:12px;background-color:black;border-color: gray;border-width:1px;color:white;width:100%;opacity:.8;margin:2px;">
+          <option value=""></option>
+          `;
+  
+          for(var j=0;  j < store.cat_un.length; j++){     
+                                              
+              texto+=`<option value="${store.cat_un[j].ID}">${store.cat_un[j].ID}</option>`;
+          }
+  
+          texto+= `           
+          </select>
+          </div>                            
+          `;
+  
+      $("#ControlsFieldsCustom").append(texto);
+  
+      d3.select("#un_cb").on("change",function(){           
+        
+         filtroUN=$("#un_cb").val();
+         calculateKpiExpert_Inventario.calculateKPI(entities).then(()=>{
+             ListEntities();
+             Stage.DrawMapObjects(entities);
+         });
+ 
+         calculateKpiExpert_Abasto.calculateKPI(entities).then(()=>{
+             
+             ListEntities();
+ 
+          });
+ 
+          calculateKpiExpert_Produccion.calculateKPI(entities).then(()=>{
+             ListEntities();
+          });
+  
+      });
    
 
     // TIPOS DE SERVICIO

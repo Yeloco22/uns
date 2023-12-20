@@ -1565,7 +1565,7 @@ function ListEntities(){
 
 									$("#toolTip1").css("visibility","visible");
 								
-									$("#toolTip1").css("left",mouse_x+50);
+									$("#toolTip1").css("left",mouse_x+150);
 
 									var data=this.data;
 

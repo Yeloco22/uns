@@ -38,6 +38,12 @@ calculateKpiExpert_Produccion.calculateKPI=function(entities){
             if(filtroEstado!="" && filtroEstado!=undefined){
                 params+="&EstadoZTDem="+filtroEstado;
             }
+            if(filtroGerencia!="" && filtroGerencia!=undefined){
+                params+="&GerenciaUN ="+filtroGerencia;
+            }
+            if(filtroUN!="" && filtroUN!=undefined){
+                params+="&vc50_UN_Tact="+filtroUN;
+            }
            
             var URL=apiURL+"/"+serviceName+"?fechaInicio="+dateInit_+"&fechaFin="+dateEnd_+"&agrupador=UnidadNegocio&masivos=Todos"+params;
             console.log(URL);
